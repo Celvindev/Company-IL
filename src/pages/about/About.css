@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+.clasbig {
+  max-width: 100% !important;
+}
+.txtab {
+  font-size: 36px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.txtab span {
+  background: linear-gradient(90deg, #19c6c2 50%, #8a3dff 82.5%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.txt-cvr p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.txt-cvr {
+  max-width: 1145px;
+  width: 100%;
+  margin: 0 auto;
+}
+.position-relative {
+  position: relative;
+}
+.absolute-center {
+  position: absolute;
+  top: 39%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+.absolute-center2 {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom-svg {
+  z-index: 1;
+  position: relative;
+}
+.responsive-text {
+  word-spacing: 15px;
+}
+
+.hover-zoom {
+  display: inline-block;
+  position: relative;
+}
+.hover-zoom:hover .text-excellence {
+  font-size: 68px;
+  transition: font-size 0.3s ease, color 0.3s ease;
+  color: #be2cd2;
+  position: relative;
+  opacity: 0.8;
+}
+.hover-zoom:hover .text-01 {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.hover-zoom:hover .hover-img {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.text-excellence {
+  font-size: 64px;
+  opacity: 1;
+  transition: font-size 0.3s ease, opacity 0.3s ease;
+  position: absolute;
+  bottom: 100%;
+}
+.hover-img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  right: 0;
+  width: 300px;
+  margin-right: 8pc;
+}
+.hover-img.active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-width {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1.5em;
+  }
+  .responsive-width2 {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1.5em;
+  }
+}
+@media screen and (max-width: 480px) {
+  .responsive-text {
+    font-size: 1.8rem;
+  }
+  .responsive-text2 {
+    font-size: 1.8rem;
+  }
+  .custom-svg {
+    width: 6em;
+    height: 3.17em;
+  }
+  .absolute-center {
+    top: 40%;
+    left: 32%;
+  }
+}

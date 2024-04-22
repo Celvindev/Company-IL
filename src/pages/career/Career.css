@@ -1,0 +1,139 @@
+.yskil {
+  background: linear-gradient(90deg, #19c6c2 70.32%, #8a3dff 75.53%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+.txtpla {
+  margin-top: -10pc;
+}
+.absolute-center-3 {
+  position: absolute;
+  top: 50%;
+  left: 55.5%;
+  transform: translate(-50%, -50%);
+}
+.custom-svg {
+  z-index: 1;
+  position: relative;
+}
+.responsive-text {
+  word-spacing: 1px;
+}
+.search-section {
+  font-family: "Montserrat", sans-serif;
+  padding: 40px 50px;
+  width: 110%;
+  align-items: center;
+  position: relative;
+  top: 150%;
+  left: 3%;
+}
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #181823;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  padding: 5px 5px;
+  width: 60%;
+}
+.search-input {
+  background-color: #181823;
+  color: #ddd;
+  flex: 2;
+  border-radius: 25px;
+  padding: 15px 15px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  background-color: transparent;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #ddd;
+}
+.search-icon svg {
+  fill: currentColor;
+}
+.dropdown {
+  position: absolute;
+  top: 27%;
+  left: 61%;
+  color: #ddd;
+  font-family: "Montserrat", sans-serif;
+}
+.dropdown-toggle {
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  padding: 19px 19px;
+  width: 190%;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.dropdown-icon {
+  position: absolute;
+  right: -70%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.dropdown-menu {
+  position: absolute;
+  top: 110%;
+  padding: 10px;
+  width: 190%;
+  background-color: #181823;
+}
+.dropdown-menu li {
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #ddd;
+  font-size: 23px;
+}
+.dropdown-menu li::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 24px;
+  box-shadow: 0 0 0 2px transparent;
+  z-index: -1;
+}
+.dropdown-menu li:not(:last-child) {
+  border-bottom: none;
+}
+.gradient-outline {
+  border-radius: 7px;
+  padding: 5px 0px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(to right, #4fd1c5, #a06bfa) 1;
+}
+.gradient-outline:hover {
+  border-image: linear-gradient(to right, #4fd1c5, #a06bfa);
+  border-image-slice: 1;
+  border: none;
+  background-image: linear-gradient(to right, #4fd1c5, #a06bfa);
+  color: white;
+}
+.gradient-text {
+  color: transparent;
+  background-image: linear-gradient(to right, #4fd1c5, #a06bfa);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.gradient-text:hover {
+  color: #fff;
+}
