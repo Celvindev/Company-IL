@@ -21,8 +21,7 @@ const Contxt1 = () => {
       <div className="absolute inset-0 flex justify-center items-center">
         <div className="text-center txtpla">
           <h1>
-          <span className="text-white text-[64px] font-semibold font-['Montserrat'] leading-[76px]">Place to Grow </span>
-          <span className="text-[64px] font-bold font-['Montserrat'] leading-[76px] yskil">Your Skill</span>
+          <span className="text-white text-[64px] font-semibold font-['Montserrat'] leading-[76px]">Place to Grow Your Skill</span>
           </h1>
           <p className=" mt-4 text-center text-white text-[25px] font-semibold font-['Montserrat'] leading-9">
             Join us to find the ideal space that can enhance your skills
