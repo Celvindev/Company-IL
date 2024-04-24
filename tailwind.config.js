@@ -16,7 +16,7 @@ export default {
     extend: {
       colors :{
         Charcoal: "#181823",
-        NeonWhite: "#F4F3F9",
+        NeonWhite: "#EAE7E7",
         Purple:  "#BE2CD2",
         TwitchPurple :"#8A3DFF",
         ClearBlue : "#214CE0",
