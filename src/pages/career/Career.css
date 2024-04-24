@@ -66,7 +66,7 @@
 .dropdown {
   position: absolute;
   top: 27%;
-  left: 61%;
+  left: 23%;
   color: #ddd;
   font-family: "Montserrat", sans-serif;
 }
@@ -90,7 +90,7 @@
 .dropdown-menu {
   position: absolute;
   top: 110%;
-  padding: 10px;
+  padding: 5px;
   width: 190%;
   background-color: #181823;
 }
@@ -100,6 +100,7 @@
   cursor: pointer;
   color: #ddd;
   font-size: 23px;
+  width: 100%;
 }
 .dropdown-menu li::after {
   content: "";
@@ -115,13 +116,31 @@
 .dropdown-menu li:not(:last-child) {
   border-bottom: none;
 }
-.gradient-outline {
-  border-radius: 7px;
-  padding: 5px 0px;
+.dropdown-item:hover {
+  color: transparent;
+  background-image: linear-gradient(to right, #4fd1c5, #a06bfa);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.tittle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  background: var(
+    --Gradient,
+    linear-gradient(101deg, #19c6c2 -5.55%, #8a3dff 49.48%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-outline {
   border: 1px solid transparent;
   border-image: linear-gradient(to right, #4fd1c5, #a06bfa) 1;
 }
-.gradient-outline:hover {
+.btn-outline:hover {
   border-image: linear-gradient(to right, #4fd1c5, #a06bfa);
   border-image-slice: 1;
   border: none;
@@ -129,6 +148,9 @@
   color: white;
 }
 .gradient-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
   color: transparent;
   background-image: linear-gradient(to right, #4fd1c5, #a06bfa);
   -webkit-background-clip: text;
@@ -136,4 +158,8 @@
 }
 .gradient-text:hover {
   color: #fff;
+}
+.card {
+  border: 1px solid white;
+  transition: transform 0.3s ease;
 }

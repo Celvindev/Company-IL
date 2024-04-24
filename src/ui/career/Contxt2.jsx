@@ -46,7 +46,7 @@ const Contxt2 = () => {
             {isOpen && (
               <ul className="dropdown-menu z-50 rounded-[20px] shadow border-2 flex-col justify-start items-start flex" >
                 {options.map((option, index) => (
-                  <li key={index} onClick={() => handleOptionClick(option)}>
+                  <li key={index} onClick={() => handleOptionClick(option)} className="dropdown-item">
                     {option}
                   </li>
                 ))}

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import prelinePlugin from 'preline/plugin'
+import daisyui from 'daisyui'
 export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -8,7 +9,9 @@ export default {
   plugins: [
     // require('@tailwindcss/forms'),
     prelinePlugin,
+    daisyui,
   ],
+
   theme: {
     extend: {
       colors :{

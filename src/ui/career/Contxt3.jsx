@@ -57,31 +57,24 @@ const Contxt3 = () => {
 
   return (
     <>
-      <div className="flex justify-center gap-12 z--50">
-        {/* Mapping through cards array to render each card */}
+      <div className="flex justify-center gap-12">
         {cards.map((card, index) => (
-          <div key={index} className="w-[395px] h-[434px] mt-10 relative border border-black border-opacity-0">
-            <div className="w-[395px] h-[434px] left-0 top-0 absolute rounded-[20px]" />
-            <div className="left-0 top-0 absolute rounded-[20px] border border-white flex-col justify-start items-start inline-flex">
-              <img src={card.img} className="w-[395px] h-[238px] bg-black bg-opacity-40 rounded-tl-[20px] rounded-tr-[20px]" />
-              <div className="w-[395px] px-[23px] py-[15px] bg-neutral-800 rounded-bl-[20px] rounded-br-[20px] flex-col justify-start items-start gap-[5px] flex">
-                <div className="w-[85px] h-[17px] text-white text-opacity-50 text-xs font-normal font-['Montserrat']">{card.jobType}</div>
-                <div className="text-teal-400 text-[28px] font-semibold font-['Montserrat'] leading-9">{card.title}</div>
-                <div className="w-[349px] h-14 text-white text-base font-normal font-['Montserrat'] leading-normal">{card.description}</div>
-                <div className="px-2.5 py-1.5 bg-gradient-to-r from-teal-400 to-violet-600 rounded-lg justify-start items-center gap-1.5 inline-flex">
-                  <div
-                    className="w-[75px] h-[17px] text-white text-sm font-normal font-['Montserrat'] leading-none cursor-pointer"
-                    onClick={() => toggleModal(card.jobType, card.title, card.description, card.responsibilities, card.qualification, card.img)}
-                  >
-                    See Detail
-                  </div>
-                </div>
+          <div key={index} className="card w-[395px] bg-neutral-800 bor shadow-xl">
+            <figure><img src={card.img} /></figure>
+            <div className="card-body">
+              <div className="w-[85px] h-[17px] text-white text-opacity-50 text-xs font-normal font-['Montserrat']">{card.jobType}</div>
+              <h2 className="tittle">{card.title}</h2>
+              <p className="w-[349px] h-14 text-white text-base font-normal font-['Montserrat'] leading-normal">{card.description}</p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-outline btn-sm w-[100px]"
+                  onClick={() => toggleModal(card.jobType, card.title, card.description, card.responsibilities, card.qualification, card.img)}>
+                  <span className='gradient-text'>See Detail</span>
+                </button>
               </div>
             </div>
           </div>
         ))}
-        {/* End of mapping */}
-      </div>
+      </div >
       {showModal && (
         <Modal
           jobType={modalContent.jobType}
