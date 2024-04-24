@@ -25,12 +25,9 @@
 }
 .search-section {
   font-family: "Montserrat", sans-serif;
-  padding: 40px 50px;
-  width: 110%;
+  width: 100%;
   align-items: center;
   position: relative;
-  top: 150%;
-  left: 3%;
 }
 .search-input-wrapper {
   display: flex;
@@ -39,53 +36,25 @@
   border: 2px solid #ddd;
   border-radius: 25px;
   padding: 5px 5px;
-  width: 60%;
-}
-.search-input {
-  background-color: #181823;
-  color: #ddd;
-  flex: 2;
-  border-radius: 25px;
-  padding: 15px 15px;
-  font-size: 25px;
-  border: none;
-  outline: none;
-}
-.search-icon {
-  background-color: transparent;
-  padding: 0;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  color: #ddd;
-}
-.search-icon svg {
-  fill: currentColor;
-}
-.dropdown {
-  position: absolute;
-  top: 27%;
-  left: 23%;
-  color: #ddd;
-  font-family: "Montserrat", sans-serif;
 }
 .dropdown-toggle {
   border: 2px solid #ddd;
   border-radius: 25px;
   padding: 19px 19px;
-  width: 190%;
+  width: 110%;
   cursor: pointer;
   background-color: transparent;
   display: flex;
   align-items: center;
   font-size: 25px;
+  color: white;
 }
 .dropdown-icon {
   position: absolute;
-  right: -70%;
+  right: -2%;
   top: 50%;
   transform: translateY(-50%);
+  color: white;
 }
 .dropdown-menu {
   position: absolute;
@@ -161,5 +130,4 @@
 }
 .card {
   border: 1px solid white;
-  transition: transform 0.3s ease;
 }

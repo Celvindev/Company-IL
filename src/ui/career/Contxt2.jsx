@@ -5,7 +5,6 @@ import { FaChevronDown } from 'react-icons/fa';
 const Contxt2 = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
-  const [searchValue, setSearchValue] = useState("");
   const options = ['Full Time', 'Part Time', 'Freelancer', 'Internship'];
 
   const toggleDropdown = () => {
@@ -16,37 +15,33 @@ const Contxt2 = () => {
     setSelectedOption(option);
     setIsOpen(false);
   };
-
-  const handleSearchChange = (event) => {
-    setSearchValue(event.target.value);
-  };
-
   return (
     <>
-      <div className="search-section">
-        <div className="search-input-wrapper">
-          <input
-            type="text"
-            placeholder="Search"
-            value={searchValue}
-            onChange={handleSearchChange}
-            className="search-input"
-          />
-          <button type="button" className="search-icon">
-            <svg width="60" height="40" viewBox="0 0 40 20">
-              <path fillRule="" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule=""
-              />
-            </svg>
-          </button>
-          <div className="dropdown">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-3  items-start mx-auto md:items-center py-10">
+          <div className='col-span-2' >
+            <div className="search-section">
+              <div className="search-input-wrapper">
+                <input type="text" placeholder="Search" className="input input-bordered text-2xl text-white md:w-auto lg:w-full bg-transparent py-9" />
+                <button className="btn btn-ghost btn-circle text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-span-1 relative md:mx-10">
             <button type="button" className="dropdown-toggle" onClick={toggleDropdown}>
               <span>{selectedOption || 'Type of Job'}</span>
-              <FaChevronDown className="dropdown-icon" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 dropdown-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
             </button>
             {isOpen && (
-              <ul className="dropdown-menu z-50 rounded-[20px] shadow border-2 flex-col justify-start items-start flex" >
+              <ul className="dropdown-menu z-50 rounded-lg shadow border-2 flex-col justify-start items-start absolute mt-2 md:mt-4 w-[110%]">
                 {options.map((option, index) => (
-                  <li key={index} onClick={() => handleOptionClick(option)} className="dropdown-item">
+                  <li key={index} onClick={() => handleOptionClick(option)} className="dropdown-item cursor-pointer py-2 px-4 hover:bg-gray-100">
                     {option}
                   </li>
                 ))}

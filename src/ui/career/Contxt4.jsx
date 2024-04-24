@@ -67,10 +67,11 @@ const Contxt4 = () => {
                             <h2 className="tittle">{card.title}</h2>
                             <p className="w-[349px] h-14 text-white text-base font-normal font-['Montserrat'] leading-normal">{card.description}</p>
                             <div className="card-actions justify-end">
-                                <button className="btn btn-outline btn-sm w-[100px]"
+                                <button className="btn btn-outline btn-sm w-[100px] rounded-full"
                                     onClick={() => toggleModal(card.jobType, card.title, card.description, card.responsibilities, card.qualification, card.img)}>
                                     <span className='gradient-text'>See Detail</span>
                                 </button>
+
                             </div>
                         </div>
                     </div>
