@@ -38,8 +38,8 @@ body {
   margin-top: -70px;
   margin-left: -130px;
 }
-.txt-screen{
-  font-family: 'Poppins', sans-serif;
+.txt-screen {
+  font-family: "Poppins", sans-serif;
   color: #181823;
 }
 .txt-screen1 {
@@ -52,7 +52,7 @@ body {
   color: #181823;
   font-weight: bold;
 }
-.txt-screen1 h3{
+.txt-screen1 h3 {
   font-size: 20px;
   color: #181823;
 }
@@ -65,21 +65,21 @@ body {
   color: #181823;
   font-weight: bold;
 }
-.txt-screen2 h3{
+.txt-screen2 h3 {
   font-size: 20px;
   color: #181823;
 }
 
-.tabs-bordered{
-  font-family: 'Poppins', sans-serif;
+.tabs-bordered {
+  font-family: "Poppins", sans-serif;
   color: #181823;
   border-radius: 44px;
   background-color: #fff;
   margin-top: -350px;
   margin-left: -30px;
 }
-.tab{
-  color: #8287AE33;
+.tab {
+  color: #8287ae33;
   font-size: 36px;
 }
 
