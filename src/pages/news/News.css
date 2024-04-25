@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 .carousel {
   margin: 0 auto;
   width: 100%;
@@ -17,4 +19,16 @@
 .hs-carousel-slide span {
   font-size: 2rem;
 }
-  
+
+.custom-container {
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid var(--Primary-Charcoal, #181823);
+  background: #ffffff;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
