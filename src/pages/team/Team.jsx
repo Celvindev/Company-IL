@@ -19,7 +19,7 @@ const Team = () => {
             <Contxt3 />
             <Contxt3 />
             <Contxt3 />
-            <Contxt3 />
+
             <div className="w-full h-[300px]" />
         </div>
     )
