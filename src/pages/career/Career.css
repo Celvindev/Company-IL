@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 .yskil {
   background: linear-gradient(90deg, #19c6c2 70.32%, #8a3dff 75.53%);
   background-clip: text;
@@ -8,7 +10,12 @@
   line-height: normal;
 }
 .txtpla {
-  margin-top: -10pc;
+  margin-top: -32pc;
+}
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .absolute-center-3 {
   position: absolute;

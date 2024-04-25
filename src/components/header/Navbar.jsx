@@ -34,7 +34,7 @@ const Navbar = () => {
               <li><NavLink to="/career">Career</NavLink></li>
             </ul>
           </div>
-          <button className=" w-[200px] h-[62px] text-violet-600 outline-black outline outline-offset-2 outline-2 rounded-full justify-center items-center flex">Contact us</button>
+          <button className=" w-[200px] h-[62px] text-violet-600">Contact us</button>
         </div>
       </div>
     </>

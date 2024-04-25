@@ -17,6 +17,21 @@
 .navlink:hover {
   background-color: white !important;
 }
+button {
+  width: 200px;
+  height: 62px;
+  outline: 2px solid black;
+  outline-offset: 2px;
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: color 0.3s;
+}
+
+button:hover {
+  outline: 2px solid #8a3dff;
+}
 
 @media (max-width: 768px) {
 }
