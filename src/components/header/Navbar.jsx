@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Logo from '../../assets/logo.svg';
+import "@fortawesome/fontawesome-free/css/all.css";
 import './navbar.css';
 
 const Navbar = () => {
@@ -34,7 +35,7 @@ const Navbar = () => {
               <li><NavLink to="/career">Career</NavLink></li>
             </ul>
           </div>
-          <button className=" w-[200px] h-[62px] text-violet-600">Contact us</button>
+          <button className=" w-[200px] h-[62px] text-violet-600">Contact us  <i className="fa-solid fa-arrow-right ml-2"></i> </button>
         </div>
       </div>
     </>
