@@ -1,6 +1,7 @@
 import React from 'react'
 import Bgpattern from '../../ui/team/Bgpattern'
 import Navbar from '../../components/header/Navbar'
+import Contxtt1 from '../../ui/team/Contxtt1'
 
 const Team = () => {
     return (
@@ -11,11 +12,8 @@ const Team = () => {
             <div className="relative z-10">
                 <Navbar />
             </div>
-            <div className="flex justify-center">
-                <div className="col-span-2 ...">
-                    <h1 className="text-Charcoal"><span className="text-violet-600">Team Members:</span> Technology, Innovation, Research & Development Company.</h1>
-                </div>
-            </div>
+            <Contxtt1 />
+            
         </div>
     )
 }
