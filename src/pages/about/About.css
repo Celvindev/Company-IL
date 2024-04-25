@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
   overflow-x: hidden;
@@ -8,33 +9,80 @@ body {
 }
 .txtab {
   font-size: 36px;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
+  color: #181823;
+  text-align: left !important;
 }
 .txtab span {
   background: linear-gradient(90deg, #19c6c2 50%, #8a3dff 82.5%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 .txt-cvr p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-align: center;
+  color: #181823;
 }
 .txt-cvr {
   max-width: 1145px;
   width: 100%;
-  margin: 0 auto;
+  margin-top: -70px;
+  margin-left: -130px;
 }
+.txt-screen{
+  font-family: 'Poppins', sans-serif;
+  color: #181823;
+}
+.txt-screen1 {
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 44px;
+}
+.txt-screen1 h1 {
+  font-size: 36px;
+  color: #181823;
+  font-weight: bold;
+}
+.txt-screen1 h3{
+  font-size: 20px;
+  color: #181823;
+}
+.txt-screen2 {
+  padding: 70px;
+  background-color: #eae7e7;
+}
+.txt-screen2 h1 {
+  font-size: 36px;
+  color: #181823;
+  font-weight: bold;
+}
+.txt-screen2 h3{
+  font-size: 20px;
+  color: #181823;
+}
+
+.tabs-bordered{
+  font-family: 'Poppins', sans-serif;
+  color: #181823;
+  border-radius: 44px;
+  background-color: #fff;
+  margin-top: -350px;
+  margin-left: -30px;
+}
+.tab{
+  color: #8287AE33;
+  font-size: 36px;
+}
+
 .position-relative {
   position: relative;
 }
