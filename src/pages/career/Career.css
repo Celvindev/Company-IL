@@ -112,7 +112,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.btn-outline {
+/* .btn-outline {
   border: 1px solid transparent;
   border-image: linear-gradient(to right, #4fd1c5, #a06bfa) 1;
 }
@@ -122,7 +122,7 @@
   border: none;
   background-image: linear-gradient(to right, #4fd1c5, #a06bfa);
   color: white;
-}
+} */
 .gradient-text {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
