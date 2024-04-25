@@ -4,6 +4,7 @@ import Navbar from '../../components/header/Navbar'
 import Contxtt1 from '../../ui/team/Contxtt1'
 import Contxt2 from '../../ui/team/Contxt2'
 import Contxt3 from '../../ui/team/Contxt3'
+import "../../pages/team/Team.css";
 
 const Team = () => {
     return (
@@ -17,9 +18,6 @@ const Team = () => {
             <Contxtt1 />
             <Contxt2 />
             <Contxt3 />
-            <Contxt3 />
-            <Contxt3 />
-
             <div className="w-full h-[300px]" />
         </div>
     )
