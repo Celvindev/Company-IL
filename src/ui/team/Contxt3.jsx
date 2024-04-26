@@ -39,7 +39,8 @@ const Contxt3 = () => {
         <div className='flex justify-center mt-10'>
             <div className="grid grid-cols-3 gap-20 ">
                 {cards.map((card, index) => (
-                    <div key={index} className={`w-[385px] bg-white crdart shadow-xl mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '0'} transition-all ease-in-out duration-300 ${expandedIndex === index ? 'h-[516px]' : 'h-[336px]'}`} style={{ marginBottom: getMarginBottom(index), transition: 'margin-bottom 0.1s ease-in-out' }}>
+                    <div key={index} className={`w-[385px] bg-white crdart shadow-xl mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '0'} transition-all ease-in-out duration-300 
+                    ${expandedIndex === index ? 'h-[516px]' : 'h-[336px]'}`} style={{ marginBottom: getMarginBottom(index), transition: 'margin-bottom 0.1s ease-in-out' }}>
                         <div className="card border-0">
                             <div className="card-body text-left">
                                 <div className="card-actions flex justify-end" onClick={() => toggleExpand(index)}>
