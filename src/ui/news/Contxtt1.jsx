@@ -8,8 +8,7 @@ function fontjahanam() {
 }
 function Contxtt1() {
   const styleObj = {
-    fontSize: 48,
-    color: "#4a54f1",
+    fontSize: 47,
     textAlign: "Left",
     paddingTop: "10px"
   }
@@ -30,7 +29,7 @@ function Contxtt1() {
         </ul>
       </details>
       
-      <h1 style={styleObj} ><span>Discover Nice Articles and News Here</span> </h1>
+      <h1 className='txtabc' >Discover Nice Articles and News Here</h1>
       <p style={anaknya}>
       All The Aticles and News of The Site Have Been <b>Update Today</b> and You Can Find Your <b>Articles and News</b> Quickly and Without any Problems
       </p>

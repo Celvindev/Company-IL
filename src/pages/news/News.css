@@ -10,6 +10,17 @@
   border-radius: 0;
 }
 
+.txtabc{
+  background: linear-gradient(80deg, #19c6c2 10%, #8a3dff 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-style: italic  ;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .hs-carousel-slide .flex {
   display: flex;
   align-items: center;
