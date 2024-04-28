@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import jes from '../../assets/Team/jes.png';
-import sri from '../../assets/Team/sri.png';
-import alna from '../../assets/Team/alna.png';
+import alow from '../../assets/Team/alow.png';
+import mayang from '../../assets/Team/mayang.png';
+import shania from '../../assets/Team/shania.png';
 import buttoncard from '../../assets/Team/buttoncard.svg';
 import "../../pages/team/Team.css";
 
-const Contxt3 = () => {
+const Contxt4 = () => {
     const [expandedIndex, setExpandedIndex] = useState(-1);
 
     const toggleExpand = (index) => {
@@ -22,21 +22,21 @@ const Contxt3 = () => {
 
     const cards = [
         {
-            img: sri,
-            name: "Sri Andeani",
-            role: "Head of Digital Creative",
+            img: mayang,
+            name: "Mayang Kasmita",
+            role: "Head of Professional Mentor",
             description: "Responsible for overseeing day-to-day operations and ensuring smooth functioning of the organization's processes."
         },
         {
-            img: jes,
-            name: "Jessica Vanessa",
-            role: "Head of Professional Mentor",
+            img: alow,
+            name: "Laurensia Alow",
+            role: "Professional Mentor",
             description: "The Captain of the team, an expert in sharing his knowledge with the public, and a seasoned mentor specializing in business education. With years of experience under his belt, he's the driving force behind Infinite Learning's success, inspiring others to learn and grow."
         },
         {
-            img: alna,
-            name: "Alna Tirana Nur",
-            role: "Finance Operator",
+            img: shania,
+            name: "Shania Sabrina",
+            role: "Professional Mentorr",
             description: "Leading the digital technology team, Indra brings innovative solutions to the table, leveraging cutting-edge technologies to drive the organization's digital transformation."
         }
     ];
@@ -45,7 +45,7 @@ const Contxt3 = () => {
             <div className="grid grid-cols-3 gap-20 ">
                 {cards.map((card, index) => (
                     <div key={index} className={`w-[385px] bg-white crdart shadow-xl mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '0'} transition-all ease-in-out duration-300 
-                    ${expandedIndex === index ? 'h-[516px]' : 'h-[336px]'}`} style={{ marginBottom: getMarginBottom(index), transition: 'margin-bottom 0.1s ease-in-out' }}>
+                ${expandedIndex === index ? 'h-[516px]' : 'h-[336px]'}`} style={{ marginBottom: getMarginBottom(index), transition: 'margin-bottom 0.1s ease-in-out' }}>
                         <div className="card border-0">
                             <div className="card-body text-left">
                                 <div className="card-actions flex justify-end" onClick={() => toggleExpand(index)}>
@@ -65,8 +65,7 @@ const Contxt3 = () => {
                 ))}
             </div>
         </div>
-
     )
 }
 
-export default Contxt3
+export default Contxt4

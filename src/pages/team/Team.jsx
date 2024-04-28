@@ -5,6 +5,7 @@ import Contxtt1 from '../../ui/team/Contxtt1'
 import Contxt2 from '../../ui/team/Contxt2'
 import Contxt3 from '../../ui/team/Contxt3'
 import "../../pages/team/Team.css";
+import Contxt4 from '../../ui/team/Contxt4'
 
 const Team = () => {
     return (
@@ -18,6 +19,7 @@ const Team = () => {
             <Contxtt1 />
             <Contxt2 />
             <Contxt3 />
+            <Contxt4 />
             <div className="w-full h-[300px]" />
         </div>
     )

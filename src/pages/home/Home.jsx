@@ -1,36 +1,29 @@
-import React, { useState, useEffect } from 'react';
-import img1 from '../../assets/carousel/img1.jpg';
-import img2 from '../../assets/carousel/img2.png';
-import img3 from '../../assets/carousel/img3.jpg';
-
-const images = [img1, img2, img3];
+import React from 'react'
+import Navbar from '../../components/header/Navbar'
 
 const Home = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(goToNext, 3000); // Ganti gambar setiap 3 detik
-    return () => clearInterval(interval);
-  }, [currentImage]); // Ketika currentImage berubah, jeda timer dan mulai timer baru
-
-  const goToNext = () => {
-    setCurrentImage((prev) => (prev === images.length - 1 ? 0 : prev + 1));
-  };
-
   return (
-    <div className="carousel" style={{ height: '600px', position: 'relative', overflow: 'hidden' }}>
-      {images.map((image, index) => (
-        <img
-          key={index}
-          src={image}
-          alt={`Slide ${index + 1}`}
-          className={`mx-auto absolute top-0 left-0 right-0 bottom-0 transition-opacity duration-1000 ${index === currentImage ? 'opacity-100' : 'opacity-0'
-            }`}
-          style={{ width: '100vw', height: '100%', objectFit: 'cover' }}
-        />
-      ))}
-    </div>
-  );
-};
+    <>
+      <Navbar />
+      <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl'>
+        <div className="flex w-full justify-center">
+          <div className="mr-5 w-[100%]">
+            <div className="grid w-[615px] h-[510px] card bg-white rounded-[33px] place-items-center shadow">content1</div>
+            <div className="grid w-[615px] h-[197px] mt-5 card bg-white rounded-[33px] place-items-center shadow">content2</div>
+          </div>
+          <div className="mr-5 w-[100%]">
+            <div className="grid w-[100%] h-[723px] card bg-white rounded-[33px] place-items-center shadow">Content3</div>
+          </div>
+        </div>
+        <div className="flex w-full justify-center mt-5">
+          <div className="grid w-[100%] h-[248px] card bg-white rounded-[33px] place-items-center shadow">Content4</div>
+        </div>
+        <div className="flex w-full justify-center mt-5">
+          <div className="grid w-[100%]  h-[517px] card bg-white rounded-[33px] place-items-center shadow">Content5</div>
+        </div>
+      </div >
+    </>
+  )
+}
 
-export default Home;
+export default Home

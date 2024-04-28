@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import ari from '../../assets/Team/ari.png';
+import mery from '../../assets/Team/mery.png';
+import indra from '../../assets/Team/indra.png';
 import "../../pages/team/Team.css";
 
 const Contxt2 = () => {
@@ -26,16 +28,19 @@ const Contxt2 = () => {
 
     const cards = [
         {
+            img: mery,
             name: "Mery Simanjutak",
-            role: "Lead Operationalr",
+            role: "Lead Operational",
             description: "Responsible for overseeing day-to-day operations and ensuring smooth functioning of the organization's processes."
         },
         {
+            img: ari,
             name: "Ari Nugrahanto",
             role: "Program Director",
             description: "The Captain of the team, an expert in sharing his knowledge with the public, and a seasoned mentor specializing in business education. With years of experience under his belt, he's the driving force behind Infinite Learning's success, inspiring others to learn and grow."
         },
         {
+            img: indra,
             name: "Indra Rukmana",
             role: "The Head of Digital Technology",
             description: "Leading the digital technology team, Indra brings innovative solutions to the table, leveraging cutting-edge technologies to drive the organization's digital transformation."
@@ -71,7 +76,7 @@ const Contxt2 = () => {
                                     )}
                                 </div>
                                 <figure className="px-10 pb-20 -mt-3">
-                                    <img src={ari} alt="Shoes" className=" w-[294.18px]" />
+                                    <img src={card.img} alt="Shoes" className=" w-[294.18px]" />
                                 </figure>
                             </div>
                         </div>
