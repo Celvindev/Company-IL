@@ -64,13 +64,13 @@ const Home = () => {
             onMouseMove={handleMouseMove}
             style={{ overflowY: 'auto', overflowX: 'hidden', display: 'grid', gridAutoFlow: 'column', gap: '1rem' }}
           >
-            <div className="w-[401px] h-[357px] bg-black rounded-[44px]">Card 1</div>
-            <div className="w-[401px] h-[357px] bg-black rounded-[44px]">Card 2</div>
-            <div className="w-[401px] h-[357px] bg-black rounded-[44px]">Card 3</div>
-            <div className="w-[401px] h-[357px] bg-black rounded-[44px]">Card 4</div>
-            <div className="w-[401px] h-[357px] bg-black rounded-[44px]">Card 5</div>
-            <div className="w-[401px] h-[357px] bg-black rounded-[44px]">Card 6</div>
-            <div className="w-[401px] h-[357px] bg-black rounded-[44px]">Card 7</div>
+            <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">Card 1</div>
+            <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">Card 2</div>
+            <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">Card 3</div>
+            <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">Card 4</div>
+            <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">Card 5</div>
+            <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">Card 6</div>
+            <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">Card 7</div>
           </div>
         </div>
       </div >
