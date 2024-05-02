@@ -62,14 +62,17 @@ function Contxtt1() {
 <div className="flex mt-20 w-full">
   <div className="card grid w-[590px] h-[600px] card bg-white rounded-box ">
   <div className="card-body ">
-    <h1 className="card-title ">RMIT University's Visit to Infinite Learning</h1>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <h1 className="card-title ">RMIT University's Visit </h1>
+    <h1>to Infinite Learning</h1>
       </div>
   </div>
 <div className="divider divider-horizontal"></div>
     <ul>
       <li>
-        <div className="grid w-[570px] h-[290px] card bg-white rounded-box place-items-center">content2</div>
+        <div className="grid w-[570px] h-[290px] card bg-white rounded-box place-items-center">
+        <div className="card-body ">
+      </div>
+        </div>
           <div className="grid w-[570px] h-[290px] mt-5 card bg-white rounded-box place-items-center">content3</div>
       </li>
     </ul>
