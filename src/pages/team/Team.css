@@ -12,23 +12,26 @@
   margin-bottom: 5px;
   font-size: 48px;
   font-weight: bold;
-  color: #181823;
+  color: #eae7e7;
   font-family: "Intern", sans-serif;
 }
 .team-heading h1 span {
-  color: #8a3dff;
+  background: linear-gradient(90deg, #32c7c4 50%, #8a3dff 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-style: italic;
 }
 .team-heading h3 {
   font-weight: bold;
-  color: #181823;
+  color: #eae7e7;
   margin-top: 30px;
   font-family: "Montserrat", sans-serif;
 }
 .team-heading p {
   width: 80%;
   max-width: 600px;
-  color: #181823;
+  color: #eae7e7;
 }
 .team-content p {
   color: #333;
@@ -41,10 +44,12 @@
 .btcat:hover {
   background-color: #8a3dff !important;
   border: none !important;
-  color: white !important;
+  color: #eae7e7 !important;
 }
 .crdart {
   border-radius: 44px;
+  background-color: #212130;
+  border: 1px solid var(--Gradient);
 }
 .crdttl {
   font-family: "Montserrat", sans-serif;
@@ -52,10 +57,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 36px;
-  background: var(
-    --Gradient,
-    linear-gradient(101deg, #19c6c2 -5.55%, #8a3dff 49.48%)
-  );
+  background: linear-gradient(101deg, #19c6c2 -5.55%, #8a3dff 49.48%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

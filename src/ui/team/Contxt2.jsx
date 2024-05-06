@@ -31,7 +31,7 @@ const Contxt2 = () => {
             img: mery,
             name: "Mery Simanjutak",
             role: "Lead Operational",
-            description: "Responsible for overseeing day-to-day operations and ensuring smooth functioning of the organization's processes."
+            description: "Infinite Learning's Operational Manager who is responsible for student relations, acquisition, and business development. With a cheerful personality, she loves to sing in her free time."
         },
         {
             img: ari,
@@ -43,7 +43,7 @@ const Contxt2 = () => {
             img: indra,
             name: "Indra Rukmana",
             role: "The Head of Digital Technology",
-            description: "Leading the digital technology team, Indra brings innovative solutions to the table, leveraging cutting-edge technologies to drive the organization's digital transformation."
+            description: "He has years of experience in the industry and is focused on cybersecurity division strategist, system administration, network and infrastucture. He is also hea of IBM academy for Hybrid Colud & AI. He is a Technophile."
         }
     ];
 
@@ -52,7 +52,7 @@ const Contxt2 = () => {
             <div className='flex justify-center'>
                 <div className="grid grid-cols-3 gap-20 ">
                     {cards.map((card, index) => (
-                        <div key={index} className={`w-[385px] bg-white crdart shadow-xl mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '0'} 
+                        <div key={index} className={`w-[385px] crdart shadow-xl mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '0'} 
                         transition-all ease-in-out duration-300 ${expandedIndex === index ? 'h-[516px]' : 'h-[336px]'}`} style={{ marginBottom: getMarginBottom(index), transition: 'margin-bottom 0.3s ease-in-out' }}>
                             <div className="card border-0">
                                 <div className="card-body text-left">
