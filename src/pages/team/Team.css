@@ -38,8 +38,8 @@
   line-height: 1.6;
 }
 .btcat {
-  color: #ffff !important;
-  border-color: #ffff !important;
+  color: #eae7e7 !important;
+  border-color: #eae7e7 !important;
 }
 .btcat:hover {
   background-color: #8a3dff !important;
@@ -47,8 +47,8 @@
   color: #eae7e7 !important;
 }
 .crdart {
-  background: #181823;
-  background-image: linear-gradient(90deg, #181823, #181823),
+  background: #212130;
+  background-image: linear-gradient(90deg, #212130, #212130),
     linear-gradient(90deg, hsl(179, 60%, 49%), hsl(264, 100%, 62%));
   background-clip: padding-box, border-box;
   background-origin: border-box;
@@ -72,13 +72,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  color: white;
+  color: #eae7e7;
 }
 .mirror {
   transform: scaleY(-1) !important;
 }
 .btncardt {
-  fill: white;
+  fill: #eae7e7;
 }
 .btncardt:hover {
   fill: #8a3dff;
