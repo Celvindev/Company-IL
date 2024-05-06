@@ -17,3 +17,20 @@
 .hs-carousel-slide span {
   font-size: 2rem;
 }
+
+.txtab-c{
+  background: linear-gradient(80deg, #19c6c2 10%, #8a3dff 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 40px;
+}
+.border-gradient {
+  --border-color-start: #19c6c2 10%;    
+  --border-color-end: #8a3dff 90%; 
+  border-image: linear-gradient(to right, var(--border-color-start), var(--border-color-end)) 1;
+  border-radius: 60px;
+}
