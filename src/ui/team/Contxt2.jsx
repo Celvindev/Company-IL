@@ -70,9 +70,9 @@ const Contxt2 = () => {
                                         </svg>
                                     </div>
                                     <h2 className="crdttl">{card.name}</h2>
-                                    <p className='txtp'>{card.role}</p>
+                                    <p className='txtp text-white'>{card.role}</p>
                                     {expandedIndex === index && (
-                                        <p className='txtp'>{card.description}</p>
+                                        <p className='txtp text-white'>{card.description}</p>
                                     )}
                                 </div>
                                 <figure className="px-10 pb-20 -mt-3">

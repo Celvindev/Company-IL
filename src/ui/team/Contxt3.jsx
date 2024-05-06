@@ -52,7 +52,7 @@ const Contxt3 = () => {
                                     <img src={buttoncard} alt="" />
                                 </div>
                                 <h2 className="crdttl">{card.name}</h2>
-                                <p className='txtp'>{card.role}</p>
+                                <p className='txtp '>{card.role}</p>
                                 {expandedIndex === index && (
                                     <p className='txtp'>{card.description}</p>
                                 )}
