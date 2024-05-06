@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../../assets/logo.svg';
+import Logo from '../../assets/logoblack.svg';
 import "@fortawesome/fontawesome-free/css/all.css";
 import './navbar.css';
 
@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <>
       <div className="px-10 py-5">
-        <div className="navbar bg-white w-[100%] rounded-full ">
+        <div className="navbar w-[100%] rounded-full ">
           <div className="navbar-start">
-            <div className="dropdown" id=''>
+            <div className="dropdown" >
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
               <li><NavLink to="/career">Career</NavLink></li>
             </ul>
           </div>
-          <button className=" w-[200px] h-[62px] text-violet-600">Contact us  <i className="fa-solid fa-arrow-right ml-2"></i> </button>
+          <button className=" w-[200px] h-[62px] text-white">Contact us  <i className="fa-solid fa-arrow-right ml-2"></i> </button>
         </div>
       </div>
     </>
