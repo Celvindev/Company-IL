@@ -17,8 +17,15 @@
 .hs-carousel-slide span {
   font-size: 2rem;
 }
+.bgrd {
+  background-image: linear-gradient(90deg, #181823, #181823),
+    linear-gradient(90deg, hsl(179, 60%, 49%), hsl(264, 100%, 62%));
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 2px solid transparent;
+}
 
-.txtab-c{
+.txtab-c {
   background: linear-gradient(80deg, #19c6c2 10%, #8a3dff 90%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -29,8 +36,13 @@
   font-size: 40px;
 }
 .border-gradient {
-  --border-color-start: #19c6c2 10%;    
-  --border-color-end: #8a3dff 90%; 
-  border-image: linear-gradient(to right, var(--border-color-start), var(--border-color-end)) 1;
+  --border-color-start: #19c6c2 10%;
+  --border-color-end: #8a3dff 90%;
+  border-image: linear-gradient(
+      to right,
+      var(--border-color-start),
+      var(--border-color-end)
+    )
+    1;
   border-radius: 60px;
 }

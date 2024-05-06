@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../../assets/logo.svg';
+import Logo from '../../assets/logoblack.svg';
 import "@fortawesome/fontawesome-free/css/all.css";
 import './navbar.css';
 

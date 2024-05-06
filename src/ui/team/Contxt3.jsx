@@ -49,7 +49,7 @@ const Contxt3 = () => {
                         <div className="card border-0">
                             <div className="card-body text-left">
                                 <div className="card-actions flex justify-end" onClick={() => toggleExpand(index)}>
-                                    <img src={buttoncard} alt="" />
+                                    <img src={buttoncard} className='' alt="" />
                                 </div>
                                 <h2 className="crdttl">{card.name}</h2>
                                 <p className='txtp '>{card.role}</p>
