@@ -20,7 +20,7 @@ const Contxt2 = () => {
       </div>
     </div>  */}
     <div className="w-screen h-screen grid grid-rows-2 md:grid-cols-2 txt-screen px-40">
-      <div className="w-full h-full bg-#181823 txt-screen1">
+      <div className="w-full h-full txt-screen1">
         <h1>Infinite Learning</h1>
         <h3>Technology, Innovation, Research & Development Company.</h3> <br></br><br></br>
         <p className="text-white ">Infinite Learning, one of the divisions of PT Kinema Systrans multimedia (a subsidiary of Infinite Studios), centres on developing vocational training courses relevant to Infinite Studios activities and the growing demand for skilled talent in the Nongsa Digital Park ecosystem</p> 
