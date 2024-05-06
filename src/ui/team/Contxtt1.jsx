@@ -14,12 +14,13 @@ function Contxtt1() {
         ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
       </p>
       <details className="dropdown mt-8">
-        <summary className="m-1 btn btcat btn-outline w-[150px] rounded-full font-normal">Category <i className="fas fa-chevron-down"></i></summary>
-        <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-          <li><a>Item 1</a></li>
-          <li><a>Item 2</a></li>
-        </ul>
-      </details>
+        <summary className="m-1 btn btcat btn-outline w-[150px] rounded-full font-normal text-white">Category <i className="fas fa-chevron-down"></i></summary>
+          <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+            <li><a className="text-white">Item 1</a></li>
+            <li><a className="text-white">Item 2</a></li>
+          </ul>
+    </details>
+
     </div>
   );
 }

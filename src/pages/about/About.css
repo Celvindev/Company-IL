@@ -11,7 +11,7 @@ body {
   font-size: 36px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  color: #181823;
+  color: #fff;
   text-align: left !important;
 }
 .txtab span {
@@ -30,7 +30,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #181823;
+  color: #fff;
 }
 .txt-cvr {
   max-width: 1145px;
@@ -44,17 +44,17 @@ body {
 }
 .txt-screen1 {
   padding: 50px;
-  background-color: #fff;
+  background-color: #181823;
   border-radius: 44px;
 }
 .txt-screen1 h1 {
   font-size: 36px;
-  color: #181823;
+  color: #fff;
   font-weight: bold;
 }
 .txt-screen1 h3 {
   font-size: 20px;
-  color: #181823;
+  color: #fff;
 }
 .txt-screen2 {
   padding: 70px;
@@ -69,12 +69,14 @@ body {
   font-size: 20px;
   color: #181823;
 }
-
+.txt-screen2 p {
+  color: #fff;
+}
 .tabs-bordered {
   font-family: "Poppins", sans-serif;
-  color: #181823;
+  color: #fff;
   border-radius: 44px;
-  background-color: #fff;
+  background-color: #181823;
   margin-top: -350px;
   margin-left: -30px;
 }

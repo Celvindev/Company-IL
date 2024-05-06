@@ -38,8 +38,8 @@
   line-height: 1.6;
 }
 .btcat {
-  color: black !important;
-  border-color: black !important;
+  color: #ffff !important;
+  border-color: #ffff !important;
 }
 .btcat:hover {
   background-color: #8a3dff !important;
