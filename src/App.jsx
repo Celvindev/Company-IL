@@ -5,6 +5,7 @@ import Home from './pages/home/Home.jsx';
 import Footer from './components/footer/Footer';
 import Career from './pages/career/Career.jsx';
 import News from './pages/news/News.jsx';
+import Learning from './pages/learning/Learning.jsx';
 import "./App.css";
 import Team from './pages/team/Team.jsx';
 
@@ -14,6 +15,7 @@ function App() {
       <div className="min-h-screen">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/learning" element={<Learning />} />
           <Route path="/news" element={<News />} />
           <Route path="/about" element={<About />} />
           <Route path="/career" element={<Career />} />

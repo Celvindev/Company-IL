@@ -3,21 +3,21 @@ import "../../pages/career/Career.css";
 import { FaChevronDown } from 'react-icons/fa';
 
 const Contxt2 = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const options = ['Full Time', 'Part Time', 'Freelancer', 'Internship'];
+  // const [isOpen, setIsOpen] = useState(false);
+  // const [selectedOption, setSelectedOption] = useState(null);
+  // const options = ['Full Time', 'Part Time', 'Freelancer', 'Internship'];
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleDropdown = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
-  const handleOptionClick = (option) => {
-    setSelectedOption(option);
-    setIsOpen(false);
-  };
+  // const handleOptionClick = (option) => {
+  //   setSelectedOption(option);
+  //   setIsOpen(false);
+  // };
   return (
     <>
-      <div className="container mx-auto">
+      {/* <div className="container mx-auto">
         <div className="grid grid-cols-3  items-start mx-auto md:items-center py-10">
           <div className='col-span-2' >
             <div className="search-section">
@@ -49,7 +49,7 @@ const Contxt2 = () => {
             )}
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

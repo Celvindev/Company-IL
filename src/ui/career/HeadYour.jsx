@@ -4,7 +4,7 @@ import "../../pages/career/Career.css";
 const HeadYour = () => {
   return (
     <>
-      <div className="w-[850px] h-[45px] mt-20 text-center text-stone-100 text-4xl font-semibold font-['Montserrat'] leading-[5px] position-relative responsive-width">
+      {/* <div className="w-[850px] h-[45px] mt-20 text-center text-stone-100 text-4xl font-semibold font-['Montserrat'] leading-[5px] position-relative responsive-width">
         <span className="absolute-center-3">
           <svg xmlns="http://www.w3.org/2000/svg" width="7.6em" height="6.34em" viewBox="0 0 270 120" fill="none" className="custom-svg">
             <path d="M189.817 3C161.363 3.0202 133.19 4.83292 105.123 8.29938C83.7259 10.942 62.684 15.4904 43.0131 22.1302C31.7949 25.9168 20.662 30.2161 
@@ -15,7 +15,7 @@ const HeadYour = () => {
           </svg>
         </span>
         <p className='responsive-text'>Start finding your purpose with us</p>
-      </div>
+      </div> */}
     </>
   )
 }

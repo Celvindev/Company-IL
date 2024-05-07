@@ -70,7 +70,7 @@ function Contxtt1() {
 </ul>
 
 <div className="flex mt-20 w-full ">
-  <div className="card grid w-[590px] h-[600px] card bg-gray-925 rounded-box bgcard">
+  <div className="card grid w-[597px] h-[680px] card bg-gray-925 rounded-box bgcard">
   <div className="card-body ">
     <h4 className="card-title ">Mar 13 • 2 min read </h4>
     <div className="card-actions flex justify-end" onClick={() => toggleExpand()}>
@@ -84,12 +84,12 @@ function Contxtt1() {
           </clipPath>
         </defs>
       </svg>
-    </div> <br/>
+    </div> 
     <h1>RMIT University Visit to Infinite Learning</h1>
     <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-6">
         <div className="absolute inset-0 rounded-[20px] bg-gradient-to-b from-opacity-0 via-opacity-100 to-opacity-100" 
         style={{ background: 'linear-gradient(119deg, rgba(24, 24, 35, 0.88) 11.46%, rgba(47, 31, 79, 0.76) 39.08%, rgba(138, 61, 255, 0.26) 92.98%);'}}></div>
-        <img className="w-full h-full object-cover rounded-[20px]" src={Pertama} alt="Pertama" />
+        <img className="w-full h-full object-cover rounded-[20px] " src={Pertama} alt="Pertama" />
       </div>
       </div>
   </div>
