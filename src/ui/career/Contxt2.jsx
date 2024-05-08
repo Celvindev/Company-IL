@@ -1,24 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "../../pages/career/Career.css";
 import { FaChevronDown } from 'react-icons/fa';
 
 const Contxt2 = () => {
-  // const [isOpen, setIsOpen] = useState(false);
-  // const [selectedOption, setSelectedOption] = useState(null);
-  // const options = ['Full Time', 'Part Time', 'Freelancer', 'Internship'];
-
-  // const toggleDropdown = () => {
-  //   setIsOpen(!isOpen);
-  // };
-
-  // const handleOptionClick = (option) => {
-  //   setSelectedOption(option);
-  //   setIsOpen(false);
-  // };
   return (
     <>
-      {/* <div className="container mx-auto">
-        <div className="grid grid-cols-3  items-start mx-auto md:items-center py-10">
+      <div className="sectt">
+      <hr className="h-1 my-4 w-5/6 mx-auto" />
+      <h2 className="text-NeonWhite text-[28px] font-['Montserrat']">Technical Mentor</h2>
+      <p className='text-NeonWhite text-[20px]'>We are looking for a Technical Mentor to join our team.</p>
+        {/* <div className="grid grid-cols-3  items-start mx-auto md:items-center py-10">
           <div className='col-span-2' >
             <div className="search-section">
               <div className="search-input-wrapper">
@@ -48,8 +39,9 @@ const Contxt2 = () => {
               </ul>
             )}
           </div>
-        </div>
-      </div> */}
+        </div> */}
+      </div> 
+      
     </>
   );
 }
