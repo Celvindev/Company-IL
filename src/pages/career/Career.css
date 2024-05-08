@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* .yskil {
+.yskil {
   background: linear-gradient(90deg, #19c6c2 70.32%, #8a3dff 75.53%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -112,6 +112,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* .btn-outline {
+  border: 1px solid transparent;
+  border-image: linear-gradient(to right, #4fd1c5, #a06bfa) 1;
+}
+.btn-outline:hover {
+  border-image: linear-gradient(to right, #4fd1c5, #a06bfa);
+  border-image-slice: 1;
+  border: none;
+  background-image: linear-gradient(to right, #4fd1c5, #a06bfa);
+  color: white;
+} */
 .gradient-text {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -126,20 +137,4 @@
 }
 .card {
   border: 1px solid white;
-} */
-
-.txtabc{
-  background: linear-gradient(80deg, #19c6c2 10%, #8a3dff 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  line-height: normal;
-}
-.text-a span{
-  color: black;
-}
-.txtpla{
-  padding-left: -5px;
 }

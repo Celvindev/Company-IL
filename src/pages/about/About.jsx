@@ -19,8 +19,9 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl'>
-        <Contxtt1 />
+      <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 lg:mt-20 mx-auto max-w-screen-xl'>
+
+        <Contxtt1 /> <br />
         {/* <HeadProfesional /> */}
         {/* <Skor /> */}
         <Contxt2 />

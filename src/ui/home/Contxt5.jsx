@@ -60,133 +60,33 @@ const Contxt5 = () => {
                     >
 
                         <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                            <figure><img src="/assets/home/card1.png" alt="Shoes" /></figure>
                             <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttl1 mt-5">REGULER</h2>
-                                <h1 className='cardhmttl2 mt-10'>Game<br /> Development</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
+                                    <button className="btn btn-primary">Buy Now</button>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttl1 mt-5">REGULER</h2>
-                                <h1 className='cardhmttl2 mt-10'>Animation</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
-                                </div>
-                            </div>
+                        <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">
+                            Card 2
                         </div>
-
-                        <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttl1 mt-5">REGULER</h2>
-                                <h1 className='cardhmttl2 mt-10'>AR & VR</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
-                                </div>
-                            </div>
+                        <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">
+                            Card 3
                         </div>
-
-                        <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttl1 mt-5">REGULER</h2>
-                                <h1 className='cardhmttl2 mt-10'>Sosial Media<br /> Specialist</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
-                                </div>
-                            </div>
+                        <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">
+                            Card 4
                         </div>
-
-                        <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttl1 mt-5">REGULER</h2>
-                                <h1 className='cardhmttl2 mt-10'>IBM Advance AI</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
-                                </div>
-                            </div>
+                        <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">
+                            Card 5
                         </div>
-
-                        <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttl1 mt-5">REGULER</h2>
-                                <h1 className='cardhmttl2 mt-10'>IBM Academy :<br /> Hybrid Cloud & Red Hat</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
-                                </div>
-                            </div>
+                        <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">
+                            Card 6
                         </div>
-
-                        <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttl1 mt-5">REGULER</h2>
-                                <h1 className='cardhmttl2 mt-10'>Cybersecurity</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttlmt-5">REGULER</h2>
-                                <h1 className='cardhmttl2 mt-10'>Game Development<br /> With Unreal Engine</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttl1 mt-5">STUDI IDEPENDENT</h2>
-                                <h1 className='cardhmttl2 mt-5'>Android Mobile<br /> Development &<br /> UIUX Designer</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
-                                <h2 className="cardhmttl1 mt-5">STUDI IDEPENDENT</h2>
-                                <h1 className='cardhmttl2 mt-5'>RedHat System<br /> Administration</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
-                                </div>
-                            </div>
+                        <div className="w-[401px] h-[357px] bg-NeonWhite rounded-[44px] p-10">
+                            Card 7
                         </div>
                     </div>
                 </div>

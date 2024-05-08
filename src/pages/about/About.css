@@ -11,7 +11,7 @@ body {
   font-size: 36px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  color: #eae7e7;
+  color: #EAE7E7;
   text-align: left !important;
 }
 .txtab span {
@@ -30,7 +30,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #eae7e7;
+  color: #EAE7E7;
 }
 .txt-cvr {
   max-width: 1145px;
@@ -41,6 +41,7 @@ body {
 .txt-screen {
   font-family: "Poppins", sans-serif;
   color: #181823;
+  
 }
 .txt-screen1 {
   padding: 50px;
@@ -54,24 +55,26 @@ body {
 }
 .txt-screen1 h1 {
   font-size: 36px;
-  color: #eae7e7;
+  color: #EAE7E7;
   font-weight: bold;
 }
 .txt-screen1 h3 {
   font-size: 20px;
-  color: #eae7e7;
+  color: #EAE7E7;
 }
 .txt-screen2 {
   padding: 70px;
 }
 .tabs-bordered {
   font-family: "Poppins", sans-serif;
-  color: #eae7e7;
+  color: #EAE7E7;
   border-radius: 44px;
   background-color: #181823;
+  margin-top: -350px;
+  margin-left: -30px;
 }
 .tab {
-  color: #fff !important;
+  color: #fff;
   font-size: 36px;
 }
 .position-relative {
@@ -162,40 +165,28 @@ body {
     left: 32%;
   }
 }
-.container {
+.container{
   width: 209px;
   height: 209px;
   padding: 0;
-  background: linear-gradient(to bottom right, #32c7c4, #8a3dff);
+  background: linear-gradient(to bottom right, #32C7C4 , #8A3DFF);
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center ;
   border-radius: 33px;
 }
-.h1 {
-  font-family: montserrat, sans serif;
-  font-size: 48px;
-  margin: 60px;
-  font-weight: 700;
-  text-align: center;
-}
-.h2 {
+.h1{
+   font-family: montserrat, sans serif;
+   font-size: 48px;
+   margin:60px ; 
+   font-weight: 700;
+   text-align: center;
+} 
+.h2{
   font-family: montserrat, sans serif;
   font-size: 20px;
   margin: -60px;
   font-style: normal;
-  text-align: center;
-}
-.cardabout.image-full:before {
-  border-radius: 33px !important;
-  background: linear-gradient(
-    119deg,
-    #181823 11.46%,
-    rgba(47, 31, 79, 0.86) 39.08%,
-    rgba(138, 61, 255, 0.3) 92.98%
-  );
-}
-.cardabout {
-  border: none !important;
+  text-align: center
 }

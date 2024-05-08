@@ -28,7 +28,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: normal;
   font-size: 40px;
@@ -84,45 +84,10 @@
   font-weight: 556;
   line-height: 44px;
 }
-.cardhome.image-full:before {
+.card.image-full:before {
   border-radius: 44px !important;
-  background: linear-gradient(90deg, #32c7c4 0%, #8a3dff 100%);
+  background-color: var(--fallback-n, oklch(var(--n) / var(--tw-bg-opacity)));
 }
 .cardhome {
-  border: none !important;
-}
-.cardhmttl1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 3.2px;
-  color: white;
-}
-.cardhmttl2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 30px;
-  color: white;
-}
-.cardhm {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 24px;
-  color: white;
-}
-.headhmour {
-  background: linear-gradient(80deg, #19c6c2 10%, #8a3dff 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.crdhmnews {
-  margin-top: -27pc;
-  border-radius: 33px !important;
-  background-blend-mode: color-dodge, normal;
-  backdrop-filter: blur(25px);
   border: none !important;
 }
