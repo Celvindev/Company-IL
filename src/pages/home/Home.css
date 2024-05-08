@@ -4,18 +4,15 @@
   margin: 0 auto;
   width: 100%;
 }
-
 .hs-carousel-slide {
   transition: opacity 1s ease;
   border-radius: 0;
 }
-
 .hs-carousel-slide .flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .hs-carousel-slide span {
   font-size: 2rem;
 }
@@ -26,7 +23,6 @@
   background-origin: border-box;
   border: 2px solid transparent;
 }
-
 .txtab-c {
   background: linear-gradient(80deg, #19c6c2 10%, #8a3dff 90%);
   background-clip: text;

@@ -16,7 +16,7 @@ const Career = () => {
         <HeadYour />
         <Contxt2 />
         <Contxt3 />
-        <Contxt4 />
+        {/* <Contxt4 /> */}
       </div>
     </>
   )

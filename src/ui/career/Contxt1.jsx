@@ -1,35 +1,24 @@
-import React from 'react'
-import video from '../../assets/career/career.mp4'
+import React, { useState } from 'react'
 import "../../pages/career/Career.css";
 
-const Contxt1 = () => {
+const Contxtt1 = () => {
   return (
-    <>
-      <div className="w-full h-[500px] relative  inset-0 overflow-hidden">
-        {/* Video Background */}
-        <video
-          className="w-full h-full object-cover"
-          autoPlay
-          loop
-          muted
-        >
-          <source src={video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-indigo-800 opacity-50"></div>
-      </div>
-      <div className="center flex justify-center items-center">
-        <div className="text-center w-[900px] txtpla">
-          <h1>
-            <span className="text-white text-[64px] font-semibold font-['Montserrat'] leading-[76px]">Place to Grow Your Skill</span>
-          </h1>
-          <p className=" mt-4 text-center text-white text-[25px] font-semibold font-['Montserrat'] leading-9">
-            Join us to find the ideal space that can enhance your skills
-          </p>
-        </div>
-      </div>
-    </>
-  )
+    <div className="team-heading mt-10 w-[1280px]">
+      <summary className="m-1 btn btcat btn-outline w-[150px] rounded-full ">We’re Hiring!</summary>
+    <div className="team-heading mt-10 w-[1500px]">
+      <h1 className='txtabc'>Be part of our mission</h1>
+      <p> Were looking for passionate people to join us on our mission. We value flat hierarchies, clear communication, and full ownership and responsibility.</p>
+  </div>
+  <ul className="hidden lg:flex mt-8 gap-10">
+  <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">View All</summary></li>
+  <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Development</summary></li>
+  <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Design</summary></li>
+  <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Marketing</summary></li>
+  <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Finance</summary></li>
+  <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Management</summary></li>
+</ul>
+  </div>
+  );
 }
 
-export default Contxt1
+export default Contxtt1;
