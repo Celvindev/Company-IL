@@ -40,6 +40,8 @@
 .btcat {
   color: #eae7e7 !important;
   border-color: #eae7e7 !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 .btcat:hover {
   background-color: #8a3dff !important;

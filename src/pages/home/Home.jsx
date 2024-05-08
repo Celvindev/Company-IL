@@ -21,6 +21,7 @@ const Home = () => {
         </div>
         <Contxt4 />
         <Contxt5 />
+        <h1 className="text-center text-5xl mt-20  0 font-semibold font-['Montserrat'] headhmour">Our mentee project</h1>
       </div >
     </>
   )
