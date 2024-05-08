@@ -323,24 +323,8 @@ function Contxtt1() {
       </div>
       </div>
   </div>
-
-  
- 
-</div>
-
-<div className='h-96 w-96'>
-{/* <img src={Kedua} alt="dwdw" className='-z-10 '/>
-<div className='z-10 absolute '>
-  <h1 className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus sapiente ducimus odio et sed ullam totam, vero expedita maiores quas nesciunt aperiam. Maiores, illo! Quasi, sed ullam! Rem, vitae est!</h1>
-</div> */}
-
-
-
 </div>
 </div>
-
-
-
 
   );
 }
