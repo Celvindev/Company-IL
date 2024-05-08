@@ -69,11 +69,9 @@ body {
   color: #eae7e7;
   border-radius: 44px;
   background-color: #181823;
-  margin-top: -350px;
-  margin-left: -30px;
 }
 .tab {
-  color: #fff;
+  color: #fff !important;
   font-size: 36px;
 }
 .position-relative {
