@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import "../../pages/news/News.css";
 import "@fortawesome/fontawesome-free/css/all.css";
-// import { FaChevronDown } from 'react-icons/fa';
-// import Content1 from '../../assets/news/12.png';
 import Pertama from '../../assets/news/Pertama.png';
 import Kedua from '../../assets/news/6.png';
 import Ketiga from '../../assets/news/ketiga.png';
@@ -44,14 +42,6 @@ function Contxtt1() {
   return (
 
     <div className="team-heading mt-10 w-[1280px]">
-      {/* <details className="dropdown mt-8">
-        <summary className="m-1 btn btcat btn-outline w-[150px] rounded-full font-normal">Category <i className="fas fa-chevron-down"></i></summary>
-        <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-          <li><a>Item 1</a></li>
-          <li><a>Item 2</a></li>
-        </ul>
-      </details> */}
-
       <h1 className='txtabc'>Discover Nice Articles and News Here</h1>
       <p style={anaknya}>
         All The Aticles and News of The Site Have Been <b>Update Today</b> and You Can Find Your <b>Articles and News</b> Quickly and Without any Problems
@@ -327,36 +317,78 @@ function Contxtt1() {
 
 
 
-        <div className="divider divider-horizontal"></div>
+      <div className="divider divider-horizontal"></div>
 
 
 
 
 
-        {/* Masuk Konten 2 dan 3 */}
-        <ul>
-          <li>
-            <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg">
-              <img src={Ketiga} alt="dwdw" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-              <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
-                <h4 className="card-title " style={{
-                  display: 'inline-flex',
-                  justifyContent: 'center',
-                  alignItems: 'flex-end',
-                  gap: '274px'
-                }}>Apr 1 • 1 min read
-                  <div className="card-actions flex justify-end mt-5" onClick={() => toggleExpand()}>
-                    <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" className={` ${isRotated() ? 'rotate-180' : ''} ${isRotated() ? 'mirror' : ''}`} alt="">
+      {/* Masuk Konten 2 dan 3 */}
+      <ul>
+        <li>
+          <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg">
+            <img src={Ketiga} alt="dwdw" className="w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
+              <h4 className="card-title " style={{
+                display: 'inline-flex',
+                justifyContent: 'center',
+                alignItems: 'flex-end',
+                gap: '274px'
+              }}>Apr 1 • 1 min read
+                <div className="card-actions flex justify-end mt-5" onClick={() => toggleExpand()}>
+                  <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" className={` ${isRotated() ? 'rotate-180' : ''} ${isRotated() ? 'mirror' : ''}`} alt="">
 
-                      <defs>
-                        <clipPath id="clip0_3037_5343">
-                          <rect width="47" height="47" rx="23.5" transform="matrix(1 0 0 -1 0 47)" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </div> </h4>
-                <br />
+                    <defs>
+                      <clipPath id="clip0_3037_5343">
+                        <rect width="47" height="47" rx="23.5" transform="matrix(1 0 0 -1 0 47)" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div> </h4>
+              <br />
+              <p style={{
+                color: 'var(--white, #FFF)',
+                fontFamily: 'Poppins',
+                fontSize: '25px',
+                fontStyle: 'normal',
+                fontWeight: '600',
+                lineHeight: '50px',
+                letterSpacing: '0.3px'
+              }}>Inspiring! Infinite Learning Earns a Chance to Participate in the Pervasive AI Developer Contest</p >
+              <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
+              </div>
+            </div>
+          </div>
+
+
+          <br /><br /><br />
+
+
+
+          <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
+            <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
+              <h4 className="card-title " style={{
+                display: 'inline-flex',
+                justifyContent: 'center',
+                alignItems: 'flex-end',
+                gap: '274px'
+              }}>Apr 1 • 1 min read
+                <div className="card-actions flex justify-end mt-5" onClick={() => toggleExpand()}>
+                  <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" className={` ${isRotated() ? 'rotate-180' : ''} ${isRotated() ? 'mirror' : ''}`} alt="">
+
+                    <defs>
+                      <clipPath id="clip0_3037_5343">
+                        <rect width="47" height="47" rx="23.5" transform="matrix(1 0 0 -1 0 47)" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div> </h4>
+              <br />
+
+              <a href="../newsafter" title="Newsafter">
                 <p style={{
                   color: 'var(--white, #FFF)',
                   fontFamily: 'Poppins',
@@ -365,58 +397,16 @@ function Contxtt1() {
                   fontWeight: '600',
                   lineHeight: '50px',
                   letterSpacing: '0.3px'
-                }}>Inspiring! Infinite Learning Earns a Chance to Participate in the Pervasive AI Developer Contest</p >
-                <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
-                </div>
+                }}>Infinite Learning Meraih Prestasi sebagai Unreal Engine Authorized Training Centre</p >
+              </a>
+
+              <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
               </div>
             </div>
-
-
-            <br /><br /><br />
-
-
-
-<div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
-      <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
-        <h4 className="card-title " style={{
-      display: 'inline-flex',
-      justifyContent: 'center',
-      alignItems: 'flex-end',
-      gap: '274px'
-    }}>Apr 1 • 1 min read 
-    <div className="card-actions flex justify-end mt-5" onClick={() => toggleExpand()}>
-      <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" className={` ${isRotated() ? 'rotate-180' : ''} ${isRotated() ? 'mirror' : ''}`} alt="">
-        
-        <defs>
-          <clipPath id="clip0_3037_5343">
-            <rect width="47" height="47" rx="23.5" transform="matrix(1 0 0 -1 0 47)" fill="white" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div> </h4>
-    <br/>
-    
-    <a href="../newsafter" title="Newsafter">
-    <p  style={{
-      color: 'var(--white, #FFF)',
-      fontFamily: 'Poppins',
-      fontSize: '25px',
-      fontStyle: 'normal',
-      fontWeight: '600',
-      lineHeight: '50px',
-      letterSpacing: '0.3px'
-    }}>Infinite Learning Meraih Prestasi sebagai Unreal Engine Authorized Training Centre</p >
-       </a>
-    
-    <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
+          </div>
+        </li>
+      </ul>
     </div>
-    </div>
-</div>
-      </li>
-    </ul>
-</div>
 
 
 

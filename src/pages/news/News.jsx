@@ -8,7 +8,7 @@ const News = () => {
     <>
       <div className='w-full'>
         <Navbar />
-        <Contxtt1/>
+        <Contxtt1 />
       </div>
     </>
   )
