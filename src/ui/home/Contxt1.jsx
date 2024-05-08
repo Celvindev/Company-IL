@@ -12,7 +12,7 @@ const Contxt1 = () => {
                 <button className="w-[260px] h-[90px] rounded-[44px] justify-center items-center flex border border-gradient">
                     <p className=" msbtext">MSIB<i className="fa-solid fa-arrow-right ml-2"></i></p>
                 </button>
-                <button className="w-[460px] h-[90px] rounded-[44px] justify-center items-center flex border border-gradient">
+                <button className="w-[400px] h-[90px] rounded-[44px] justify-center items-center flex border border-gradient">
                     <p className=" msbtext">Regular Courses<i className="fa-solid fa-arrow-right ml-2"></i> </p>
                 </button>
             </div>
