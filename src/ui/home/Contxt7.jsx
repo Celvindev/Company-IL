@@ -8,7 +8,7 @@ const Contxt7 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h1 className="text-center mt-32 text-white text-[28px] font-bold font-['Montserrat']">HCAI , Web & APP Collaboration</h1>
+                            <h1 className="text-center mt-32 text-white text-[28px] font-bold font-['Montserrat']">IBM , Web & APP Collaboration</h1>
                         </div>
                     </div>
                 </div>
