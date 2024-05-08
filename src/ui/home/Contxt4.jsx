@@ -1,5 +1,4 @@
 import React from 'react'
-import buttoncard from '../../assets/home/iconarrowup.svg'
 import "../../pages/home/Home.css";
 
 const Contxt4 = () => {
@@ -7,7 +6,7 @@ const Contxt4 = () => {
         <>
             <div className="flex w-full justify-center mt-5">
                 <div className="grid w-[100%] h-[248px] bgrd bg-gray-925 rounded-[33px] px-10 place-items-center shadow relative">
-                    <img src={buttoncard} alt="" className="absolute top-0 right-0 mt-5 mr-5" />
+                    <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                     <div className="flex-col justify-start items-center inline-flex">
                         <h1 className="self-stretch text-stone-200 inle">Infinite Learning</h1>
                         <p className=" text-justify text-white/70 text-lg leading-[30px]">

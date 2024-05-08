@@ -84,3 +84,10 @@
   font-weight: 556;
   line-height: 44px;
 }
+.card.image-full:before {
+  border-radius: 44px !important;
+  background-color: var(--fallback-n, oklch(var(--n) / var(--tw-bg-opacity)));
+}
+.cardhome {
+  border: none !important;
+}
