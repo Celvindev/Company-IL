@@ -1,20 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "../../pages/career/Career.css";
 import { FaChevronDown } from 'react-icons/fa';
 
 const Contxt2 = () => {
-  // const [isOpen, setIsOpen] = useState(false);
-  // const [selectedOption, setSelectedOption] = useState(null);
-  // const options = ['Full Time', 'Part Time', 'Freelancer', 'Internship'];
-
-  // const toggleDropdown = () => {
-  //   setIsOpen(!isOpen);
-  // };
-
-  // const handleOptionClick = (option) => {
-  //   setSelectedOption(option);
-  //   setIsOpen(false);
-  // };
   return (
     <>
       {/* <div className="container mx-auto">
