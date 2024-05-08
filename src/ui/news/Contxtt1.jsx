@@ -116,7 +116,7 @@ function Contxtt1() {
 {/* Masuk Konten 2 dan 3 */}
     <ul>
       <li>
-      <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg">
+      <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
       <img src={Ketiga} alt="dwdw" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
@@ -156,7 +156,7 @@ function Contxtt1() {
 
 
 
-<div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg">
+<div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
       <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
@@ -177,6 +177,8 @@ function Contxtt1() {
       </svg>
     </div> </h4>
     <br/>
+    
+    <a href="../newsafter" title="Newsafter">
     <p  style={{
       color: 'var(--white, #FFF)',
       fontFamily: 'Poppins',
@@ -186,6 +188,8 @@ function Contxtt1() {
       lineHeight: '50px',
       letterSpacing: '0.3px'
     }}>Infinite Learning Meraih Prestasi sebagai Unreal Engine Authorized Training Centre</p >
+       </a>
+    
     <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
     </div>
     </div>
@@ -201,7 +205,7 @@ function Contxtt1() {
 <div className="flex mt-20 w-full">
     <ul>
       <li>
-      <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg">
+      <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
       <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
@@ -239,7 +243,7 @@ function Contxtt1() {
 
 <br /><br /><br />
 
-<div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg">
+<div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
       <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
