@@ -61,7 +61,7 @@ function Contxtt1() {
       <p style={anaknya}> 
         Infinite Learning <br /> Batam, Indonesia 31 Oktober 2023
       </p><br /><br />
-      <img className="w-full h-full object-cover rounded-[20px] " src={Berita} alt="Berita" />
+      <img className="w-full h-128 object-cover rounded-[20px] " src={Berita} alt="Berita" />
     
 
 
