@@ -60,7 +60,7 @@ function Contxtt1() {
       <h1 className='txtafter mt-10 w-[600] text-justify' style={judul}>Cybersecurity: Securing the Virtual World in the Digital Era</h1>
       <p style={anaknya}> 
         Infinite Learning <br /> Batam, Indonesia 31 Oktober 2023
-      </p>
+      </p><br /><br />
       <img className="w-full h-full object-cover rounded-[20px] " src={Berita} alt="Berita" />
     
 
