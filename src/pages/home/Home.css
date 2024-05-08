@@ -84,7 +84,7 @@
   font-weight: 556;
   line-height: 44px;
 }
-.card.image-full:before {
+.cardhome.image-full:before {
   border-radius: 44px !important;
   background: linear-gradient(90deg, #32c7c4 0%, #8a3dff 100%);
 }
@@ -118,4 +118,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.crdhmnews {
+  margin-top: -27pc;
+  border-radius: 33px !important;
+  background-blend-mode: color-dodge, normal;
+  backdrop-filter: blur(25px);
+  border: none !important;
 }

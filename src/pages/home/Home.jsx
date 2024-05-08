@@ -6,6 +6,8 @@ import Contxt2 from '../../ui/home/Contxt2';
 import Contxt3 from '../../ui/home/Contxt3';
 import Contxt4 from '../../ui/home/Contxt4';
 import Contxt5 from '../../ui/home/Contxt5';
+import Contxt6 from '../../ui/home/Contxt6';
+import Contxt7 from '../../ui/home/Contxt7';
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
         <Contxt4 />
         <Contxt5 />
         <h1 className="text-center text-5xl mt-20  0 font-semibold font-['Montserrat'] headhmour">Our mentee project</h1>
+        <Contxt6 />
+        <Contxt7 />
       </div >
     </>
   )
