@@ -58,3 +58,33 @@
   color: white;
   font-size: 25px;
 }
+@keyframes moveLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.grid-container {
+  position: relative;
+  overflow: hidden;
+}
+.moving-container {
+  display: inline-flex;
+  animation: moveLeft 10s linear infinite;
+}
+.orpro {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 556;
+  line-height: 44px;
+}
+.inle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 556;
+  line-height: 44px;
+}
