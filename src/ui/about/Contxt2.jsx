@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 
 const Contxt2 = () => {
-  const cardabskor = document.querySelectorAll('.cardabskor');
-  cardabskor.forEach(item => {
-    item.addEventListener('mouseover', function () {
+  useEffect(() => {
+    const cardabskor = document.querySelectorAll('.cardabskor');
+
+    const handleMouseOver = function () {
       cardabskor.forEach(item => {
         if (item !== this) {
           item.classList.add('blur');
@@ -11,20 +12,33 @@ const Contxt2 = () => {
         }
       });
       this.style.zIndex = 2;
-    });
-    item.addEventListener('mouseout', function () {
+    };
+
+    const handleMouseOut = function () {
       cardabskor.forEach(item => {
         item.classList.remove('blur');
         item.style.zIndex = 1;
       });
+    };
+
+    cardabskor.forEach(item => {
+      item.addEventListener('mouseover', handleMouseOver);
+      item.addEventListener('mouseout', handleMouseOut);
     });
-  });
+
+    return () => {
+      cardabskor.forEach(item => {
+        item.removeEventListener('mouseover', handleMouseOver);
+        item.removeEventListener('mouseout', handleMouseOut);
+      });
+    };
+  }, []);
 
   return (
     <>
       <div className="flex w-full justify-center mt-10">
         <div className="mr-5 w-[100%]">
-          <div className="grid w-[633px] h-[562px] py-10 px-10 bgrd rounded-[44px] shadow ">
+          <div className="grid w-[633px] h-[562px] py-10 px-10 bgrd rounded-[44px]">
             <div className="w-full">
               <h1 className="self-stretch text-NeonWhite/70 font-[Montserrat] text-[36px] font-medium">Infinite Learning</h1>
               <h5 className=" text-NeonWhite/70 text-[18px] font-normal font-['Montserrat'] leading-7">Technology, Innovation, Research & Development Company.</h5>
@@ -34,7 +48,7 @@ const Contxt2 = () => {
               </p>
             </div>
             <div className="card cardabout w-[550px] h-[225px] mt-5 image-full">
-              <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+              <figure><img src="assets/about/nongsa.png" /></figure>
             </div>
           </div>
         </div>

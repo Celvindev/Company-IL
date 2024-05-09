@@ -8,13 +8,13 @@ const Contxt3 = () => {
   };
   return (
     <>
-      <div className="flex w-full justify-center mt-5">
-        <div className="grid w-[100%] h-[200px] bgrd bg-gray-925 rounded-[33px] px-10 place-items-center shadow relative">
+      <div className="flex w-full justify-center mt-5 mb-40">
+        <div className="grid w-[100%] h-[165px] bgrd bg-gray-925 rounded-[33px] px-10 place-items-center relative">
           <div className="flex-col justify-start items-center inline-flex">
-            <div className="flex -mt-5">
-              <div className="flex flex-col mr-5 mt-14">
+            <div className="flex -mt-10">
+              <div className="flex flex-col mr-5 mt-16">
                 <button
-                  className={`py-2 px-4 mb-2 text-4xl font-bold tracking-[7.20px] rounded-full 
+                  className={`py-2 px-4 text-4xl font-bold tracking-[7.20px] rounded-full 
                   ${activeTab === 'vision' ? 'bg-blue-500' : 'text-white'
                     }`}
                   style={{
@@ -27,7 +27,7 @@ const Contxt3 = () => {
                   Vision
                 </button>
                 <button
-                  className={`py-2 px-4 mb-2 text-4xl font-bold tracking-[7.20px] rounded-full 
+                  className={`py-2 px-4 text-4xl font-bold tracking-[7.20px] rounded-full 
                   ${activeTab === 'mission' ? 'bg-blue-500' : 'text-white'
                     }`}
                   style={{
@@ -40,7 +40,7 @@ const Contxt3 = () => {
                   Mission
                 </button>
               </div>
-              <div className="grid w-[100%] h-[248px] bg-gray-925 rounded-[33px] px-10 place-items-center shadow relative">
+              <div className="grid w-[100%] h-[248px] bg-gray-925 rounded-[33px] px-10 place-items-center relative">
                 {activeTab === 'vision' && (
                   <div className="flex-col justify-start items-center inline-flex">
                     <p className='font-[Montserrat] text-white text-[16px] font-normal leading-6 '>
