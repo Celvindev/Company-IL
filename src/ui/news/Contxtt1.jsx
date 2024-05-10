@@ -111,34 +111,25 @@ function Contxtt1() {
               <img src={Ketiga} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
               <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
-                <h4 className="card-title " style={{
-                  display: 'inline-flex',
-                  justifyContent: 'center',
-                  alignItems: 'flex-end',
-                  gap: '274px' }}>
+                <h4 className="card-title " style={{display: 'inline-flex', justifyContent: 'center', alignItems: 'flex-end', gap: '274px' }}>
                     Apr 1 • 1 min read
-                  <div className="card-actions flex justify-end mt-5" onClick={() => toggleExpand()}>
+                    <div className="card-actions flex justify-end mt-5" onClick={() => toggleExpand()}>
                     <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" className={` ${isRotated() ? 'rotate-180' : ''} ${isRotated() ? 'mirror' : ''}`} alt="">
-
                       <defs>
                         <clipPath id="clip0_3037_5343">
                           <rect width="47" height="47" rx="23.5" transform="matrix(1 0 0 -1 0 47)" fill="white" />
                         </clipPath>
                       </defs>
                     </svg>
-                  </div> </h4>
+                    </div> 
+                </h4>
                 <br />
                 <a href='../newsafter' title="p">
-                <p style={{
-                  color: 'var(--white, #FFF)',
-                  fontFamily: 'Poppins',
-                  fontSize: '25px',
-                  fontStyle: 'normal',
-                  fontWeight: '600',
-                  lineHeight: '50px',
-                  letterSpacing: '0.3px'
-                }}>Inspiring! Infinite Learning Earns a Chance to Participate in the Pervasive AI Developer Contest</p >
+                  <p style={{color: 'var(--white, #FFF)',fontFamily: 'Poppins',fontSize: '25px',fontStyle: 'normal',fontWeight: '600', lineHeight: '50px', letterSpacing: '0.3px'}}>
+                    Inspiring! Infinite Learning Earns a Chance to Participate in the Pervasive AI Developer Contest
+                  </p >
                 </a>
+                
                 <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
                 </div>
               </div>
