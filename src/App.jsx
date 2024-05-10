@@ -7,8 +7,10 @@ import Career from './pages/career/Career.jsx';
 import News from './pages/news/News.jsx';
 import NewsAfter from './pages/news/NewsAfter.jsx';
 import Learning from './pages/learning/Learning.jsx';
-import "./App.css";
 import Team from './pages/team/Team.jsx';
+import Regular from './pages/regular/Regular.jsx';
+import "./App.css";
+import Msib from './pages/msib/Msib.jsx';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/career" element={<Career />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/regular" element={<Regular />} />
+          <Route path="/msib" element={<Msib />} />
         </Routes>
         <Footer />
       </div>
