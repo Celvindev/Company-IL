@@ -61,3 +61,16 @@
   background-origin: border-box;
   border: 2px solid transparent;
 }
+
+.article{
+  color: #EAE7E7;
+text-align: justify;
+
+/* Text Subtitle 2 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+left: auto;
+}
