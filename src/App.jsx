@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/about/About.jsx';
+import Alumni from './pages/alumni/Alumni.jsx';
 import Home from './pages/home/Home.jsx';
 import Footer from './components/footer/Footer';
 import Career from './pages/career/Career.jsx';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/learning" element={<Learning />} />
           <Route path="/news" element={<News />} />
           <Route path="/newsafter" element={<NewsAfter />} />
+          <Route path="/alumni" element={<Alumni />} />
           <Route path="/about" element={<About />} />
           <Route path="/career" element={<Career />} />
           <Route path="/team" element={<Team />} />
