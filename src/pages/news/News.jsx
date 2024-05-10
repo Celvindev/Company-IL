@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../components/header/Navbar'
-import Contxtt1 from '../../ui/news/Contxtt1'
+import Content2 from '../../ui/news/Content2'
+import Title from '../../ui/news/Title'
+import Content1 from '../../ui/news/Content1'
 
 
 const News = () => {
@@ -8,7 +10,9 @@ const News = () => {
     <>
       <div className='w-full'>
         <Navbar />
-        <Contxtt1 />
+        <Title />
+        <Content1/>
+        <Content2/>
       </div>
     </>
   )

@@ -1,14 +1,52 @@
 import React from 'react';
 import "../../pages/career/Career.css";
-import { FaChevronDown } from 'react-icons/fa';
 
 const Contxt2 = () => {
   return (
     <>
-      <div className="sectt">
-      <hr className="h-1 my-4 w-5/6 mx-auto" />
-      <h2 className="text-NeonWhite text-[28px] font-['Montserrat']">Technical Mentor</h2>
-      <p className='text-NeonWhite text-[20px]'>We are looking for a Technical Mentor to join our team.</p>
+      <div className=''>
+        <div> <br/><br/>
+          <hr className="" />
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
+          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7">Technical Mentor</h2>
+          <p className='text-NeonWhite text-[20px]'>We are looking for a Technical Mentor to join our team.</p>
+          <ul className="hidden lg:flex mt-8 gap-2">
+            <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Remote</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Full-time</summary></li>
+          </ul>
+      </div> <br/>
+      <div>
+          <hr className="" />
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
+          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7">Product Designer</h2>
+          <p className='text-NeonWhite text-[20px]'>We are looking for a mid-level product designer to join our team.</p>
+          <ul className="hidden lg:flex mt-8 gap-2">
+            <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Remote</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Full-time</summary></li>
+          </ul>
+      </div> <br/>
+      <div>
+          <hr className="" />
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
+          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7">Product Designer</h2>
+          <p className='text-NeonWhite text-[20px]'>We are looking for a mid-level product designer to join our team.</p>
+          <ul className="hidden lg:flex mt-8 gap-2">
+            <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">On-site</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Full-time</summary></li>
+          </ul>
+      </div> <br/>
+      <div>
+          <hr className="" />
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
+          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7">Product Designer</h2>
+          <p className='text-NeonWhite text-[20px]'>We are looking for a mid-level product designer to join our team.</p>
+          <ul className="hidden lg:flex mt-8 gap-2">
+            <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Intership</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Full-time</summary></li>
+          </ul> <br/>
+          <hr className="" />
+      </div>
+      
         {/* <div className="grid grid-cols-3  items-start mx-auto md:items-center py-10">
           <div className='col-span-2' >
             <div className="search-section">
