@@ -10,7 +10,7 @@ import Logo from '../../assets/logoblack.svg'
 const Footer = () => {
     return (
         <>
-            <footer className="footer px-20 py-20 bg-Charcoal text-base-content roud ">
+            <footer className="footer relative z-10  px-20 py-20 bg-Charcoal text-base-content roud">
                 <aside>
                     <img className="w-[245px] h-[70px]" src={Logo} />
                     <p className="mt-20 text-NeonWhite">Digital Park, Sambau, Kecamatan<br />Nongsa, Kota Batam, Kepulauan Riau<br />29466</p>

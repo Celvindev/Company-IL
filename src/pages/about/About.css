@@ -64,16 +64,6 @@ body {
 .txt-screen2 {
   padding: 70px;
 }
-.tabs-bordered {
-  font-family: "Poppins", sans-serif;
-  color: #eae7e7;
-  border-radius: 44px;
-  background-color: #181823;
-}
-.tab {
-  color: #fff !important;
-  font-size: 36px;
-}
 .position-relative {
   position: relative;
 }
@@ -198,4 +188,8 @@ body {
 }
 .cardabout {
   border: none !important;
+}
+.pttrnab {
+  margin-top: 41pc;
+  z-index: -100 !important;
 }
