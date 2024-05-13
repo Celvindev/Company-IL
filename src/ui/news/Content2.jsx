@@ -30,7 +30,7 @@ function Content2() {
 
   return (
 
-    <div className="team-heading mt-10 w-[1280px]">
+    <div className="team-heading mt-1 w-[1280px]">
       {/* Masuk konten 4 dan 5 */}
       <div className="flex mt-20 w-full">
         <ul>
@@ -38,22 +38,12 @@ function Content2() {
             <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-              <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
+              <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5">
                 <h4 className="card-title " style={{
                   display: 'inline-flex',
-                  justifyContent: 'center',
-                  alignItems: 'flex-end',
-                  gap: '274px'
+                  justifyContent: 'left'
                 }}>Apr 1 • 1 min read
-                  <div className="card-actions flex justify-end mt-5" onClick={() => toggleExpand()}>
-                    <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" alt="">
-                      <defs>
-                        <clipPath id="clip0_3037_5343">
-                          <rect width="47" height="47" rx="23.5" transform="matrix(1 0 0 -1 0 47)" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </div> </h4>
+                   <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" /> </h4>
                 <br />
                 <p style={{
                   color: 'var(--white, #FFF)',
@@ -75,31 +65,20 @@ function Content2() {
             <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-              <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-4">
+              <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5">
                 <h4 className="card-title " style={{
                   display: 'inline-flex',
-                  justifyContent: 'center',
-                  alignItems: 'flex-end',
-                  gap: '274px'
+                  justifyContent: 'left'
                 }}>Apr 1 • 1 min read
-                  <div className="card-actions flex justify-end mt-5" onClick={() => toggleExpand()}>
-                    <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" className={` ${isRotated() ? 'rotate-180' : ''} ${isRotated() ? 'mirror' : ''}`} alt="">
-
-                      <defs>
-                        <clipPath id="clip0_3037_5343">
-                          <rect width="47" height="47" rx="23.5" transform="matrix(1 0 0 -1 0 47)" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </div> </h4>
+                   <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" /> </h4>
                 <br />
                 <p style={{
                   color: 'var(--white, #FFF)',
                   fontFamily: 'Poppins',
-                  fontSize: '20px',
+                  fontSize: '22px',
                   fontStyle: 'normal',
                   fontWeight: '600',
-                  lineHeight: '50px'
+                  lineHeight: '40px'
                 }}>Global Game Jam Batam: Membangun Kreativitas dan Mengembangkan Talenta Indonesia di Bidang Game Development</p >
                 <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
                 </div>
@@ -120,18 +99,12 @@ function Content2() {
 
         {/* Masuk konten 6 */}
         <div className="card grid w-[597px] h-[680px] bg-gray-925 rounded-box bgcard">
-          <div className="card-body ">
-            <h4 className="card-title ">Mar 13 • 2 min read <t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t /><t />
-              <div className="card-actions flex justify-end" onClick={() => toggleExpand()}>
-                <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" className={` ${isRotated() ? 'rotate-180' : ''} ${isRotated() ? 'mirror' : ''}`} alt="">
-
-                  <defs>
-                    <clipPath id="clip0_3037_5343">
-                      <rect width="47" height="47" rx="23.5" transform="matrix(1 0 0 -1 0 47)" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div> </h4>
+        <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 mt-5">
+                <h4 className="card-title mb-10" style={{
+                  display: 'inline-flex',
+                  justifyContent: 'left'
+                }}>Apr 1 • 1 min read
+                   <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5 mb-10" /> </h4>
             <p style={{
               color: 'var(--white, #FFF)',
               fontFamily: 'Poppins',
@@ -147,8 +120,7 @@ function Content2() {
               <img className="w-full h-full object-cover rounded-[20px] " style={{
                 borderRadius: '33px',
                 border: '0.5px solid var(--Gradient, #32C7C4)',
-                background: 'linear-gradient(119deg, #181823 11.46%, rgba(47, 31, 79, 0.86) 39.08%, rgba(138, 61, 255, 0.30) 92.98%)'
-              }} src={Kedua} alt="Kedua" />
+               }} src={Kedua} alt="Kedua" />
             </div>
           </div>
         </div>
