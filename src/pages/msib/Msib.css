@@ -30,3 +30,20 @@
   color: white;
   font-size: 15px;
 }
+
+.msibcrdtxt {
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: white;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.cardtitle {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  line-height: normal;
+}
+
