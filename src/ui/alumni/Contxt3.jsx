@@ -6,8 +6,8 @@ const Contxt3 = () => {
         <>
             <div className="mt-10 w-[1280px]">
                 <h1 className='txt'>What our alumni says</h1>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer augue nisi, aliquam id porta non, efficitur in elit. Mauris in interdum purus. Praesent sit amet nisi non ex pharetra mattis. Maecenas ac neque faucibus, vulputate sapien pretium, luctus urna. Aliquam finibus, est et ultricies porta, velit augue fermentum lorem, ac placerat arcu justo eu justo
+                <p className='font-NeonWhite'>
+                Alumni Voices: Testimonials and Experiences - Discover insights and reflections directly from our alumni, as they share their journey, accomplishments, and the impact of their experiences with us. Hear firsthand accounts of how our programs have shaped their careers and enriched their lives.
                 </p>
             </div>
         </>
