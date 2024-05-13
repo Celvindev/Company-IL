@@ -47,8 +47,8 @@ const Contxt2 = () => {
                 training courses relevant to Infinite Studios activities and the growing demand for skilled talent in the Nongsa Digital Park ecosystem
               </p>
             </div>
-            <div className="card cardabout w-[550px] h-[225px] mt-5 image-full">
-              <figure><img src="assets/about/nongsa.png" /></figure>
+            <div className="card cardabout mt-5 ">
+              <figure><img src="assets/about/nongsa.svg" /></figure>
             </div>
           </div>
         </div>

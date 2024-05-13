@@ -41,7 +41,7 @@ const Contxt6 = () => {
         }
     ];
     return (
-        <div className='flex justify-center mt-10'>
+        <div className='flex justify-center mt-20'>
             <div className="grid grid-cols-3 gap-20 ">
                 {cards.map((card, index) => (
                     <div key={index} className={`w-[385px] bg-white crdart shadow-xl mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '0'} transition-all ease-in-out duration-300 

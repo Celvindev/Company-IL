@@ -4,47 +4,55 @@ import "../../pages/career/Career.css";
 const Contxt2 = () => {
   return (
     <>
-      <div className=''>
+      <div className='relative'>
         <div> <br/><br/>
-          <hr className="" />
-          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
-          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7">Technical Mentor</h2>
+          <hr/>
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-7 mr-2" />
+          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7 relative">Technical Mentor 
+              <span className='absolute right-20'>Apply</span>
+          </h2>
           <p className='text-NeonWhite text-[20px]'>We are looking for a Technical Mentor to join our team.</p>
           <ul className="hidden lg:flex mt-8 gap-2">
             <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Remote</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
       </div> <br/>
-      <div>
-          <hr className="" />
-          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
-          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7">Product Designer</h2>
+      <div className='relative'>
+          <hr/>
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-7 mr-2" />
+          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7 relative">Product Designer
+          <span className='absolute right-20 h-full'> Apply </span>
+          </h2>
           <p className='text-NeonWhite text-[20px]'>We are looking for a mid-level product designer to join our team.</p>
           <ul className="hidden lg:flex mt-8 gap-2">
             <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Remote</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
       </div> <br/>
-      <div>
-          <hr className="" />
-          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
-          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7">Product Designer</h2>
+      <div className='relative'>
+          <hr/>
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-7 mr-2" />
+          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7 relative">Product Designer
+            <span className='absolute right-20 h-full'> Apply </span>
+          </h2>
           <p className='text-NeonWhite text-[20px]'>We are looking for a mid-level product designer to join our team.</p>
           <ul className="hidden lg:flex mt-8 gap-2">
             <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">On-site</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
       </div> <br/>
-      <div>
-          <hr className="" />
-          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
-          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7">Product Designer</h2>
+      <div className='relative'>
+          <hr/>
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-7 mr-2" />
+          <h2 className="text-NeonWhite text-[28px] font-['Montserrat'] mt-7 relative">Product Designer
+            <span className='absolute right-20 h-full'> Apply </span>
+          </h2>
           <p className='text-NeonWhite text-[20px]'>We are looking for a mid-level product designer to join our team.</p>
           <ul className="hidden lg:flex mt-8 gap-2">
             <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Intership</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Full-time</summary></li>
           </ul> <br/>
-          <hr className="" />
+          <hr/>
       </div>
       
         {/* <div className="grid grid-cols-3  items-start mx-auto md:items-center py-10">
