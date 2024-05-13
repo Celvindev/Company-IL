@@ -177,15 +177,6 @@ body {
   font-style: normal;
   text-align: center;
 }
-.cardabout.image-full:before {
-  border-radius: 33px !important;
-  background: linear-gradient(
-    119deg,
-    #181823 11.46%,
-    rgba(47, 31, 79, 0.86) 39.08%,
-    rgba(138, 61, 255, 0.3) 92.98%
-  );
-}
 .cardabout {
   border: none !important;
 }
