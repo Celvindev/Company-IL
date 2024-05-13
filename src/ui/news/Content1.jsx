@@ -29,9 +29,9 @@ function Content1() {
 
   return (
 
-    <div className="team-heading mt-10 w-[1280px]">
+    <div className="team-heading w-[1280px]">
       {/* Masuk Konten 1 */}
-      <div className="flex mt-20 w-full ">
+      <div className="flex mt-10 w-full ">
         <div className="card grid w-[597px] h-[680px]  bg-gray-925 rounded-box bgcard">
           <div className="card-body ">
             <h4 className="card-title ">Mar 13 • 2 min read

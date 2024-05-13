@@ -44,7 +44,7 @@ function Title() {
       </p>
 
 
-      <ul className="hidden lg:flex mt-8 gap-10">
+      <ul className="hidden lg:flex mt-1 gap-10">
         <li>
           <label className="input input-bordered m-1 btn btcat btn-outline w-[400px] rounded-full ">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
@@ -57,7 +57,6 @@ function Title() {
         <li ><summary className="m-1 btn btcat btn-outline w-[100px] rounded-full ">Game</summary></li>
         <li ><summary className="m-1 btn btcat btn-outline w-[200px] rounded-full ">Hybrid Cloud and AI</summary></li>
       </ul>
-
     </div>
   );
 }
