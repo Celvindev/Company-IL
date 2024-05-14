@@ -18,3 +18,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.rating .mask {
+    margin-left: 10px;
+    color: #19c6c2; 
+}

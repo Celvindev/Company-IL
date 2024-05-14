@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../pages/alumni/Alumni.css";
 import Content1 from '../../assets/alumni/content1.png';
+import Abang from '../../assets/alumni/abang.png';
 
 const Contxt4 = () => {
     return (
@@ -18,14 +19,45 @@ const Contxt4 = () => {
             </div> 
             </div> 
           </div>
-          <div className=" divider-horizontal"></div>
+          <div className="divider-horizontal"></div>
           <ul>
             <li>
-              <div className="relative card grid w-[597px] h-[340px] py-5 px-10 bgrd rounded-[33px]">content</div>
+              <div className="relative card grid w-[597px] h-[340px] py-5 px-10 bgrd rounded-[33px]">
+                <div className="rating rating-s ">
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+              </div> 
+              
+              <p className="font-['Montserrat'] text-white text-[16px]">
+              Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
+              </p> <br/>
+              <div className="w-[82px] h-[82px]">
+              <img className='' src={Abang} alt="Abang" /> 
+            </div> 
+              </div>
+              
             </li>
             <br />
             <li>
-              <div className="relative card grid w-[597px] h-[345px] py-5 px-10 bgrd rounded-[33px]">content</div>
+              <div className="relative card grid w-[597px] h-[345px] py-5 px-10 bgrd rounded-[33px]">
+              <div className="rating rating-s">
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+              </div> 
+              
+              <p className="font-['Montserrat'] text-white text-[16px]">
+              Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
+              </p>
+              <div className="w-[82px] h-[82px]">
+              <img className='' src={Abang} alt="Abang" /> 
+            </div> 
+              </div>
             </li>
           </ul>
         </div>
