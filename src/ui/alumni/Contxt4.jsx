@@ -34,9 +34,18 @@ const Contxt4 = () => {
               <p className="font-['Montserrat'] text-white text-[16px]">
               Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
               </p> <br/>
-              <div className="w-[82px] h-[82px]">
-              <img className='' src={Abang} alt="Abang" /> 
-            </div> 
+              <div className="flex w-full">
+                  <div className="w-[82px] h-[82px]">
+                      <img className='' src={Abang} alt="Abang" /> 
+                  </div> 
+                  <div className='divider-horizontal'></div>
+                  <div className="profile-card">
+                    <h1>Adi Prasetya</h1>
+                    <p>Android Mobile Development & UIUX Design</p>
+                    <p>Alumni Studi Independent MSIB Batch 5</p>
+                  </div>
+              </div>
+              
               </div>
               
             </li>
@@ -53,10 +62,18 @@ const Contxt4 = () => {
               
               <p className="font-['Montserrat'] text-white text-[16px]">
               Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
-              </p>
-              <div className="w-[85px] h-[82px]">
-              <img className='' src={Abang} alt="Abang" /> 
-            </div> 
+              </p> <br/>
+              <div className="flex w-full">
+                  <div className="w-[82px] h-[82px]">
+                      <img className='' src={Abang} alt="Abang" /> 
+                  </div> 
+                  <div className='divider-horizontal'></div>
+                  <div className="profile-card">
+                    <h1>Adi Prasetya</h1>
+                    <p>Android Mobile Development & UIUX Design</p>
+                    <p>Alumni Studi Independent MSIB Batch 5</p>
+                  </div>
+              </div> 
               </div>
             </li>
           </ul>
