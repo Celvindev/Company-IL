@@ -69,9 +69,8 @@ const Contxt4 = () => {
                   </div> 
                   <div className='divider-horizontal'></div>
                   <div className="profile-card">
-                    <h1>Adi Prasetya</h1>
-                    <p>Android Mobile Development & UIUX Design</p>
-                    <p>Alumni Studi Independent MSIB Batch 5.</p>
+                    <h1>Budi Santoso</h1>
+                    <p>RedHat System Administration Alumni 2017</p>
                   </div>
               </div> 
               </div>
