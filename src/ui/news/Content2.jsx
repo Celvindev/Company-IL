@@ -98,23 +98,23 @@ function Content2() {
 
 
         {/* Masuk konten 6 */}
-        <div className="card grid w-[570px] h-[680px] bg-gray-925 rounded-box bgcard">
-        <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 mt-5">
+        <div className="card grid w-[575px] h-[680px] bg-gray-925 rounded-box bgcard">
+            <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-10 ">
                 <h4 className="card-title mb-10" style={{
                   display: 'inline-flex',
                   justifyContent: 'left'
                 }}>Apr 1 • 1 min read
-                   <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5 mb-10" /> </h4>
+                   <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5 mb-5" /> </h4>
             <p style={{
               color: 'var(--white, #FFF)',
               fontFamily: 'Poppins',
-              fontSize: '35px',
+              fontSize: '33px',
               fontStyle: 'normal',
               fontWeight: '600',
               lineHeight: '40px',
               letterSpacing: '1px'
             }} >Mengulas Kemeriahan di Balik Layar: Cerita Developer Festival 5.0 di Infinite Learning</p>
-            <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-6">
+            <div className="relative lg:mt-16 lg:mr-5 w-full sm:w-[80%] lg:w-[100%] h-[auto]">
               <div className="absolute inset-0 rounded-[20px] bg-gradient-to-b from-opacity-0 via-opacity-100 to-opacity-100"
                 style={{ background: 'linear-gradient(119deg, rgba(24, 24, 35, 0.88) 11.46%, rgba(47, 31, 79, 0.76) 39.08%, rgba(138, 61, 255, 0.26) 92.98%);' }}></div>
               <img className="w-full h-full object-cover rounded-[20px] " style={{

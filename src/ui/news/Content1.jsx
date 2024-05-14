@@ -11,7 +11,7 @@ function Content1() {
     <div className="team-heading w-[1280px] h-[570px]">
       {/* Masuk Konten 1 */}
       <div className="flex mt-10 w-full ">
-            <div className="card grid w-[597px] h-[680px]  bg-gray-925 rounded-box bgcard">
+      <div className="card grid w-[597px] h-[680px]  bg-gray-925 rounded-box bgcard">
                 <div className="card-body ">
                     <h4 className="card-title ">Mar 13 • 2 min read
                         <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
@@ -39,7 +39,7 @@ function Content1() {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
                             </h4>
                             <br />
-                            <a href='../newsafter' title="p">
+                            <a href='../newsafter' title="Klik">
                                 <p style={{color: 'var(--white, #FFF)',fontFamily: 'Poppins',fontSize: '25px',fontStyle: 'normal',fontWeight: '600', lineHeight: '40px', letterSpacing: '0.3px'}}>
                                     Inspiring! Infinite Learning Earns a Chance to Participate in the Pervasive AI Developer Contest
                                 </p >
@@ -52,7 +52,7 @@ function Content1() {
             <div className="grid w-[570px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-              <div className="absolute inset-0 flex flex-col justify-left items-left text-white ml-5 mt-10">
+              <div className="absolute inset-0 flex flex-col justify-left items-left text-white ml-10 mt-10">
                 <h4 className="card-title mb-1" style={{
                   display: 'inline-flex',
                   justifyContent: 'left',
