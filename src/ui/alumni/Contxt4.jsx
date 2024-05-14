@@ -18,7 +18,7 @@ const Contxt4 = () => {
             </div> 
             </div> 
           </div>
-          <div className="divider divider-horizontal">OR</div>
+          <div className=" divider-horizontal"></div>
           <ul>
             <li>
               <div className="relative card grid w-[597px] h-[340px] py-5 px-10 bgrd rounded-[33px]">content</div>

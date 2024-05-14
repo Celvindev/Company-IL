@@ -35,7 +35,7 @@ function Content2() {
       <div className="flex mt-20 w-full">
         <ul>
           <li>
-            <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
+            <div className="grid w-[600px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
               <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5">
@@ -60,9 +60,9 @@ function Content2() {
             </div>
 
 
-            <br /><br /><br />
+            <br />
 
-            <div className="grid w-[570px] h-[290px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
+            <div className="grid w-[600px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
               <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5">
@@ -90,7 +90,7 @@ function Content2() {
 
 
 
-        <div className="divider divider-horizontal"></div>
+        <div className=" divider-horizontal"></div>
 
 
 
@@ -98,7 +98,7 @@ function Content2() {
 
 
         {/* Masuk konten 6 */}
-        <div className="card grid w-[597px] h-[680px] bg-gray-925 rounded-box bgcard">
+        <div className="card grid w-[570px] h-[680px] bg-gray-925 rounded-box bgcard">
         <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 mt-5">
                 <h4 className="card-title mb-10" style={{
                   display: 'inline-flex',
