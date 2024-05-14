@@ -59,7 +59,7 @@ const Contxt4 = () => {
                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
               </div> 
-              
+
               <p className="font-['Montserrat'] text-white text-[16px]">
               Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
               </p> <br/>
@@ -71,7 +71,7 @@ const Contxt4 = () => {
                   <div className="profile-card">
                     <h1>Adi Prasetya</h1>
                     <p>Android Mobile Development & UIUX Design</p>
-                    <p>Alumni Studi Independent MSIB Batch 5</p>
+                    <p>Alumni Studi Independent MSIB Batch 5.</p>
                   </div>
               </div> 
               </div>
