@@ -54,7 +54,7 @@ const Contxt4 = () => {
               <p className="font-['Montserrat'] text-white text-[16px]">
               Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
               </p>
-              <div className="w-[82px] h-[82px]">
+              <div className="w-[85px] h-[82px]">
               <img className='' src={Abang} alt="Abang" /> 
             </div> 
               </div>
