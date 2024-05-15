@@ -146,3 +146,21 @@
     -webkit-backdrop-filter: blur(16.8px);
   }
 }
+.button-container {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.slideIn {
+  opacity: 1;
+  bottom: 90px;
+}
+.slideUp {
+  transform: translateY(-50%);
+}
+h1 {
+  transition: all 0.3s ease-in-out;
+}
