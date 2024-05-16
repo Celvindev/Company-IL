@@ -29,6 +29,74 @@ const Contxt2 = () => {
                                         </p>
                                     </button>   
                                 </li>   
+
+                                <li> 
+                                    <button className="w-[320px] h-[180px] rounded-[20px] items-center ml-5 mt-10 btn btn-outline "> 
+                                        <p className="msibcrdtxt text-left ">
+                                            <b className="cardtitle mr-30">M. Rofli Harahap 
+                                            </b>
+                                            <div className="rating rating-xs">
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            </div> <br /> <br />
+                                            Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
+                                        </p>
+                                    </button>   
+                                </li>   
+
+                                <li> 
+                                    <button className="w-[320px] h-[180px] rounded-[20px] items-center ml-5 mt-10 btn btn-outline "> 
+                                        <p className="msibcrdtxt text-left ">
+                                            <b className="cardtitle mr-30">M. Rofli Harahap 
+                                            </b>
+                                            <div className="rating rating-xs">
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            </div> <br /> <br />
+                                            Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
+                                        </p>
+                                    </button>   
+                                </li>   
+
+                                <li> 
+                                    <button className="w-[320px] h-[180px] rounded-[20px] items-center ml-5 mt-10 btn btn-outline "> 
+                                        <p className="msibcrdtxt text-left ">
+                                            <b className="cardtitle mr-30">M. Rofli Harahap 
+                                            </b>
+                                            <div className="rating rating-xs">
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            </div> <br /> <br />
+                                            Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
+                                        </p>
+                                    </button>   
+                                </li>   
+
+                                <li> 
+                                    <button className="w-[320px] h-[180px] rounded-[20px] items-center ml-5 mt-10 btn btn-outline "> 
+                                        <p className="msibcrdtxt text-left ">
+                                            <b className="cardtitle mr-30">M. Rofli Harahap 
+                                            </b>
+                                            <div className="rating rating-xs">
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
+                                            </div> <br /> <br />
+                                            Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren
+                                        </p>
+                                    </button>   
+                                </li>   
                             </ul>
                         </div>
                     </div>
