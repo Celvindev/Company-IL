@@ -26,7 +26,7 @@ const Footer = () => {
                 <nav className='mt-8'>
                     <h6 className="footer-ttitle">Community</h6>
                     <a className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal  mt-8">About us</a>
-                    <a className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal">Contact</a>
+                    <a href='https://wa.me/6282387597266' className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal">Contact</a>
                 </nav>
                 <nav className='mt-8'>
                     <h6 className="footer-ttitle">About</h6>
@@ -36,9 +36,9 @@ const Footer = () => {
                 <nav className='mt-8'>
                     <h6 className="footer-ttitle">Our Social Media</h6>
                     <div className="grid grid-flow-col gap-10 mt-8">
-                        <a><BsInstagram className='ig' /></a>
-                        <a><FaLinkedin className='li' /></a>
-                        <a><FaTiktok className='tt' /></a>
+                        <a href='https://www.instagram.com/infinitelearning_id?igsh=MWo4YXNleXdhd3Bjbg=='><BsInstagram className='ig' /></a>
+                        <a href='https://www.linkedin.com/company/infinite-learning-indonesia/'><FaLinkedin className='li' /></a>
+                        <a href='https://www.tiktok.com/@infinitelearning_id?_t=8mO282LZXy4&_r=1'><FaTiktok className='tt' /></a>
                     </div>
                 </nav>
             </footer>

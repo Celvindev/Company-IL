@@ -38,7 +38,11 @@ const Navbar = () => {
               <li><NavLink to="/career">Career</NavLink></li>
             </ul>
           </div>
-          <button className=" w-[200px] h-[62px] btncont text-white">Contact us  <i className="fa-solid fa-arrow-right ml-2"></i> </button>
+          <button className=" w-[200px] h-[62px] btncont text-white">
+            <a href='https://wa.me/6282387597266'>
+            Contact us  <i className="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+            </button>
         </div>
       </div>
     </>
