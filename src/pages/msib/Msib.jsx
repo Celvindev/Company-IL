@@ -27,13 +27,13 @@ const Msib = () => {
                                 <li>
                                     <button className="w-[320px] h-[90px] rounded-[44px] justify-center items-center flex border border-gradient mt-10" onClick={() => setProgramType('independent')}>
                                         <img src={Kampus} alt="km" />
-                                        <p className="msibtext ml-5">Studi Independent</p>
+                                        <p className="msibtext ml-5"> Independent Study</p>
                                     </button>
                                 </li>
                                 <li>
                                     <button className="w-[260px] h-[90px] rounded-[44px] justify-center items-center flex border border-gradient mt-10" onClick={() => setProgramType('internship')}>
                                         <img src={Kampus} alt="km" />
-                                        <p className="msibtext ml-5">Magang</p>
+                                        <p className="msibtext ml-5">Internship</p>
                                     </button>
                                 </li>
                             </ul>
