@@ -198,7 +198,7 @@ const Contxt3 = ({ programType }) => {
                         </div>
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                                <figure><img src="public/assets/msib/SRA.JPG" alt="Shoes" /></figure>
+                                <figure><img src="public/assets/msib/SRA.png" alt="Shoes" /></figure>
                                 <div className="card-body">
                                     <h4 className="card-title text-white ml-5 mt-5">MAGANG<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                                     <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Student Relation & Administration</h1>
