@@ -12,22 +12,24 @@ import Contxt7 from '../../ui/team/Contxt7'
 
 const Team = () => {
     return (
-        <div className='relative w-full bg-Charcoal'>
-            <div className="absolute top-0 left-0 w-full z-0">
-                <Bgpattern />
-            </div>
+        <>
             <div className="relative z-10">
                 <Navbar />
             </div>
-            <Contxtt1 />
-            <Contxt2 />
-            <Contxt3 />
-            <Contxt4 />
-            <Contxt5 />
-            <Contxt6 />
-            <Contxt7 />
-            <div className="w-full h-[300px]" />
-        </div>
+            <div className='relative w-ful'>
+                <div className="absolute top-0 left-0 w-full z-0">
+                    <Bgpattern />
+                </div>
+                <Contxtt1 />
+                <Contxt2 />
+                <Contxt3 />
+                <Contxt4 />
+                <Contxt5 />
+                <Contxt6 />
+                <Contxt7 />
+                <div className="w-full h-[300px]" />
+            </div>
+        </>
     )
 }
 

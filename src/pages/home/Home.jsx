@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <Navbar />
       <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl'>
-        <div className="flex w-full justify-center">
+        <div className="flex w-full justify-center mt-20">
           <div className="mr-5 w-[100%]">
             <Contxt1 />
             <Contxt3 />

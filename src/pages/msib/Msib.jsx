@@ -13,7 +13,7 @@ const Msib = () => {
         <>
             <Navbar />
             <div className='flex flex-col items-center justify-center py-6 mx-auto max-w-screen-xl'>
-                <div className="flex w-full justify-center mb-20">
+                <div className="flex w-full justify-center mb-20 mt-20">
                     <div className="mr-5 w-[100%]">
                         <div className="grid w-[599px] h-[287px] bg-gray-925 rounded-[33px] py-8 shadow ">
                             <h1 className="text-white text-2xl font-semibold font-['Montserrat'] leading-7">#Anyoneanything</h1>

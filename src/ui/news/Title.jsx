@@ -24,7 +24,7 @@ function Title() {
 
   return (
 
-    <div className="team-heading mt-10 w-[1280px] h-[32px]">
+    <div className="team-heading mt-20 w-[1280px] h-[32px]">
       <h1 className='txtabc'>Discover Nice Articles and News Here</h1>
       <p style={anaknya}>
         All The Aticles and News of The Site Have Been <b>Update Today</b> and You Can Find Your <b>Articles and News</b> Quickly and Without any Problems
