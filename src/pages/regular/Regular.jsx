@@ -10,14 +10,14 @@ const Regular = () => {
     <>
       <Navbar />
       <div className='flex flex-col items-center justify-center py-6 mx-auto max-w-screen-xl'>
-                <div className="flex w-full justify-center mb-40">
-                    <div className="mr-5 w-[100%]">
-                        <Contxt1 />
-                    </div>
-                    <Contxt2 />
-                </div>
-                <Contxt3 />
-            </div >
+        <div className="flex w-full justify-center mt-20">
+          <div className="mr-5 w-[100%]">
+            <Contxt1 />
+          </div>
+          <Contxt2 />
+        </div>
+        <Contxt3 />
+      </div >
     </>
   )
 }

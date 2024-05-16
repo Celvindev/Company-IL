@@ -8,16 +8,16 @@ import Navbar from '../../components/header/Navbar'
 const Career = () => {
   return (
     <>
-      <div className='w-full'>
+      <div className="relative z-10">
+        <Navbar />
+      </div>
+      <div className='w-fulll'>
         <div className="absolute top-0 left-0 w-full z-0">
           <Bgpattern />
         </div>
-        <div className="relative z-10">
-          <Navbar />
-        </div>
-        <div className="team-heading mt-10 w-[1280px]">            
+        <div className="team-heading w-[1280px]">
           <Contxt1 />
-          <Contxt2 /><br/>
+          <Contxt2 /><br />
           <Contxt4 />
         </div>
       </div>

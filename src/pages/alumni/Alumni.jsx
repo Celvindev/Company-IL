@@ -15,10 +15,10 @@ const Alumni = () => {
         <Contxt1 />
         <Contxt2 />
         <Contxt3 />
-      <div className='mr-5 w-[100%]'> <br/> <br/>
-        <Contxt4 />
-      </div>
-        <h1 className="text-center text-5xl mt-20  0 font-semibold font-['Montserrat'] headhmour">Our mentee project</h1> <br/><br/>
+        <div className='mr-5 w-[100%]'> <br /> <br />
+          <Contxt4 />
+        </div>
+        <h1 className="text-center text-5xl mt-20  0 font-semibold font-['Montserrat'] headhmour">Our mentee project</h1> <br /><br />
 
         <Contxt5 />
       </div>

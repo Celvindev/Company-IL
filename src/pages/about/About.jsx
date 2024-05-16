@@ -20,7 +20,7 @@ const About = () => {
         <img src="assets/about/pattern.svg" className='pttrnab absolute' />
       </div>
       <Navbar />
-      <div className='relative z-10 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl'>
+      <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl'>
         <Contxtt1 />
         <Contxt2 />
         <Contxt3 />

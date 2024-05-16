@@ -8,11 +8,11 @@ import Content1 from '../../ui/news/Content1'
 const News = () => {
   return (
     <>
-      <div className='w-full'>
-        <Navbar />
+      <Navbar />
+      <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl'>
         <Title />
-        <Content1/>
-        <Content2/>
+        <Content1 />
+        <Content2 />
       </div>
     </>
   )

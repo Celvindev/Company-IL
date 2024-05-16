@@ -3,7 +3,7 @@ import React from 'react'
 const Contxtt1 = () => {
   return (
     <>
-      <div className='text-left txt-cvr mt-10 -ml-12'>
+      <div className='text-left txt-cvr mt-20 -ml-12'>
         <h1 className='txtab' >
           Hi, we believe that <span>#anyoneanything.</span>
         </h1> <br />
