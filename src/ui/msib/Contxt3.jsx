@@ -15,7 +15,7 @@ const Contxt3 = ({ programType }) => {
                                     <h4 className="card-title text-white ml-5 mt-5">STUDI INDEPENDENT<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                                     <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Android Mobile Development & UIUX Designer</h1>
                                     <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
-                                        <a href="https://bit.ly/stupenIL7">
+                                        <a href="https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/browse/863c3409-8b4e-4c96-9edd-71ee61e9fc41/710170ec-e5ba-11ee-be9f-1a40d0052568">
                                             <p className="msibtxtcont">Apply Now</p>
                                         </a>
                                     </button>
@@ -29,7 +29,7 @@ const Contxt3 = ({ programType }) => {
                                     <h4 className="card-title text-white ml-5 mt-5">STUDI INDEPENDENT<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                                     <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Game Development</h1>
                                     <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
-                                        <a href="https://bit.ly/stupenIL7">
+                                        <a href="https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/browse/863c3409-8b4e-4c96-9edd-71ee61e9fc41/0036e41f-e509-11ee-be9f-1a40d0052568">
                                             <p className="msibtxtcont">Apply Now</p>
                                         </a>
                                     </button>
@@ -45,7 +45,7 @@ const Contxt3 = ({ programType }) => {
                                     <h4 className="card-title text-white ml-5 mt-5">STUDI INDEPENDENT<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                                     <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Web Development & UIUX Design</h1>
                                     <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
-                                        <a href="https://bit.ly/stupenIL7">
+                                        <a href="https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/browse/863c3409-8b4e-4c96-9edd-71ee61e9fc41/7a1e201e-e5c4-11ee-be9f-1a40d0052568">
                                             <p className="msibtxtcont">Apply Now</p>
                                         </a>
                                     </button>
@@ -59,7 +59,7 @@ const Contxt3 = ({ programType }) => {
                                     <h4 className="card-title text-white ml-5 mt-5">STUDI INDEPENDENT<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                                     <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">IBM Academy : Hybrid Cloud & Red Hat</h1>
                                     <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
-                                        <a href="https://bit.ly/stupenIL7">
+                                        <a href="https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/browse/863c3409-8b4e-4c96-9edd-71ee61e9fc41/9602b0b7-e50e-11ee-be9f-1a40d0052568">
                                             <p className="msibtxtcont">Apply Now</p>
                                         </a>
                                     </button>
@@ -75,7 +75,7 @@ const Contxt3 = ({ programType }) => {
                                     <h4 className="card-title text-white ml-5 mt-5">STUDI INDEPENDENT<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                                     <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">IBM Academy : Advanced AI</h1>
                                     <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
-                                        <a href="https://bit.ly/stupenIL7">
+                                        <a href="https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/browse/863c3409-8b4e-4c96-9edd-71ee61e9fc41/c1bcc884-e50b-11ee-be9f-1a40d0052568">
                                             <p className="msibtxtcont">Apply Now</p>
                                         </a>
                                     </button>
