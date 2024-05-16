@@ -41,7 +41,7 @@ const Msib = () => {
                     </div>
                     <Contxt2 />
                 </div>
-                <Contxt3 programType={programType} /> {/* Mengirimkan jenis program yang dipilih sebagai prop */}
+                <Contxt3 programType={programType} />
             </div >
         </>
     )

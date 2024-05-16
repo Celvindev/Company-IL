@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 const Contxt3 = ({ programType }) => {
     return (
         <>
-            {/* Tampilkan card sesuai dengan jenis program yang dipilih */}
             {programType === 'independent' && (
                 <>
                     <div className="flex w-full justify-center mt-10">
