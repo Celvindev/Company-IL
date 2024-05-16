@@ -17,11 +17,8 @@ const Footer = () => {
                 </aside>
                 <nav className='mt-8'>
                     <h6 className="footer-ttitle">Program</h6>
-                    <a className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal mt-8">Course</a>
-                    <a className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal">Bootcamp</a>
-                    <a className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal">Event</a>
-                    <a className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal">MSIB</a>
-                    <a className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal">Internship</a>
+                    <a href='..\regular' className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal mt-8">Regular Course</a>
+                    <a href='..\msib' className="text-NeonWhite text-base font-normal font-['Montserrat'] leading-normal">MSIB</a>
                 </nav>
                 <nav className='mt-8'>
                     <h6 className="footer-ttitle">Community</h6>
