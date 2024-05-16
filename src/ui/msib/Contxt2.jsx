@@ -6,6 +6,7 @@ const Contxt2 = () => {
             <div className="mr-5 w-[100%] ">
                 <div className="grid w-[100%] h-[541.38px] place-items-center ">
                     <img className="w-[100%]" src='assets/msib/learms.svg' />
+                    <h1 className=" whaoth1 text-white text-[28px] font-semibold font-['Montserrat']">What our alumni say...</h1>
                     <div className="card w-[370px] h-[393px] -ml-40 pr-2 crdminews breadcrumbs">
                         <div className="artboard">
                             <ul>
