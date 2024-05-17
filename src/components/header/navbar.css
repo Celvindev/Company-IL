@@ -19,6 +19,9 @@
 .menu li > details > summary:active {
   background-color: #212130 !important;
   color: #f5d364 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .navlink:hover {
   background-color: white !important;
@@ -39,9 +42,9 @@
   transition: background-color 0.5s ease;
 }
 
-/* button:hover {
-  outline: 2px solid #8a3dff;
-} */
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .navbar {
+    background-image: none;
+    background: none;
+  }
 }

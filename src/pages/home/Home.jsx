@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl'>
-        <div className="flex w-full justify-center mt-20">
+      <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl '>
+        <div className="flex-none sm:flex w-full justify-center mt-20 ">
           <div className="mr-5 w-[100%]">
             <Contxt1 />
             <Contxt3 />
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <Contxt4 />
         <Contxt5 />
-        <h1 className="text-center text-5xl mt-20  0 font-semibold font-['Montserrat'] headhmour">Our mentee project</h1>
+        <h1 className="text-center text-3xl sm:text-5xl mt-5 sm:mt-20  0 font-semibold font-['Montserrat'] headhmour">Our mentee project</h1>
         <Contxt6 />
         <Contxt7 />
       </div >
