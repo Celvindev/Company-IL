@@ -86,7 +86,7 @@ const Contxt5 = () => {
                         </div>
 
                         <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                            <figure><img src="/assets/home/ar_vr.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
@@ -99,7 +99,7 @@ const Contxt5 = () => {
                         </div>
 
                         <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                            <figure><img src="/assets/home/sosial_media.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
@@ -112,7 +112,7 @@ const Contxt5 = () => {
                         </div>
 
                         <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                            <figure><img src="/assets/home/ibm _ai.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
@@ -125,7 +125,7 @@ const Contxt5 = () => {
                         </div>
 
                         <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                            <figure><img src="/assets/msib/DSC03030.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
@@ -138,7 +138,7 @@ const Contxt5 = () => {
                         </div>
 
                         <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                            <figure><img src="/assets/regular/gbr7.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
@@ -151,7 +151,7 @@ const Contxt5 = () => {
                         </div>
 
                         <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                            <figure><img src="/assets/regular/gbr5.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttlmt-5">REGULER</h2>
@@ -164,7 +164,7 @@ const Contxt5 = () => {
                         </div>
 
                         <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                            <figure><img src="/assets/regular/gbr2.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">STUDI IDEPENDENT</h2>
@@ -177,7 +177,7 @@ const Contxt5 = () => {
                         </div>
 
                         <div className="card cardhome w-[401px] h-[357px]  rounded-[44px] image-full">
-                            <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                            <figure><img src="/assets/home/sosial_media.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">STUDI IDEPENDENT</h2>

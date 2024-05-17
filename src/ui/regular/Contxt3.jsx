@@ -6,7 +6,7 @@ const Contxt3 = () => {
             <div className="flex w-full justify-center mt-60">
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr1.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Full-Stack Web Development</h1>
@@ -21,7 +21,7 @@ const Contxt3 = () => {
                 </div>
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr2.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Android Mobile Development</h1>
@@ -39,7 +39,7 @@ const Contxt3 = () => {
             <div className="flex w-full justify-center mt-10">
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr3.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">RedHat System Administration</h1>
@@ -54,7 +54,7 @@ const Contxt3 = () => {
                 </div>
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr4.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">IBM Advance AI</h1>
@@ -72,7 +72,7 @@ const Contxt3 = () => {
             <div className="flex w-full justify-center mt-10">
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr5.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Game Development with Unreal Engine</h1>
@@ -87,7 +87,7 @@ const Contxt3 = () => {
                 </div>
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr6.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">UI UX Design</h1>
@@ -105,7 +105,7 @@ const Contxt3 = () => {
             <div className="flex w-full justify-center mt-10">
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr7.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Cybersecurity</h1>
@@ -120,7 +120,7 @@ const Contxt3 = () => {
                 </div>
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr8.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Animation</h1>
@@ -138,7 +138,7 @@ const Contxt3 = () => {
             <div className="flex w-full justify-center mt-10">
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr9.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Digital Marketing</h1>
@@ -153,7 +153,7 @@ const Contxt3 = () => {
                 </div>
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr10.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">FREE<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Front-End Web Development</h1>
@@ -171,7 +171,7 @@ const Contxt3 = () => {
             <div className="flex w-full justify-center mt-10">
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr11.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">FREE<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">UI UX Design</h1>
@@ -185,7 +185,7 @@ const Contxt3 = () => {
                 </div>
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr12.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">AR & VR</h1>
@@ -203,7 +203,7 @@ const Contxt3 = () => {
             <div className="flex w-full justify-center mt-10">
                 <div className="mr-5 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
-                        <figure><img src="/assets/home/crd1.png" alt="Shoes" /></figure>
+                        <figure><img src="/assets/regular/gbr13.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h4 className="card-title text-white ml-5 mt-5">FREE<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Unreal Engine: Game Development Introduction & Level Design</h1>

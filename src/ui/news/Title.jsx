@@ -1,20 +1,7 @@
 import React, { useState } from 'react';
 import "../../pages/news/News.css";
-import "@fortawesome/fontawesome-free/css/all.css";
 
 function Title() {
-  const [expandedIndex, setExpandedIndex] = useState(-1);
-  const [rotatedIndexes, setRotatedIndexes] = useState([]);
-
-  const toggleExpand = (index) => {
-    if (expandedIndex === index) {
-      setExpandedIndex(-1);
-      setRotatedIndexes(rotatedIndexes.filter(i => i !== index));
-    } else {
-      setExpandedIndex(index);
-      setRotatedIndexes([...rotatedIndexes, index]);
-    }
-  };
   const anaknya = {
     fontSize: 18,
     color: "#ffff",
