@@ -6,6 +6,9 @@
 .footer {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  column-gap: 7rem !important;
 }
 .footer-ttitle {
   font-family: "Montserrat", sans-serif;
@@ -34,4 +37,6 @@
 }
 .copyrig {
   background-color: #212130;
+}
+@media screen and (max-width: 768px) {
 }

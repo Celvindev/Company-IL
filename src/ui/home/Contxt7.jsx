@@ -8,7 +8,7 @@ const Contxt7 = () => {
 
     return (
         <>
-            <div className="flex w-full justify-center mt-10">
+            <div className="flex-none sm:flex w-full justify-center mt-10">
                 <div className="mr-5 w-[100%]">
                     <div
                         className="card cardhome w-[100%] h-[357px] rounded-[44px] image-full"
@@ -28,7 +28,7 @@ const Contxt7 = () => {
                 </div>
                 <div className="mr-5 w-[100%]">
                     <div
-                        className="card cardhome w-[100%] h-[357px] rounded-[44px] image-full"
+                        className="card cardhome w-[100%] h-[357px] mt-5 sm:mt-0 rounded-[44px] image-full"
                         onMouseEnter={() => setShowButton2(true)}
                         onMouseLeave={() => setShowButton2(false)}
                     >
@@ -45,7 +45,7 @@ const Contxt7 = () => {
                 </div>
             </div>
 
-            <div className="flex w-full justify-center mt-10">
+            <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                 <div className="mr-5 w-[100%]">
                     <div
                         className="card cardhome w-[100%] h-[357px] rounded-[44px] image-full"
@@ -65,7 +65,7 @@ const Contxt7 = () => {
                 </div>
                 <div className="mr-5 w-[100%]">
                     <div
-                        className="card cardhome w-[100%] h-[357px] rounded-[44px] image-full"
+                        className="card cardhome w-[100%] h-[357px] mt-5 sm:mt-0 rounded-[44px] image-full"
                         onMouseEnter={() => setShowButton4(true)}
                         onMouseLeave={() => setShowButton4(false)}
                     >

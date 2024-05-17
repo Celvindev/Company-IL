@@ -41,9 +41,9 @@ const Contxt5 = () => {
         <>
             <div className="flex w-full justify-center mt-5">
                 <div className="bgrd w-[100%]  h-[517px]  rounded-[33px]">
-                    <h1 className="text-left p-10 text-white orpro">Our Program</h1>
+                    <h1 className="text-left p-5 sm:p-10 text-2xl sm:text-[36px] text-white orpro">Our Program</h1>
                     <div
-                        className="grid w-[100%] px-10 place-items-center shadow"
+                        className="grid w-[100%] px-5 sm:px-10 place-items-center shadow"
                         ref={sliderRef}
                         onMouseDown={handleMouseDown}
                         onMouseLeave={handleMouseLeave}
