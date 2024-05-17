@@ -5,7 +5,7 @@ const Contxt4 = () => {
     return (
         <>
             <div className="flex w-full justify-center mt-5">
-                <div className="grid w-[100%] h-[248px] bgrd bg-gray-925 rounded-[33px] px-10 place-items-center shadow relative">
+                <div className="grid w-[100%] h-[249px] bgrd bg-gray-925 rounded-[33px] px-10 place-items-center shadow relative">
                     <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                     <div className="flex-col justify-start items-center inline-flex">
                         <h1 className="self-stretch text-stone-200 text-2xl sm:text-[36px] inle">Infinite Learning</h1>
