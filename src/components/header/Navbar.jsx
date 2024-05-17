@@ -6,6 +6,7 @@ import './navbar.css';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +21,14 @@ const Navbar = () => {
     };
   }, []);
 
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const closeDropdown = () => {
+    setIsDropdownOpen(false);
+  };
+
   return (
     <>
       <div className=" var py-2 px-1 sm:px-10 w-[100%] fixed" style={{ backgroundColor: scrolled ? '#181823' : 'transparent' }}>
@@ -33,7 +42,6 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">
               <li><NavLink to="/learning">Learning</NavLink></li>
               <li><NavLink to="/alumni">Alumni</NavLink></li>
-              {/* <li><NavLink to="/learning">Learning</NavLink></li> */}
               <li><NavLink to="/news">News</NavLink></li>
               <li><NavLink to="/about">About</NavLink></li>
               <li><NavLink to="/team">Team</NavLink></li>
@@ -45,21 +53,25 @@ const Navbar = () => {
               Contact us  <i className="fa-solid fa-arrow-right ml-2"></i>
             </a>
           </button>
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost ml-40 lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          <div className="dropdown drops">
+            <div tabIndex={0} role="button" className="btn btn-ghost ml-40 lg:hidden" onClick={toggleDropdown}>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
             </div>
-            <ul tabIndex={0} className="menu menu-sm dropdown-content ml-30 mt-3 z-[1] p-2 shadow bg-Charcoal rounded-box w-52">
-              <li><NavLink to="/">Learning</NavLink></li>
-              <li><NavLink to="/alumni">Alumni</NavLink></li>
-              <li><NavLink to="/news">News</NavLink></li>
-              <li><NavLink to="/about">About</NavLink></li>
-              <li><NavLink to="/team">Team</NavLink></li>
-              <li><NavLink to="/career">Career</NavLink></li>
-              <li><a href='https://wa.me/6282387597266'>
-                Contact us
-              </a></li>
-            </ul>
+            {isDropdownOpen && (
+              <ul tabIndex={0} className="mencss menu menu-sm dropdown-content ml-30 z-[1] p-5 shadow bg-Charcoal rounded-box w-52">
+                <li><NavLink to="/" onClick={closeDropdown}>Learning</NavLink></li>
+                <li><NavLink to="/alumni" onClick={closeDropdown}>Alumni</NavLink></li>
+                <li><NavLink to="/news" onClick={closeDropdown}>News</NavLink></li>
+                <li><NavLink to="/about" onClick={closeDropdown}>About</NavLink></li>
+                <li><NavLink to="/team" onClick={closeDropdown}>Team</NavLink></li>
+                <li><NavLink to="/career" onClick={closeDropdown}>Career</NavLink></li>
+                <li><a href='https://wa.me/6282387597266' onClick={closeDropdown}>
+                  Contact us
+                </a></li>
+              </ul>
+            )}
           </div>
         </div>
       </div>

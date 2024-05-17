@@ -41,7 +41,10 @@
   z-index: 9999;
   transition: background-color 0.5s ease;
 }
-
+.mencss {
+  width: 900px !important;
+  margin-left: -10pc !important;
+}
 @media (max-width: 1024px) {
   .navbar {
     background-image: none;
