@@ -8,7 +8,12 @@ const Contxt3 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/Full-Stack Web Development.JPG" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+                            <h4 className="card-title text-white ml-5 mt-5">
+                                REGULAR
+                                <a href="./learningdet">
+                                    <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" />
+                                </a>
+                            </h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Full-Stack Web Development</h1>
                             <h2 className="card-title text-white ml-5 mt-5">Start From Rp 1.800.000</h2>
                             <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">

@@ -11,7 +11,6 @@ const Learningdet = () => {
         <div className="flex w-full justify-center mt-20">
           <div className="mr-5 w-[100%]">
             <Contxt1 />
-
           </div>
         </div>
       </div >
