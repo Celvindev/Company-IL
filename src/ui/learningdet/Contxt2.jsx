@@ -4,8 +4,8 @@ const Contxt2 = () => {
     return (
         <>
            
-            <div className="artboard h-[600px]">
-            <div className="grid w-[100%] h-[400px] place-items-center mt-40">
+            <div className="artboard h-[550px] mt-40">
+            <div className="grid w-[100%] h-[400px] place-items-center ">
                 <button className="w-[400px] h-[128px] rounded-[82px] justify-center items-center flex border border-gradient ml-10">
                     <p className="msibtext text-[16px]">Why You Should Learn</p>
                 </button>
