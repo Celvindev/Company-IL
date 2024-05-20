@@ -2,6 +2,7 @@ import React from 'react';
 import "../../pages/learningdet/Learningdet.css";
 import Navbar from '../../components/header/Navbar'
 import Contxt1 from '../../ui/learningdet/Contxt1';
+import Contxt2 from '../../ui/learningdet/Contxt2';
 
 const Learningdet = () => {
   return (
@@ -12,6 +13,7 @@ const Learningdet = () => {
           <div className="mr-5 w-[100%]">
             <Contxt1 />
           </div>
+          <Contxt2 />
         </div>
       </div >
     </>
