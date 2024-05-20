@@ -5,8 +5,8 @@ const Contxt3 = ({ programType }) => {
     return (
         <>
             {programType === 'independent' && (
-                <>
-                    <div className="flex w-full justify-center mt-10">
+                <div className='px-5 sm:px-0'>
+                    <div className="flex-none sm:flex w-full justify-center mt-52 sm:mt-10">
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="/assets/msib/amd.png" alt="Shoes" /></figure>
@@ -21,7 +21,7 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="/assets/msib/Game Dev Magang.JPG" alt="Shoes" /></figure>
                                 <div className="card-body">
@@ -36,7 +36,7 @@ const Contxt3 = ({ programType }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex w-full justify-center mt-10">
+                    <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="/assets/msib/Full-Stack Web Development.JPG" alt="Shoes" /></figure>
@@ -51,7 +51,7 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/DSC03056.JPG" alt="Shoes" /></figure>
                                 <div className="card-body">
@@ -66,9 +66,9 @@ const Contxt3 = ({ programType }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex w-full justify-center mt-10">
+                    <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                         <div className="mr-5 w-[100%]">
-                            <div className="card cardhome w-[600px] h-[357px]  rounded-[44px] image-full">
+                            <div className="card cardhome w-full sm:w-[600px] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/DSC03030.png" alt="Shoes" /></figure>
                                 <div className="card-body">
                                     <h4 className="card-title text-white ml-5 mt-5">INDEPENDENT STUDY<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
@@ -82,11 +82,11 @@ const Contxt3 = ({ programType }) => {
                             </div>
                         </div>
                     </div>
-                </>
+                </div>
             )}
             {programType === 'internship' && (
-                <>
-                    <div className="flex w-full justify-center mt-10">
+                <div className='px-5 sm:px-0'>
+                    <div className="flex-none sm:flex w-full justify-center mt-52 sm:mt-10">
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="/assets/msib/Developer.png" alt="Shoes" /></figure>
@@ -101,7 +101,7 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="/assets/msib/UI UX Designer Magang.JPG" alt="Shoes" /></figure>
                                 <div className="card-body">
@@ -117,7 +117,7 @@ const Contxt3 = ({ programType }) => {
                         </div>
                     </div>
 
-                    <div className="flex w-full justify-center mt-10">
+                    <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Project Manager.png" alt="Shoes" /></figure>
@@ -132,7 +132,7 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Marcom.JPG" alt="Shoes" /></figure>
                                 <div className="card-body">
@@ -148,9 +148,9 @@ const Contxt3 = ({ programType }) => {
                         </div>
                     </div>
 
-                    <div className="flex w-full justify-center mt-10">
+                    <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                         <div className="mr-5 w-[100%]">
-                            <div className="card cardhome w-[600px] h-[357px]  rounded-[44px] image-full">
+                            <div className="card cardhome w-full sm:w-[600px] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Event & Community.JPG" alt="Shoes" /></figure>
                                 <div className="card-body">
                                     <h4 className="card-title text-white ml-5 mt-5">INTERNSHIP<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
@@ -163,7 +163,7 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Sosmed.JPG" alt="Shoes" /></figure>
                                 <div className="card-body">
@@ -177,10 +177,9 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
-                    <div className="flex w-full justify-center mt-10">
+                    <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Public Relation.JPG" alt="Shoes" /></figure>
@@ -195,7 +194,7 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/SRA.png" alt="Shoes" /></figure>
                                 <div className="card-body">
@@ -211,7 +210,7 @@ const Contxt3 = ({ programType }) => {
                         </div>
                     </div>
 
-                    <div className="flex w-full justify-center mt-10">
+                    <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Visual Designer.JPG" alt="Shoes" /></figure>
@@ -226,7 +225,7 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Game Dev Magang.JPG" alt="Shoes" /></figure>
                                 <div className="card-body">
@@ -242,7 +241,7 @@ const Contxt3 = ({ programType }) => {
                         </div>
                     </div>
 
-                    <div className="flex w-full justify-center mt-10">
+                    <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/SRA.png" alt="Shoes" /></figure>
@@ -257,7 +256,7 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Sosmed.JPG" alt="Shoes" /></figure>
                                 <div className="card-body">
@@ -273,7 +272,7 @@ const Contxt3 = ({ programType }) => {
                         </div>
                     </div>
 
-                    <div className="flex w-full justify-center mt-10">
+                    <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Visual Designer.JPG" alt="Shoes" /></figure>
@@ -288,7 +287,7 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Game Dev Magang.JPG" alt="Shoes" /></figure>
                                 <div className="card-body">
@@ -304,7 +303,7 @@ const Contxt3 = ({ programType }) => {
                         </div>
                     </div>
 
-                    <div className="flex w-full justify-center mt-10">
+                    <div className="flex-none sm:flex w-full justify-center mt-5 sm:mt-10">
                         <div className="mr-5 w-[100%]">
                             <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/Public Relation.JPG" alt="Shoes" /></figure>
@@ -319,8 +318,8 @@ const Contxt3 = ({ programType }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-5 w-[100%]">
-                            <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
+                        <div className="mt-5 sm:mt-0 mr-5 w-[100%]">
+                            <div className="card cardhome w-[100%] h-[357px] rounded-[44px] image-full">
                                 <figure><img src="public/assets/msib/SRA.png" alt="Shoes" /></figure>
                                 <div className="card-body">
                                     <h4 className="card-title text-white ml-5 mt-5">INTERNSHIP<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
@@ -334,7 +333,7 @@ const Contxt3 = ({ programType }) => {
                             </div>
                         </div>
                     </div>
-                </>
+                </div>
             )
             }
         </>
