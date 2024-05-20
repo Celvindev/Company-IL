@@ -46,5 +46,12 @@
     font-size: 18px;
     line-height: normal;
   }
+
+  .lear-heading h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #eae7e7;
+    font-family: "Poppins", sans-serif;
+  }
   
   

@@ -3,6 +3,9 @@ import "../../pages/learningdet/Learningdet.css";
 import Navbar from '../../components/header/Navbar'
 import Contxt1 from '../../ui/learningdet/Contxt1';
 import Contxt2 from '../../ui/learningdet/Contxt2';
+import Contxt3 from '../../ui/learningdet/Contxt3';
+import Contxt4 from '../../ui/learningdet/Contxt4';
+import Contxt5 from '../../ui/learningdet/Contxt5';
 
 const Learningdet = () => {
   return (
@@ -16,6 +19,9 @@ const Learningdet = () => {
           <Contxt2 />
         </div>
       </div >
+      <Contxt3 />
+      <Contxt4 />
+      <Contxt5 />
     </>
   )
 }
