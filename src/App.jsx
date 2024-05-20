@@ -12,6 +12,7 @@ import Team from './pages/team/Team.jsx';
 import Regular from './pages/regular/Regular.jsx';
 import "./App.css";
 import Msib from './pages/msib/Msib.jsx';
+import Learningdet from './pages/learningdet/Learningdet.jsx';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/regular" element={<Regular />} />
           <Route path="/msib" element={<Msib />} />
+          <Route path="/learningdet" element={<Learningdet />} />
         </Routes>
         <Footer />
       </div>
