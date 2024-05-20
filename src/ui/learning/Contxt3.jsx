@@ -28,7 +28,12 @@ const Contxt3 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/amd.png" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+                            <h4 className="card-title text-white ml-5 mt-5">
+                                REGULAR
+                                <a href="./learningdet">
+                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" />
+                                </a>    
+                            </h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Android Mobile Development</h1>
                             <h2 className="card-title text-white ml-5 mt-5">Start From Rp 1.800.000</h2>
                             <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
@@ -46,7 +51,12 @@ const Contxt3 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/home/sosial_media.png" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+                            <h4 className="card-title text-white ml-5 mt-5">
+                                REGULAR
+                                <a href="./learningdet">
+                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" />
+                                </a>    
+                            </h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">RedHat System Administration</h1>
                             <h2 className="card-title text-white ml-5 mt-5">Start From Rp 5.000.000</h2>
                             <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
@@ -61,7 +71,12 @@ const Contxt3 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/home/ibm _ai.png" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+                            <h4 className="card-title text-white ml-5 mt-5">
+                                REGULAR
+                                <a href="./learningdet">
+                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" />
+                                </a>    
+                            </h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">IBM Advance AI</h1>
                             <h2 className="card-title text-white ml-5 mt-5">Start From Rp 2.500.000</h2>
                             <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
@@ -79,7 +94,12 @@ const Contxt3 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/Game Dev with Unreal Engine.JPG" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+                            <h4 className="card-title text-white ml-5 mt-5">
+                                REGULAR
+                                <a href="./learningdet">
+                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" />
+                                 </a>    
+                            </h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Game Development with Unreal Engine</h1>
                             <h2 className="card-title text-white ml-5 mt-5">Start From Rp 2.500.000</h2>
                             <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
@@ -94,7 +114,12 @@ const Contxt3 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/UI UX Design Regular.JPG" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+                            <h4 className="card-title text-white ml-5 mt-5">
+                                REGULAR
+                                <a href="./learningdet">
+                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" />
+                                </a>    
+                            </h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">UI UX Design</h1>
                             <h2 className="card-title text-white ml-5 mt-5">Start From Rp 1.500.000</h2>
                             <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
@@ -112,7 +137,12 @@ const Contxt3 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr7.png" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+                            <h4 className="card-title text-white ml-5 mt-5">
+                                REGULAR
+                                <a href="./learningdet">
+                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" />
+                                </a>    
+                            </h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Cybersecurity</h1>
                             <h2 className="card-title text-white ml-5 mt-5">Start From Rp 1.800.000</h2>
                             <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
@@ -127,7 +157,12 @@ const Contxt3 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr8.png" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+                            <h4 className="card-title text-white ml-5 mt-5">
+                                REGULAR
+                                <a href="./learningdet">
+                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" />
+                                </a>    
+                            </h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Animation</h1>
                             <h2 className="card-title text-white ml-5 mt-5">Start From Rp 1.500.000</h2>
                             <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
@@ -145,7 +180,12 @@ const Contxt3 = () => {
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr9.png" alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h4 className="card-title text-white ml-5 mt-5">REGULAR<img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+                            <h4 className="card-title text-white ml-5 mt-5">
+                                REGULAR
+                                <a href="./learningdet">
+                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" />
+                                </a>    
+                            </h4>
                             <h1 className="text-left ml-5 mt-10 text-white text-[30px] font-bold font-['Montserrat']">Digital Marketing</h1>
                             <h2 className="card-title text-white ml-5 mt-5">Start From Rp 1.500.000</h2>
                             <button className="w-[130px] h-[50px] rounded-[44px] items-center mt-60 right-0 absolute mr-10 m-1 btn btcat btn-outline">
