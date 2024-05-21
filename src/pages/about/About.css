@@ -7,13 +7,6 @@ body {
 .clasbig {
   max-width: 100% !important;
 }
-.txtab {
-  font-size: 36px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: #eae7e7;
-  text-align: left !important;
-}
 .txtab span {
   background: linear-gradient(90deg, #19c6c2 50%, #8a3dff 82.5%);
   background-clip: text;
@@ -24,14 +17,7 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-.txt-cvr p {
-  font-family: "Poppins", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  color: #eae7e7;
-}
+
 .txt-cvr {
   max-width: 1145px;
   width: 100%;

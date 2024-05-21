@@ -17,7 +17,7 @@ const About = () => {
   return (
     <>
       <div className="absolute top-0 left-0 w-full z-0">
-        <img src="assets/about/pattern.svg" className='pttrnab absolute' />
+        <img src="assets/about/pattern.svg" className='hidden sm:block pttrnab absolute' />
       </div>
       <Navbar />
       <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl'>

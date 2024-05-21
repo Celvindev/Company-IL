@@ -8,13 +8,13 @@ const Contxt3 = () => {
   };
   return (
     <>
-      <div className="flex w-full justify-center mt-5 mb-40">
-        <div className="grid w-[100%] h-[165px] bgrd bg-gray-925 rounded-[33px] px-10 place-items-center relative">
-          <div className="flex-col justify-start items-center inline-flex">
-            <div className="flex -mt-10">
-              <div className="flex flex-col mr-5 mt-16">
+      <div className="flex-none sm:flex w-full justify-center -mt-32 sm:mt-5 sm:mb-40">
+        <div className="grid w-[100%] h-[100%] sm:h-[165px] bgrd bg-gray-925 rounded-[33px] px-10 place-items-center relative">
+          <div className="flex-none sm:flex-col justify-start items-center inline-flex">
+            <div className="flex-none sm:flex -mt-10">
+              <div className="flex-none sm:flex flex-col mr-5 mt-16">
                 <button
-                  className={`py-2 px-4 text-4xl font-bold tracking-[7.20px] rounded-full 
+                  className={`sm:py-2 px-4 text-3xl sm:text-4xl -ml-7 sm:ml-0 font-bold tracking-[7.20px] rounded-full 
                   ${activeTab === 'vision' ? 'bg-blue-500' : 'text-white'
                     }`}
                   style={{
@@ -27,7 +27,7 @@ const Contxt3 = () => {
                   Vision
                 </button>
                 <button
-                  className={`py-2 px-4 text-4xl font-bold tracking-[7.20px] rounded-full 
+                  className={`sm:py-2 sm:px-4 text-3xl sm:text-4xl font-bold tracking-[7.20px] rounded-full 
                   ${activeTab === 'mission' ? 'bg-blue-500' : 'text-white'
                     }`}
                   style={{
@@ -40,10 +40,10 @@ const Contxt3 = () => {
                   Mission
                 </button>
               </div>
-              <div className="grid w-[100%] h-[248px] bg-gray-925 rounded-[33px] px-10 place-items-center relative">
+              <div className="sm:grid w-[100%] h-[248px] bg-gray-925 rounded-[33px] -ml-3 sm:ml-0 sm:px-10 place-items-center relative">
                 {activeTab === 'vision' && (
                   <div className="flex-col justify-start items-center inline-flex">
-                    <p className='font-[Montserrat] text-white text-[16px] font-normal leading-6 '>
+                    <p className='font-[Montserrat] mt-5 sm:mt-0 w-[300px] sm:w-full text-justify text-white text-[16px] font-normal leading-6 '>
                       To be a leading solution provider in technology, research and development,
                       and innovation through training and education. We aim to increase the
                       number of creative and innovative digital talents who are not only
@@ -53,7 +53,7 @@ const Contxt3 = () => {
                 )}
                 {activeTab === 'mission' && (
                   <div className="flex-col justify-start items-center inline-flex">
-                    <p className='font-[Montserrat] text-white text-[16px] font-normal leading-6 '>
+                    <p className='font-[Montserrat] mt-5 sm:mt-0 w-[300px] sm:w-full text-justify text-white text-[16px] font-normal leading-6 '>
                       Cooperate with all government agencies, national research institutions,
                       and education/training institutions both domestically and internationally
                       to develop curriculum standards, collaborate in
