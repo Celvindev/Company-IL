@@ -17,7 +17,7 @@ const Team = () => {
                 <Navbar />
             </div>
             <div className='relative w-ful'>
-                <div className="absolute top-0 left-0 w-full z-0">
+                <div className="hidden sm:block absolute top-0 left-0 w-full z-0">
                     <Bgpattern />
                 </div>
                 <Contxtt1 />
@@ -27,7 +27,7 @@ const Team = () => {
                 <Contxt5 />
                 <Contxt6 />
                 <Contxt7 />
-                <div className="w-full h-[300px]" />
+                <div className="w-full h-[100px] sm:h-[300px]" />
             </div>
         </>
     )

@@ -8,30 +8,12 @@
   margin-left: 7pc;
   font-family: "Intern", sans-serif;
 }
-.team-heading h1 {
-  margin-bottom: 5px;
-  font-size: 48px;
-  font-weight: bold;
-  color: #eae7e7;
-  font-family: "Intern", sans-serif;
-}
 .team-heading h1 span {
   background: linear-gradient(90deg, #32c7c4 50%, #8a3dff 90%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
-}
-.team-heading h3 {
-  font-weight: bold;
-  color: #eae7e7;
-  margin-top: 30px;
-  font-family: "Montserrat", sans-serif;
-}
-.team-heading p {
-  width: 80%;
-  max-width: 600px;
-  color: #eae7e7;
 }
 .team-content p {
   color: #333;

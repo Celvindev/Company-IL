@@ -41,10 +41,10 @@ const Contxt6 = () => {
         }
     ];
     return (
-        <div className='flex justify-center mt-20'>
-            <div className="grid grid-cols-3 gap-20 ">
+        <div className='flex-none sm:flex justify-center px-5 mt-40'>
+            <div className="sm:grid grid-cols-3 gap-10 ">
                 {cards.map((card, index) => (
-                    <div key={index} className={`w-[385px] bg-white crdart shadow-xl mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '0'} transition-all ease-in-out duration-300 
+                    <div key={index} className={`w-full sm:w-[385px] crdart shadow-xl mt-${index === 1 ? '20' : '20'} mt-${index === 2 ? '40' : '40'}  sm:mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '40'} transition-all ease-in-out duration-300 
                 ${expandedIndex === index ? 'h-[516px]' : 'h-[336px]'}`} style={{ marginBottom: getMarginBottom(index), transition: 'margin-bottom 0.1s ease-in-out' }}>
                         <div className="card border-0">
                             <div className="card-body text-left">
