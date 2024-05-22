@@ -8,11 +8,11 @@ import Desak from '../../assets/alumni/desak.png';
 function Contxt4() {
   return (
     <>
-      <div className="team-heading text-center w-[1280px]">
-        <h1 className=" text-white text-white font-['Poppins']">What Our Alumni Says</h1>
+      <div className="team-heading ml-24 text-center w-[180px] sm:w-[1280px]">
+        <h1 className="text-white text-2xl sm:text-3xl font-medium font-['Poppins']">What Our Alumni Says</h1>
       </div>
-            <div className="flex -mt-8 w-auto mb-64">
-                <div className=" card grid w-[597px] h-[340px] py-5 px-10 bgrd rounded-[33px] ml-28">
+            <div className="sm:flex -mt-28 sm:-mt-8 w-auto mb-64">
+                <div className=" card grid w-[350px] sm:w-[597px] h-[370px] sm:h-[340px] py-5 px-10 bgrd rounded-[33px] ml-5 sm:ml-28 mb-10">
                         <div className="rating rating-s ">
                             <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
                             <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
@@ -37,7 +37,7 @@ function Contxt4() {
                         </div>
                 </div>
 
-                <div className=" card grid w-[597px] h-[340px] py-5 px-10 bgrd rounded-[33px] ml-20">
+                <div className=" card grid w-[350px] sm:w-[597px] h-[370px] sm:h-[340px] py-5 px-10 bgrd rounded-[33px] ml-5 sm:ml-28">
                         <div className="rating rating-s ">
                             <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />
                             <input type="radio" name="rating-5" className="mask mask-star-2 bg-white-800" />

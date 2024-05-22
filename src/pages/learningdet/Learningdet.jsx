@@ -16,12 +16,12 @@ const Learningdet = () => {
           <div className="mr-5 w-[100%]">
             <Contxt1 />
           </div>
-          {/* <Contxt2 /> */}
+            <Contxt2 />
         </div>
       </div >
-      {/* <Contxt3 />
-      <Contxt4 />
-      <Contxt5 /> */}
+       <Contxt3 />
+       <Contxt4 />
+      <Contxt5 /> 
     </>
   )
 }
