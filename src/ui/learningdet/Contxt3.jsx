@@ -11,14 +11,14 @@ function Contxt3() {
   return (
     <>
       <div className="team-heading text-center w-[1280px]">
-        <h1 className=" text-white text-white font-['Poppins']">Meet Our Mentors</h1>
+        <h1 className="text-white text-3xl font-medium font-['Poppins']">Meet Our Mentors</h1>
       </div>
-    <div className="flex -mt-20 w-[250px] ml-40 mb-64 ">
-            <img className="mr-16" src={indra} alt="foto" />
-            <img className="mr-16" src={sri} alt="foto" />
-            <img className="mr-16" src={marsani} alt="foto" />
-            <img className="mr-16" src={malik} alt="foto" />
-        </div>
+      <div className="flex -mt-20 w-[250px] ml-40 mb-64 ">
+        <img className="mr-16" src={indra} alt="foto" />
+        <img className="mr-16" src={sri} alt="foto" />
+        <img className="mr-16" src={marsani} alt="foto" />
+        <img className="mr-16" src={malik} alt="foto" />
+      </div>
     </>
   );
 }
