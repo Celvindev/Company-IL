@@ -3,8 +3,8 @@ import React from 'react'
 const Contxt3 = () => {
     return (
         <>
-            <div className="flex w-full justify-center mt-60">
-                <div className="mr-5 w-[100%]">
+            <div className="sm:flex w-full justify-center mt-60 ml-10 sm:ml-0">
+                <div className="mr-5 w-[100%] sm:mb-0 mb-10">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr1.png" alt="Shoes" /></figure>
                         <div className="card-body">
@@ -36,8 +36,8 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="flex w-full justify-center mt-10">
-                <div className="mr-5 w-[100%]">
+            <div className="sm:flex w-full justify-center mt-10 sm:mt-60 ml-10 sm:ml-0">
+                <div className="mr-5 w-[100%] sm:mb-0 mb-10">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr3.png" alt="Shoes" /></figure>
                         <div className="card-body">
@@ -69,8 +69,8 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="flex w-full justify-center mt-10">
-                <div className="mr-5 w-[100%]">
+            <div className="sm:flex w-full justify-center mt-10 sm:mt-60 ml-10 sm:ml-0">
+                <div className="mr-5 w-[100%] sm:mb-0 mb-10">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr5.png" alt="Shoes" /></figure>
                         <div className="card-body">
@@ -102,8 +102,8 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="flex w-full justify-center mt-10">
-                <div className="mr-5 w-[100%]">
+            <div className="sm:flex w-full justify-center mt-10 sm:mt-60 ml-10 sm:ml-0">
+                <div className="mr-5 w-[100%] sm:mb-0 mb-10">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr7.png" alt="Shoes" /></figure>
                         <div className="card-body">
@@ -135,8 +135,8 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="flex w-full justify-center mt-10">
-                <div className="mr-5 w-[100%]">
+            <div className="sm:flex w-full justify-center mt-10 sm:mt-60 ml-10 sm:ml-0">
+                <div className="mr-5 w-[100%] sm:mb-0 mb-10">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr9.png" alt="Shoes" /></figure>
                         <div className="card-body">
@@ -168,8 +168,8 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="flex w-full justify-center mt-10">
-                <div className="mr-5 w-[100%]">
+            <div className="sm:flex w-full justify-center mt-10 sm:mt-60 ml-10 sm:ml-0">
+                <div className="mr-5 w-[100%] sm:mb-0 mb-10">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr11.png" alt="Shoes" /></figure>
                         <div className="card-body">
@@ -200,8 +200,8 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="flex w-full justify-center mt-10">
-                <div className="mr-5 w-[100%]">
+            <div className="sm:flex w-full justify-center mt-10 sm:mt-60 ml-10 sm:ml-0">
+                <div className="mr-5 w-[100%] sm:mb-0 mb-10">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr13.png" alt="Shoes" /></figure>
                         <div className="card-body">
