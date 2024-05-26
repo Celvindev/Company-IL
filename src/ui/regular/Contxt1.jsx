@@ -19,7 +19,7 @@ const Contxt1 = () => {
                     </label>
                 
 
-                <h1 className=" lg:text-white text-2xl font-semibold font-['Montserrat'] leading-7 mt-20">Categories</h1>
+                <h1 className="hidden sm:block lg:text-white text-2xl font-semibold font-['Montserrat'] leading-7 mt-20">Categories</h1>
                 
                 <ul className="hidden lg:flex mt-1 gap-5">
                     <li>
