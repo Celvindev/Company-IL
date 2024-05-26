@@ -8,8 +8,8 @@ const Contxt5 = () => {
 
     return (
         <>
-            <div className="flex w-full justify-center mt-10">
-                <div className="mr-5 w-[100%]">
+            <div className="sm:flex w-full justify-center mt-10">
+                <div className="sm:mr-5 w-[100%] mb-10 ml-1">
                     <div
                         className="card cardhome w-[100%] h-[357px] rounded-[44px] image-full"
                         onMouseEnter={() => setShowButton1(true)}
@@ -26,7 +26,7 @@ const Contxt5 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mr-5 w-[100%]">
+                <div className="mr-5 w-[100%] mb-10 ml-1">
                     <div
                         className="card cardhome w-[100%] h-[357px] rounded-[44px] image-full"
                         onMouseEnter={() => setShowButton2(true)}
@@ -45,8 +45,8 @@ const Contxt5 = () => {
                 </div>
             </div>
 
-            <div className="flex w-full justify-center mt-10">
-                <div className="mr-5 w-[100%]">
+            <div className="sm:flex w-full justify-center mt-0 sm:mt-10">
+                <div className="mr-5 w-[100%] mb-10 ml-1">
                     <div
                         className="card cardhome w-[100%] h-[357px] rounded-[44px] image-full"
                         onMouseEnter={() => setShowButton3(true)}
@@ -63,7 +63,7 @@ const Contxt5 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mr-5 w-[100%]">
+                <div className="mr-5 w-[100%] mb-10 ml-1">
                     <div
                         className="card cardhome w-[100%] h-[357px] rounded-[44px] image-full"
                         onMouseEnter={() => setShowButton4(true)}

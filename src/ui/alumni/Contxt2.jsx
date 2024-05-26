@@ -4,7 +4,7 @@ import "../../pages/alumni/Alumni.css";
 const Contxt2 = () => {
     return (
         <>
-            <div className="grid-container">
+            <div className="hidden sm:block grid-container">
                 <div className="grid w-[1270px] h-[200px] place-items-center relative">
                     <div className="w-[1270px] justify-center items-center gap-8 inline-flex relative moving-container">
                         <img src='/assets/alumni/polibatam.png' alt="Gambar 1" className="moving-image w-[139px]" />

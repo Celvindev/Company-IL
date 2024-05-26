@@ -14,7 +14,7 @@ const Regular = () => {
           <div className="mr-5 w-[100%]">
             <Contxt1 />
           </div>
-          {/* <Contxt2 /> */}
+          <Contxt2 />
         </div>
         <Contxt3 />
       </div >
