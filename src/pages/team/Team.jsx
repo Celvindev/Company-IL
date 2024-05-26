@@ -9,6 +9,7 @@ import Contxt4 from '../../ui/team/Contxt4'
 import Contxt5 from '../../ui/team/Contxt5'
 import Contxt6 from '../../ui/team/Contxt6'
 import Contxt7 from '../../ui/team/Contxt7'
+import Contxt2_M from '../../ui/team/Contxt2_M'
 
 const Team = () => {
     return (
@@ -21,7 +22,12 @@ const Team = () => {
                     <Bgpattern />
                 </div>
                 <Contxtt1 />
-                <Contxt2 />
+                <div className="block sm:hidden">
+                    <Contxt2_M />
+                </div>
+                <div className="hidden sm:block">
+                    <Contxt2 />
+                </div>
                 <Contxt3 />
                 <Contxt4 />
                 <Contxt5 />
