@@ -8,15 +8,15 @@ import Keempat from '../../assets/news/keempat.png';
 function Content1() {
   return (
 
-    <div className="team-heading w-[1280px] h-[570px]">
+    <div className="team-heading w-[128px] sm:w-[1280px] sm:h-[570px]">
       {/* Masuk Konten 1 */}
-      <div className="flex mt-10 w-full ">
-      <div className="card grid w-[597px] h-[680px]  bg-gray-925 rounded-box bgcard">
+      <div className="sm:flex -ml-40 sm:-ml-12 mt-10 w-full ">
+      <div className="card grid w-[300px] sm:w-[597px] h-[320px] sm:h-[680px] bg-gray-925 rounded-box bgcard">
                 <div className="card-body ">
-                    <h4 className="card-title ">Mar 13 • 2 min read
-                        <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
+                    <h4 className="sm:card-title card-m">Mar 13 • 2 min read
+                        <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-12 sm:mt-5 mr-2 sm:mr-5" />
                     </h4>
-                    <h1>RMIT University Visit to Infinite Learning</h1>
+                    <h1 className='title-card '>RMIT University Visit to Infinite Learning</h1>
                     <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-6">
                         <div className="absolute inset-0 rounded-[20px] bg-gradient-to-b from-opacity-0 via-opacity-100 to-opacity-100"
                             style={{ background: 'linear-gradient(119deg, rgba(24, 24, 35, 0.88) 11.46%, rgba(47, 31, 79, 0.76) 39.08%, rgba(138, 61, 255, 0.26) 92.98%);' }}></div>
