@@ -87,7 +87,7 @@ function Content2() {
             <p className="title-cardd text-base sm:text-3xl">Mengulas Kemeriahan di Balik Layar: Cerita Developer Festival 5.0 di Infinite Learning</p><br />
             <div className="relative lg:mt-16 lg:mr-5 w-full sm:w-[80%] lg:w-[100%] h-[auto]">
               <div className="absolute inset-0 rounded-[20px] bg-gradient-to-b from-opacity-0 via-opacity-100 to-opacity-100"
-                style={{ background: 'linear-gradient(119deg, rgba(24, 24, 35, 0.88) 11.46%, rgba(47, 31, 79, 0.76) 39.08%, rgba(138, 61, 255, 0.26) 92.98%);' }}></div>
+                style={{ background: 'linear-gradient(119deg, rgba(24, 24, 35, 0.88) 11.46%, rgba(47, 31, 79, 0.76) 39.08%, rgba(138, 61, 255, 0.26) 92.98%)' }}></div>
               <img className="w-full h-full object-cover rounded-[20px] " style={{
                 borderRadius: '33px',
                 border: '0.5px solid var(--Gradient, #32C7C4)',
