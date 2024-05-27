@@ -14,7 +14,9 @@ function Content1() {
       <div className="card grid w-[330px] sm:w-[597px] h-[320px] sm:h-[680px] bg-gray-925 rounded-box bgcard mb-10">
                 <div className="card-body --ml-1">
                     <h4 className="sm:card-title card-m">Mar 13 • 2 min read
+                    <a href="../newsafter">
                         <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-12 sm:-mt-4 mr-2 sm:mr-5" />
+                        </a>
                     </h4>
                     <h1 className='title-card text-base sm:text-5xl'>RMIT University Visit to Infinite Learning</h1>
                     <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-6">
@@ -35,7 +37,9 @@ function Content1() {
                         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                         <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5 --ml-1">
                         <h4 className="sm:card-title card-m">Mar 13 • 2 min read
+                        <a href="../newsafter">
                           <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-12 sm:-mt-4 mr-2 sm:mr-5" />
+                          </a>
                         </h4>
                             <br />
                             <a href='../newsafter' title="Klik">
@@ -53,7 +57,9 @@ function Content1() {
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
               <div className="absolute inset-0 flex flex-col justify-left items-left text-white ml-10 mt-10">
               <h4 className="sm:card-title card-m">Mar 13 • 2 min read
+              <a href="../newsafter">
                         <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-12 sm:-mt-4 mr-2 sm:mr-5" />
+                        </a>
                     </h4>
                 <br />
                 <p className="title-cardd text-base sm:text-3xl">Infinite Learning Meraih Prestasi sebagai Unreal Engine Authorized Training Centre</p >

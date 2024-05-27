@@ -8,8 +8,8 @@ const NewsAfter = () => {
     <>
       <div className='w-full'>
         <Navbar />
-        <Contxtt1/>
       </div>
+        <Contxtt1/>
     </>
   )
 }

@@ -49,20 +49,14 @@ function Contxtt1() {
   return (
     
     
-    <div className="team-heading mt-10 w-[1280px]">
-      {/* <details className="dropdown mt-8">
-        <summary className="m-1 btn btcat btn-outline w-[150px] rounded-full font-normal">Category <i className="fas fa-chevron-down"></i></summary>
-        <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-          <li><a>Item 1</a></li>
-          <li><a>Item 2</a></li>
-        </ul>
-      </details> */}
+    <div className="team-heading mt-10 sm:w-[1280px] w-[580px] ml-4 sm:ml-20">
+      <br /><br /><br /><br /><br />
       <p >News / Cybersecurity: Securing the Virtual World in the Digital Era</p>
-      <h1 className='txtafter mt-10 w-[600] text-justify' style={judul}>Cybersecurity: Securing the Virtual World in the Digital Era</h1>
+      <h1 className='txtafter -mt-4 w-[600] text-justify -ml-2' style={judul}>Cybersecurity: Securing the Virtual World in the Digital Era</h1>
       <p style={anaknya}> 
         Infinite Learning <br /> Batam, Indonesia 31 Oktober 2023
       </p><br /><br />
-      <img className="w-full h-96 object-cover rounded-[20px] " src={News} alt="News" />
+      <img className="sm:w-full w-[559px] h-96 object-cover rounded-[20px] " src={News} alt="News" />
       <div className='article mt-5  items-center text-left'>
         <article>
             Selamat datang di dunia di mana keamanan adalah kunci!🌐
@@ -84,7 +78,7 @@ function Contxtt1() {
       Penipu sering menggunakan berbagai cara, termasuk iming-iming hadiah palsu untuk mencuri informasi pribadi Oleh karena itu, sebelum mengeklik tautan atau menanggapi penawaran hadiah online, pastikan untuk konfirmasi dan mencari tahu keasliannya. Ini dapat dilakukan dengan menelusuri dan menghubungi sumber resmi yang terkait
         </article>
 
-        <img className="w-128 h-96 object-cover rounded-[40px] mt-10 ml-72" src={News2} alt="News2" />
+        <img className="sm:w-128 h-96 object-cover rounded-[40px] mt-10 sm:ml-72 -ml-2" src={News2} alt="News2" />
 <br /><br /><br />
         <article>
         Dengan menerapkan langkah-langkah yang telah dibahas dalam blog ini, kita semua dapat menjaga perangkat dan data pribadi kita tetap aman dari serangan siber, serta dapat menjelajahi dunia maya dengan lebih tenang.
