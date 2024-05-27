@@ -113,6 +113,16 @@ letter-spacing: 0.3px;
   letter-spacing: 0.4px;
 }
 
+.title-cardd{
+  color: var(--white, #FFF);
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 125% */
+  letter-spacing: 0.4px;
+}
+
 .title-cardm{
   color: var(--white, #FFF);
   font-family: Poppins;

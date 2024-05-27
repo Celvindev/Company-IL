@@ -11,7 +11,7 @@ function Content1() {
     <div className="team-heading w-[128px] sm:w-[1280px] sm:h-[570px]">
       {/* Masuk Konten 1 */}
       <div className="sm:flex -ml-40 sm:-ml-12 mt-10 w-full ">
-      <div className="card grid w-[300px] sm:w-[597px] h-[320px] sm:h-[680px] bg-gray-925 rounded-box bgcard">
+      <div className="card grid w-[330px] sm:w-[597px] h-[320px] sm:h-[680px] bg-gray-925 rounded-box bgcard mb-10">
                 <div className="card-body ">
                     <h4 className="sm:card-title card-m">Mar 13 • 2 min read
                         <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-12 sm:mt-5 mr-2 sm:mr-5" />
@@ -30,17 +30,16 @@ function Content1() {
             {/* Masuk Konten 2 dan 3 */}
             <ul>
                 <li>
-                    <div className="grid w-[570px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
+                    <div className="grid w-[330px] sm:w-[570px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
                         <img src={Ketiga} alt="dwdw" className="w-full h-full object-cover" />
                         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                         <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5">
-                            <h4 className="card-title" style={{display: 'inline-flex', justifyContent: 'left' }}>
-                                Apr 1 • 1 min read
-                                <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" />
-                            </h4>
+                        <h4 className="sm:card-title card-m">Mar 13 • 2 min read
+                          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-12 sm:mt-5 mr-2 sm:mr-5" />
+                        </h4>
                             <br />
                             <a href='../newsafter' title="Klik">
-                                <p style={{color: 'var(--white, #FFF)',fontFamily: 'Poppins',fontSize: '25px',fontStyle: 'normal',fontWeight: '600', lineHeight: '40px', letterSpacing: '0.3px'}}>
+                                <p className="title-cardd">
                                     Inspiring! Infinite Learning Earns a Chance to Participate in the Pervasive AI Developer Contest
                                 </p >
                             </a>
@@ -49,26 +48,15 @@ function Content1() {
 
             <br />
 
-            <div className="grid w-[570px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
+            <div className="grid w-[330px] sm:w-[570px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
               <div className="absolute inset-0 flex flex-col justify-left items-left text-white ml-10 mt-10">
-                <h4 className="card-title mb-1" style={{
-                  display: 'inline-flex',
-                  justifyContent: 'left',
-                  
-                }}>Apr 1 • 1 min read
-                   <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mr-5" /></h4>
+              <h4 className="sm:card-title card-m">Mar 13 • 2 min read
+                        <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-12 sm:mt-5 mr-2 sm:mr-5" />
+                    </h4>
                 <br />
-                <p style={{
-                  color: 'var(--white, #FFF)',
-                  fontFamily: 'Poppins',
-                  fontSize: '25px',
-                  fontStyle: 'normal',
-                  fontWeight: '600',
-                  lineHeight: '50px',
-                  letterSpacing: '0.3px'
-                }}>Infinite Learning Meraih Prestasi sebagai Unreal Engine Authorized Training Centre</p >
+                <p className="title-cardd">Infinite Learning Meraih Prestasi sebagai Unreal Engine Authorized Training Centre</p >
                 <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
                 </div>
               </div>
