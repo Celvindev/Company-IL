@@ -35,25 +35,15 @@ function Content2() {
       <div className="sm:flex mt-20 w-full">
         <ul>
           <li>
-            <div className="grid w-[330px] sm:w-[597px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
+            <div className="grid w-[330px] sm:w-[597px] sm:h-[325px] h-[225px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
               <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5">
-                <h4 className="card-title " style={{
-                  display: 'inline-flex',
-                  justifyContent: 'left'
-                }}>Apr 1 • 1 min read
-                   <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" /> </h4>
+              <h4 className="sm:card-title card-m">Mar 13 • 2 min read
+                        <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-12 sm:-mt-4 mr-2 sm:mr-5" />
+                    </h4>
                 <br />
-                <p style={{
-                  color: 'var(--white, #FFF)',
-                  fontFamily: 'Poppins',
-                  fontSize: '25px',
-                  fontStyle: 'normal',
-                  fontWeight: '600',
-                  lineHeight: '50px',
-                  letterSpacing: '0.3px'
-                }}>Infinite Learning Meraih Prestasi sebagai Unreal Engine Authorized Training Centre</p >
+                <p className="title-cardd text-base sm:text-3xl">Infinite Learning Meraih Prestasi sebagai Unreal Engine Authorized Training Centre</p >
                 <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
                 </div>
               </div>
@@ -62,24 +52,15 @@ function Content2() {
 
             <br />
 
-            <div className="grid w-[330px] sm:w-[597px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
+            <div className="grid w-[330px] sm:w-[597px] sm:h-[325px] h-[225px] card bg-gray-925 -ml-1 sm:ml-0 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
               <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5">
-                <h4 className="card-title " style={{
-                  display: 'inline-flex',
-                  justifyContent: 'left'
-                }}>Apr 1 • 1 min read
-                   <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5" /> </h4>
+                <h4 className="sm:card-title card-m">Mar 13 • 2 min read
+                        <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-12 sm:-mt-4 mr-2 sm:mr-5" />
+                    </h4>
                 <br />
-                <p style={{
-                  color: 'var(--white, #FFF)',
-                  fontFamily: 'Poppins',
-                  fontSize: '22px',
-                  fontStyle: 'normal',
-                  fontWeight: '600',
-                  lineHeight: '40px'
-                }}>Global Game Jam Batam: Membangun Kreativitas dan Mengembangkan Talenta Indonesia di Bidang Game Development</p >
+                <p className="title-cardd text-base sm:text-3xl">Global Game Jam Batam: Membangun Kreativitas dan Mengembangkan Talenta Indonesia di Bidang Game Development</p >
                 <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-9">
                 </div>
               </div>
@@ -87,7 +68,7 @@ function Content2() {
           </li>
         </ul>
 
-
+<br />
 
 
         <div className=" divider-horizontal"></div>
@@ -99,21 +80,11 @@ function Content2() {
 
         {/* Masuk konten 6 */}
         <div className="card grid w-[330px] sm:w-[597px] h-[320px] sm:h-[680px] bg-gray-925 rounded-box bgcard">
-            <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-10 ">
-                <h4 className="card-title mb-10" style={{
-                  display: 'inline-flex',
-                  justifyContent: 'left'
-                }}>Apr 1 • 1 min read
-                   <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-5 mb-5" /> </h4>
-            <p style={{
-              color: 'var(--white, #FFF)',
-              fontFamily: 'Poppins',
-              fontSize: '33px',
-              fontStyle: 'normal',
-              fontWeight: '600',
-              lineHeight: '40px',
-              letterSpacing: '1px'
-            }} >Mengulas Kemeriahan di Balik Layar: Cerita Developer Festival 5.0 di Infinite Learning</p>
+            <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-10 -ml-1 sm:ml-0">
+            <h4 className="sm:card-title card-m -mt-5 sm:mt-0 sm:ml-0 mb-0 sm:mb-20">1 Apr • 2 min read
+                        <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 -mt-8 sm:-mt-4 mr-2 sm:mr-5" />
+                    </h4>
+            <p className="title-cardd text-base sm:text-3xl">Mengulas Kemeriahan di Balik Layar: Cerita Developer Festival 5.0 di Infinite Learning</p><br />
             <div className="relative lg:mt-16 lg:mr-5 w-full sm:w-[80%] lg:w-[100%] h-[auto]">
               <div className="absolute inset-0 rounded-[20px] bg-gradient-to-b from-opacity-0 via-opacity-100 to-opacity-100"
                 style={{ background: 'linear-gradient(119deg, rgba(24, 24, 35, 0.88) 11.46%, rgba(47, 31, 79, 0.76) 39.08%, rgba(138, 61, 255, 0.26) 92.98%);' }}></div>
