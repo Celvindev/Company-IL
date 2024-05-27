@@ -9,10 +9,10 @@ const News = () => {
   return (
     <>
       <Navbar />
-      <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl'>
+      <div className='flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-6 mx-auto max-w-screen-xl sm:ml-32'>
         <Title />
         <Content1 />
-        {/* <Content2 /> */}
+        <Content2 />
       </div>
     </>
   )

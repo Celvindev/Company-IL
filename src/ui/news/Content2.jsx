@@ -30,12 +30,12 @@ function Content2() {
 
   return (
 
-    <div className="team-heading mt-1 w-[1280px]">
+    <div className="team-heading -mt-52 sm:-mt-10 w-[128px] sm:w-[1280px] h-[900px] sm:ml-0 -ml-52">
       {/* Masuk konten 4 dan 5 */}
-      <div className="flex mt-20 w-full">
+      <div className="sm:flex mt-20 w-full">
         <ul>
           <li>
-            <div className="grid w-[600px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
+            <div className="grid w-[330px] sm:w-[597px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
               <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5">
@@ -62,7 +62,7 @@ function Content2() {
 
             <br />
 
-            <div className="grid w-[600px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
+            <div className="grid w-[330px] sm:w-[597px] h-[325px] card bg-gray-925 rounded-box place-items-center relative overflow-hidden shadow-lg bgcard">
               <img src={Keempat} alt="dwdw" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
               <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-4 ml-5 mt-5">
@@ -98,7 +98,7 @@ function Content2() {
 
 
         {/* Masuk konten 6 */}
-        <div className="card grid w-[575px] h-[680px] bg-gray-925 rounded-box bgcard">
+        <div className="card grid w-[330px] sm:w-[597px] h-[320px] sm:h-[680px] bg-gray-925 rounded-box bgcard">
             <div className="absolute inset-0 flex flex-col justify-left items-left text-white p-10 ">
                 <h4 className="card-title mb-10" style={{
                   display: 'inline-flex',
