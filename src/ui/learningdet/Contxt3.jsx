@@ -10,7 +10,7 @@ import malik from '../../assets/Team/malik.png';
 function Contxt3() {
   return (
     <>
-      <div className="team-heading ml-14 text-center w-[280px] sm:w-[1280px]">
+      <div className="team-heading ml-14 sm:ml-32 text-center w-[280px] sm:w-[1280px]">
         <h1 className="text-white text-2xl sm:text-3xl font-medium font-['Poppins']">Meet Our Mentors</h1>
       </div>
       <div className="sm:flex -mt-20 w-[230px] sm:w-[250px] -mt-28 ml-20 sm:ml-40 mb-64 ">

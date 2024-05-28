@@ -9,7 +9,7 @@ const Contxt1 = () => {
                 <button className="w-[132px] h-[48px] rounded-[44px] justify-center items-center flex border border-gradient mt-5">
                     <p className="msibtext text-[14px] sm:text-[16px]">Apply Now</p>
                 </button>
-                <h1 className=" text-white text-[28px] sm:text-[32px] txtmsib-c mt-10">Front-End Web Development</h1>
+                <h1 className=" text-white text-[28px] sm:text-[32px] txtmsib-c mt-10 ">Front-End Web Development</h1>
                 <article className="text-white text-[12px] sm:text-[16px] font-['Poppins'] leading-7">
                     1. High Demand Skill <br />
                     The digital age has ushered in a high demand for skilled front-end developers.
