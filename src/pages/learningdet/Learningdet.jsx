@@ -39,10 +39,6 @@ const Learningdet = () => {
                 <button className="mt-16 w-[380px] h-[100px] rounded-[46px] justify-center items-center flex border border-gradient ml-10" onClick={() => setProgramType('benefit')}>
                     <p className="msibtext text-[22px]">Benefit</p>
                 </button>
-
-                <button className="mt-16 w-[380px] h-[100px] rounded-[46px] justify-center items-center flex border border-gradient ml-10">
-                    <p className="msibtext text-[22px]">Start Date - End Program</p>
-                </button>
                 </div>
             </div>
         </div>
