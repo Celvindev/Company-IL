@@ -4,7 +4,7 @@ const Contxt2 = () => {
     return (
         <>
            
-            <div className="artboard hidden sm:block sm:h-[550px] mt-32">
+            <div className="artboard hidden sm:block sm:h-[450px] mt-32">
             <div className="grid w-[100%] h-[400px] place-items-center ">
                 <button className="w-[380px] h-[100px] rounded-[46px] justify-center items-center flex border border-gradient ml-10">
                     <p className="msibtext text-[22px]">Why You Should Learn</p>
@@ -21,11 +21,11 @@ const Contxt2 = () => {
 
                 <div className="grid w-[100%] h-[380px] place-items-center mt-24">
                 <button className="w-[380px] h-[100px] rounded-[46px] justify-center items-center flex border border-gradient ml-10">
-                    <p className="msibtext text-[22px]">Why You Should Learn</p>
+                    <p className="msibtext text-[22px]">Syllabus</p>
                 </button>
 
                 <button className="mt-16 w-[380px] h-[100px] rounded-[46px] justify-center items-center flex border border-gradient ml-10">
-                    <p className="msibtext text-[22px]">Requirement</p>
+                    <p className="msibtext text-[22px]">Benefit</p>
                 </button>
 
                 <button className="mt-16 w-[380px] h-[100px] rounded-[46px] justify-center items-center flex border border-gradient ml-10">
