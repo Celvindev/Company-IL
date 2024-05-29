@@ -9,9 +9,43 @@ const Contxt2 = () => {
           <hr />
           <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={()=>document.getElementById('my_modal_4').showModal()} />
           <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Bussiness Development
-            <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
+          <a href="https://s.id/ILHiring_May24">
+              <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
+          </a>
           </h2>
           <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We are looking for a Bussiness Development to join our team.</p>
+          <ul className="flex mt-5 lg:mt-8 lg:gap-2">
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Remote</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
+          </ul>
+        </div>
+
+
+        <div> <br />
+          <hr />
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={()=>document.getElementById('my_modal_5').showModal()} />
+          <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Public Relation
+          <a href="https://s.id/ILHiring_May24">
+              <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
+          </a>
+          </h2>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We are looking for a Public Relation to join our team.</p>
+          <ul className="flex mt-5 lg:mt-8 lg:gap-2">
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Remote</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
+          </ul>
+        </div>
+
+
+        <div> <br />
+          <hr />
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={()=>document.getElementById('my_modal_6').showModal()} />
+          <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">City Coordinator
+          <a href="https://s.id/citycoord">
+            <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
+          </a>
+          </h2>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We are looking for a City Coordinator to join our team.</p>
           <ul className="flex mt-5 lg:mt-8 lg:gap-2">
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Remote</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
@@ -30,6 +64,9 @@ const Contxt2 = () => {
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
         </div> <br />
+
+
+        
 
         <div className='relative'>
           <hr />
@@ -73,7 +110,7 @@ const Contxt2 = () => {
 
 
 
-{/* Ini untuk detail Job Description */}
+{/* Ini untuk detail Job Description Bussiness Development*/}
                       <dialog id="my_modal_4" className="modal">
                           <div className="modal-box w-11/12 max-w-7xl">
                             <h3 className="hmodal ml-2">Bussiness Development</h3>
@@ -107,6 +144,106 @@ const Contxt2 = () => {
                                         </div>
                                       <div>
                                         <p className="desc mt-10">By partnering with cross-functional teams and customers, you'll turn your insights into compelling products in a creative environment that requires proven leadership skills and the ability to execute a creative vision
+                                              
+                                        </p>
+                                      </div>
+                                        <hr /> 
+                                      </div>
+                            <div className="modal-action">
+                              <form method="dialog">
+                                {/* if there is a button, it will close the modal */}
+                                <button className="btn">Close</button>
+                              </form>
+                            </div>
+                          </div>
+                        </dialog>
+{/* Ini untuk detail Job Description */}
+
+
+
+{/* Ini untuk detail Job Description Public Relation*/}
+<dialog id="my_modal_5" className="modal">
+                          <div className="modal-box w-11/12 max-w-7xl">
+                            <h3 className="hmodal ml-2">Public Relation</h3>
+                              <ul className="flex mt-5 lg:mt-8 lg:gap-2">
+                                <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Remote</summary></li>
+                                <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
+                              </ul>
+                                      <div className="flex">
+                                        <div>
+                                            <h3 className='tmodal mt-10 mr-16'>Job Description</h3>
+                                        </div>
+                                      <div>
+                                        <p className="desc mt-10">We are looking for public relation, the ideal candidate is as below:
+                                              <ul>
+                                                <li className="ml-10">1. Strong creativity and copywriting skills</li>
+                                                <li className="ml-10">2. Experiencebin managing PR and events</li>
+                                                <li className="ml-10">3. Eagerness to connect and engage with people effectivelyr</li>
+                                                <li className="ml-10">4. Fun, adaptable, and quick to learn</li>
+                                                <li className="ml-10">5. Proficient in English language</li>
+                                                <li className="ml-10">6. Minimum 3 years experience</li>
+                                              </ul>  
+                                        </p>
+                                      </div>
+                                        <hr /> 
+                                      </div>
+            
+                                      <div className="flex">
+                                        
+                                        <div>
+                                            <h3 className='tmodal mt-10 mr-20'>Responsibility</h3>
+                                        </div>
+                                      <div>
+                                        <p className="desc mt-10">By partnering with cross-functional teams and customers, you'll turn your insights into compelling products in a creative environment that requires proven leadership skills and the ability to execute a creative vision
+                                              
+                                        </p>
+                                      </div>
+                                        <hr /> 
+                                      </div>
+                            <div className="modal-action">
+                              <form method="dialog">
+                                {/* if there is a button, it will close the modal */}
+                                <button className="btn">Close</button>
+                              </form>
+                            </div>
+                          </div>
+                        </dialog>
+{/* Ini untuk detail Job Description */}
+
+
+{/* Ini untuk detail Job Description City Coordinator*/}
+<dialog id="my_modal_6" className="modal">
+                          <div className="modal-box w-11/12 max-w-7xl">
+                            <h3 className="hmodal ml-2">City Coordinator</h3>
+                              <ul className="flex mt-5 lg:mt-8 lg:gap-2">
+                                <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Remote</summary></li>
+                                <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
+                              </ul>
+                                      <div className="flex">
+                                        <div>
+                                            <h3 className='tmodal mt-10 mr-16'>Job Description</h3>
+                                        </div>
+                                      <div>
+                                        <p className="desc mt-10">We are looking for City Coordinator, the ideal candidate is as below:
+                                              <ul>
+                                                <li className="ml-10">1. Is an Infinite Learning student or alumni</li>
+                                                <li className="ml-10">2. Have high enthusiasm and a willingness to expand relationships</li>
+                                                <li className="ml-10">3. Commit to carrying out the program for 6 months</li>
+                                                <li className="ml-10">4. Social media enthusiast</li>
+                                                <li className="ml-10">5. Attach CV</li>
+                                              </ul>  
+                                        </p>
+                                      </div>
+                                        <hr /> 
+                                      </div>
+            
+                                      <div className="flex">
+                                        
+                                        <div>
+                                            <h3 className='tmodal mt-10 mr-20'>Responsibility</h3>
+                                        </div>
+                                      <div>
+                                        <p className="desc mt-10">The benefits you will get are incentives, E-Certificates, Merchandise, career opportunities in Infinite Learning, Networking, and many more
                                               
                                         </p>
                                       </div>
