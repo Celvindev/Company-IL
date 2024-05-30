@@ -163,7 +163,6 @@ const Contxt2 = () => {
 {/* Ini untuk detail Job Description */}
 
 
-
 {/* Ini untuk detail Job Description Public Relation*/}
 <dialog id="my_modal_5" className="modal">
                           <div className="modal-box w-11/12 sm:max-w-7xl xl:w-2/3">
@@ -181,7 +180,7 @@ const Contxt2 = () => {
                                             <h3 className='tmodal'>Job Description</h3>
                                         </div>
                                       <div>
-                                        <p className="desc mt-4 lg:mt-0">We are looking for public relation, the ideal candidate is as below:
+                                        <p className="desc mt-4 lg:mt-0 text-sm md:text-base lg:text-lg">We are looking for public relation, the ideal candidate is as below:
                                               
                                         </p>
                                         <ul className="desc mt-4">

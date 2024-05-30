@@ -37,10 +37,9 @@ line-height: 28px; /* 116.667% */
 }
 
 .desc{
-  color: #FFF;
+color: #FFF;
 text-align: justify;
 font-family: Poppins;
-font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 140% */
