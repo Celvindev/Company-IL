@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilter } from '@fortawesome/free-solid-svg-icons';
 
 
-const Contxtt1 = () => {
+const Contxt1 = () => {
   return (
     <div className="">
       <summary className="mt-32 sm:mt-40 btn btcat btn-outline w-full sm:w-[180px] rounded-full bg-teal-500 text-a"> <span>We’re Hiring!</span></summary>
@@ -36,4 +36,4 @@ const Contxtt1 = () => {
   );
 }
 
-export default Contxtt1;
+export default Contxt1;
