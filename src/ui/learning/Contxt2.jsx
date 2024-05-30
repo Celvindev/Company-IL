@@ -27,7 +27,7 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <sapn className='leading-6'>Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren</sapn>
+                                            <span className='leading-6'>Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren</span>
                                         </p>
                                     </button>
                                 </li>
