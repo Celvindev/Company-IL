@@ -19,9 +19,11 @@ const Contxt5 = () => {
                         <div className="card-body">
                             <h1 className={`text-center mt-32 text-white text-[28px] font-bold font-['Montserrat'] ${showButton1 ? 'slideUp' : ''}`}>IBM , Web & APP Collaboration</h1>
                             <div className={`button-container ${showButton1 ? 'slideIn' : ''}`}>
-                                <button className="w-[140px] h-[20px] rounded-[44px]  mt-5 btn btcat btn-outline">
-                                    <p className="msibtxtcont">See More <i className="fa-solid fa-arrow-right ml-2"></i></p>
-                                </button>
+                            <a href="https://infinitelearning.notion.site/The-Best-Product-Batch5-86cc9ecd7096439abf086b27062f929a">
+                                    <button className="w-[140px] h-[20px] rounded-[44px]  mt-5 btn btcat btn-outline">
+                                        <p className="msibtxtcont">See More <i className="fa-solid fa-arrow-right ml-2"></i></p>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -36,9 +38,11 @@ const Contxt5 = () => {
                         <div className="card-body">
                             <h1 className={`text-center mt-32 text-white text-[28px] font-bold font-['Montserrat'] ${showButton2 ? 'slideUp' : ''}`}>Game Development</h1>
                             <div className={`button-container ${showButton2 ? 'slideIn' : ''}`}>
-                                <button className="w-[140px] h-[20px] rounded-[44px]  btn btcat btn-outline">
-                                    <p className="msibtxtcont">See More <i className="fa-solid fa-arrow-right ml-2"></i></p>
-                                </button>
+                            <a href="https://infinitelearning.notion.site/The-Best-Product-Batch5-86cc9ecd7096439abf086b27062f929a">
+                                    <button className="w-[140px] h-[20px] rounded-[44px]  mt-5 btn btcat btn-outline">
+                                        <p className="msibtxtcont">See More <i className="fa-solid fa-arrow-right ml-2"></i></p>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -56,9 +60,11 @@ const Contxt5 = () => {
                         <div className="card-body">
                             <h1 className={`text-center mt-32 text-white text-[28px] font-bold font-['Montserrat'] ${showButton3 ? 'slideUp' : ''}`}>Web & APP Collaboration</h1>
                             <div className={`button-container ${showButton3 ? 'slideIn' : ''}`}>
-                                <button className="w-[140px] h-[20px] rounded-[44px] btn btcat btn-outline">
-                                    <p className="msibtxtcont">See More <i className="fa-solid fa-arrow-right ml-2"></i></p>
-                                </button>
+                            <a href="https://infinitelearning.notion.site/The-Best-Product-Batch5-86cc9ecd7096439abf086b27062f929a">
+                                    <button className="w-[140px] h-[20px] rounded-[44px]  mt-5 btn btcat btn-outline">
+                                        <p className="msibtxtcont">See More <i className="fa-solid fa-arrow-right ml-2"></i></p>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -73,9 +79,11 @@ const Contxt5 = () => {
                         <div className="card-body">
                             <h1 className={`text-center mt-32 text-white text-[28px] font-bold font-['Montserrat'] ${showButton4 ? 'slideUp' : ''}`}>Web Development</h1>
                             <div className={`button-container ${showButton4 ? 'slideIn' : ''}`}>
-                                <button className="w-[140px] h-[20px] rounded-[44px]  btn btcat btn-outline">
-                                    <p className="msibtxtcont">See More <i className="fa-solid fa-arrow-right ml-2"></i></p>
-                                </button>
+                            <a href="https://infinitelearning.notion.site/The-Best-Product-Batch5-86cc9ecd7096439abf086b27062f929a">
+                                    <button className="w-[140px] h-[20px] rounded-[44px]  mt-5 btn btcat btn-outline">
+                                        <p className="msibtxtcont">See More <i className="fa-solid fa-arrow-right ml-2"></i></p>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
