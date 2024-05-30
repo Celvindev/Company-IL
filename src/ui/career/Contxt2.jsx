@@ -52,7 +52,7 @@ const Contxt2 = () => {
           </ul>
         </div>
 
-        <div> <br />
+        {/* <div> <br />
           <hr />
           <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-7 mr-2" />
           <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Technical Mentor
@@ -103,8 +103,8 @@ const Contxt2 = () => {
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Remote</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
           </ul> <br />
-          <hr />
-        </div>
+          <hr /> */}
+        {/* </div> */}
       </div>
 
 
