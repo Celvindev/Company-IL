@@ -18,7 +18,7 @@ const Contxt2 = () => {
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-10 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">M. Rofli Harahap
                                             </b>
                                             <div className="rating rating-xs ml-5">
@@ -29,13 +29,13 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
                                             <span className='leading-6'>Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding, bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren</span>
-                                        </p>
+                                        </div>
                                     </button>
                                 </li>
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">Adi Prasetyo
                                             </b>
                                             <div className="rating rating-xs ml-12">
@@ -45,13 +45,13 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <span className='leading-6'>Infinite Learning menyediakan kursus yang luar biasa! Materi pelajarannya sangat terstruktur dengan baik dan disampaikan dengan jelas. Saya sangat terkesan dengan kualitas pembelajaran yang ditawarkan</span></p>
+                                            <span className='leading-6'>Infinite Learning menyediakan kursus yang luar biasa! Materi pelajarannya sangat terstruktur dengan baik dan disampaikan dengan jelas. Saya sangat terkesan dengan kualitas pembelajaran yang ditawarkan</span></div>
                                     </button>
                                 </li>
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">Ahmad Fauzi
                                             </b>
                                             <div className="rating rating-xs ml-12">
@@ -61,13 +61,13 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></p>
+                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></div>
                                     </button>
                                 </li>
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">Ahmad Fauzi
                                             </b>
                                             <div className="rating rating-xs ml-12">
@@ -77,13 +77,13 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></p>
+                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></div>
                                     </button>
                                 </li>
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">Ahmad Fauzi
                                             </b>
                                             <div className="rating rating-xs ml-12">
@@ -93,13 +93,13 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></p>
+                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></div>
                                     </button>
                                 </li>
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">Ahmad Fauzi
                                             </b>
                                             <div className="rating rating-xs ml-12">
@@ -109,13 +109,13 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></p>
+                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></div>
                                     </button>
                                 </li>
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">Ahmad Fauzi
                                             </b>
                                             <div className="rating rating-xs ml-12">
@@ -125,13 +125,13 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></p>
+                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></div>
                                     </button>
                                 </li>
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">Ahmad Fauzi
                                             </b>
                                             <div className="rating rating-xs ml-12">
@@ -141,13 +141,13 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></p>
+                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></div>
                                     </button>
                                 </li>
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">Ahmad Fauzi
                                             </b>
                                             <div className="rating rating-xs ml-12">
@@ -157,13 +157,13 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></p>
+                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></div>
                                     </button>
                                 </li>
 
                                 <li>
                                     <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                        <p className="msibcrdtxt text-left ">
+                                        <div className="msibcrdtxt text-left ">
                                             <b className="cardtitlems mr-30">Ahmad Fauzi
                                             </b>
                                             <div className="rating rating-xs ml-12">
@@ -173,7 +173,7 @@ const Contxt2 = () => {
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                                 <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
                                             </div> <br /> <br />
-                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></p>
+                                            <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span></div>
                                     </button>
                                 </li>
                             </ul>
