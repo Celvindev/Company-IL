@@ -65,7 +65,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
                                 <h1 className='cardhmttl2 mt-10'>Game<br /> Development</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
@@ -78,7 +78,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
                                 <h1 className='cardhmttl2 mt-10'>Animation</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
@@ -91,7 +91,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
                                 <h1 className='cardhmttl2 mt-10'>AR & VR</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
@@ -104,7 +104,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
                                 <h1 className='cardhmttl2 mt-10'>Sosial Media<br /> Specialist</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
@@ -117,7 +117,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
                                 <h1 className='cardhmttl2 mt-10'>IBM Advance AI</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
@@ -130,7 +130,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
                                 <h1 className='cardhmttl2 mt-10'>IBM Academy :<br /> Hybrid Cloud & Red Hat</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
@@ -143,7 +143,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">REGULER</h2>
                                 <h1 className='cardhmttl2 mt-10'>Cybersecurity</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
@@ -156,7 +156,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttlmt-5">REGULER</h2>
                                 <h1 className='cardhmttl2 mt-10'>Game Development<br /> With Unreal Engine</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
@@ -169,7 +169,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">STUDI IDEPENDENT</h2>
                                 <h1 className='cardhmttl2 mt-5'>Android Mobile<br /> Development &<br /> UIUX Designer</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
@@ -182,7 +182,7 @@ const Contxt5 = () => {
                                 <img src='/assets/home/iconarrowup.svg' alt="" className="absolute top-0 right-0 mt-5 mr-5" />
                                 <h2 className="cardhmttl1 mt-5">STUDI IDEPENDENT</h2>
                                 <h1 className='cardhmttl2 mt-5'>RedHat System<br /> Administration</h1>
-                                <p className='cardhm mt-5'>Start From Rp 1.500.000</p>
+                                <p className='cardhm mt-5'>Start From <b className='font-bold'>Rp 1.500.000</b></p>
                                 <div className="card-actions justify-end">
                                     <button className="btn btcat btn-outline border-2 w-[123px] text-[14px] rounded-full text-white">Apply Now</button>
                                 </div>
