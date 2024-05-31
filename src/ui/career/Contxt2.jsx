@@ -187,116 +187,116 @@ const Contxt2 = () => {
               <h3 className='tmodal'>Responsibility</h3>
             </div>
             <div>
-              <p className="desc mt-4 lg:mt-0">The benefits you will get are incentives, E-Certificates, Merchandise, career opportunities in Infinite Learning, Networking, and many more 
+              <p className="desc mt-4 lg:mt-0">The benefits you will get are incentives, E-Certificates, Merchandise, career opportunities in Infinite Learning, Networking, and many more
               </p>
             </div>
           </div>
         </div>
       </dialog>
-{/* Ini untuk detail Job Description */}
+      {/* Ini untuk detail Job Description */}
 
 
-{/* Ini untuk detail Job Description Public Relation*/}
-<dialog id="my_modal_5" className="modal">
-                          <div className="modal-box w-11/12 sm:max-w-7xl xl:w-2/3">
-                            <h3 className="hmodal ml-2">Public Relation</h3>
-                              <ul className="flex flex-wrap mt-5 lg:mt-8 lg:gap-2">
-                                <li>
-                                  <summary className="m-1 btn btcat btn-outline sm:w-[165px] lg:w-[180px] rounded-full">Remote</summary>
-                                </li>
-                                <li>
-                                  <summary className="m-1 btn btcat btn-outline sm:w-[165px] lg:w-[180px] rounded-full">Full-time</summary>
-                                </li>
-                              </ul>
-                                      <div className="flex flex-col lg:flex-row mt-10">
-                                        <div className="lg:mr-12">
-                                            <h3 className='tmodal'>Job Description</h3>
-                                        </div>
-                                      <div>
-                                        <p className="desc mt-4 lg:mt-0 text-sm md:text-base lg:text-lg">We are looking for public relation, the ideal candidate is as below:
-                                              
-                                        </p>
-                                        <ul className="desc mt-4">
-                                                <li className="ml-4">1. Strong creativity and copywriting skills</li>
-                                                <li className="ml-4">2. Experiencebin managing PR and events</li>
-                                                <li className="ml-4">3. Eagerness to connect and engage with people effectivelyr</li>
-                                                <li className="ml-4">4. Fun, adaptable, and quick to learn</li>
-                                                <li className="ml-4">5. Proficient in English language</li>
-                                                <li className="ml-4">6. Minimum 3 years experience</li>
-                                              </ul> 
-                                      </div>
-                                      </div>
-            
-                                      <div className="flex flex-col lg:flex-row mt-12">
-                                        <div className="lg:mr-16">
-                                            <h3 className='tmodal'>Responsibility</h3>
-                                        </div>
-                                      <div>
-                                        <p className="desc mt-4 lg:mt-0">By partnering with cross-functional teams and customers, you'll turn your insights into compelling products in a creative environment that requires proven leadership skills and the ability to execute a creative vision
-                                              
-                                        </p>
-                                      </div>
-                                      </div>
-                            <div className="modal-action">
-                              <form method="dialog">
-                                {/* if there is a button, it will close the modal */}
-                                <button className="btn">Close</button>
-                              </form>
-                            </div>
-                          </div>
-                        </dialog>
-{/* Ini untuk detail Job Description */}
+      {/* Ini untuk detail Job Description Public Relation*/}
+      <dialog id="my_modal_5" className="modal">
+        <div className="modal-box w-11/12 sm:max-w-7xl xl:w-2/3">
+          <h3 className="hmodal ml-2">Public Relation</h3>
+          <ul className="flex flex-wrap mt-5 lg:mt-8 lg:gap-2">
+            <li>
+              <summary className="m-1 btn btcat btn-outline sm:w-[165px] lg:w-[180px] rounded-full">Remote</summary>
+            </li>
+            <li>
+              <summary className="m-1 btn btcat btn-outline sm:w-[165px] lg:w-[180px] rounded-full">Full-time</summary>
+            </li>
+          </ul>
+          <div className="flex flex-col lg:flex-row mt-10">
+            <div className="lg:mr-12">
+              <h3 className='tmodal'>Job Description</h3>
+            </div>
+            <div>
+              <p className="desc mt-4 lg:mt-0 text-sm md:text-base lg:text-lg">We are looking for public relation, the ideal candidate is as below:
+
+              </p>
+              <ul className="desc mt-4">
+                <li className="ml-4">1. Strong creativity and copywriting skills</li>
+                <li className="ml-4">2. Experiencebin managing PR and events</li>
+                <li className="ml-4">3. Eagerness to connect and engage with people effectivelyr</li>
+                <li className="ml-4">4. Fun, adaptable, and quick to learn</li>
+                <li className="ml-4">5. Proficient in English language</li>
+                <li className="ml-4">6. Minimum 3 years experience</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row mt-12">
+            <div className="lg:mr-16">
+              <h3 className='tmodal'>Responsibility</h3>
+            </div>
+            <div>
+              <p className="desc mt-4 lg:mt-0">By partnering with cross-functional teams and customers, youll turn your insights into compelling products in a creative environment that requires proven leadership skills and the ability to execute a creative vision
+
+              </p>
+            </div>
+          </div>
+          <div className="modal-action">
+            <form method="dialog">
+              {/* if there is a button, it will close the modal */}
+              <button className="btn">Close</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+      {/* Ini untuk detail Job Description */}
 
 
-{/* Ini untuk detail Job Description City Coordinator*/}
-<dialog id="my_modal_6" className="modal">
-                          <div className="modal-box w-11/12 sm:max-w-7xl xl:w-2/3">
-                            <h3 className="hmodal ml-2">City Coordinator</h3>
-                                <ul className="flex flex-wrap mt-5 lg:mt-8 lg:gap-2">
-                                  <li>
-                                    <summary className="m-1 btn btcat btn-outline sm:w-[165px] lg:w-[180px] rounded-full">Remote</summary>
-                                  </li>
-                                  <li>
-                                    <summary className="m-1 btn btcat btn-outline sm:w-[165px] lg:w-[180px] rounded-full">Full-time</summary>
-                                  </li>
-                                </ul>
-                                      <div className="flex flex-col lg:flex-row mt-10">
-                                        <div className='lg:mr-12'>
-                                            <h3 className='tmodal'>Job Description</h3>
-                                        </div>
-                                      <div>
-                                        <p className="desc mt-4 lg:mt-0">We are looking for City Coordinator, the ideal candidate is as below:
-                                                
-                                        </p>
-                                        <ul className="desc mt-4">
-                                                <li className="ml-4">1. Is an Infinite Learning student or alumni</li>
-                                                <li className="ml-4">2. Have high enthusiasm and a willingness to expand relationships</li>
-                                                <li className="ml-4">3. Commit to carrying out the program for 6 months</li>
-                                                <li className="ml-4">4. Social media enthusiast</li>
-                                                <li className="ml-4">5. Attach CV</li>
-                                              </ul>
-                                      </div>
-                                      </div>
-            
-                                      <div className="flex flex-col lg:flex-row mt-12">
-                                        <div className="lg:mr-16">
-                                            <h3 className='tmodal'>Responsibility</h3>
-                                        </div>
-                                      <div>
-                                        <p className="desc mt-4 lg:mt-0">The benefits you will get are incentives, E-Certificates, Merchandise, career opportunities in Infinite Learning, Networking, and many more
-      
-                                        </p>
-                                      </div>
-                                      </div>
-                            <div className="modal-action">
-                              <form method="dialog">
-                                {/* if there is a button, it will close the modal */}
-                                <button className="btn">Close</button>
-                              </form>
-                            </div>
-                          </div>
-                        </dialog>
-{/* Ini untuk detail Job Description */}
+      {/* Ini untuk detail Job Description City Coordinator*/}
+      <dialog id="my_modal_6" className="modal">
+        <div className="modal-box w-11/12 sm:max-w-7xl xl:w-2/3">
+          <h3 className="hmodal ml-2">City Coordinator</h3>
+          <ul className="flex flex-wrap mt-5 lg:mt-8 lg:gap-2">
+            <li>
+              <summary className="m-1 btn btcat btn-outline sm:w-[165px] lg:w-[180px] rounded-full">Remote</summary>
+            </li>
+            <li>
+              <summary className="m-1 btn btcat btn-outline sm:w-[165px] lg:w-[180px] rounded-full">Full-time</summary>
+            </li>
+          </ul>
+          <div className="flex flex-col lg:flex-row mt-10">
+            <div className='lg:mr-12'>
+              <h3 className='tmodal'>Job Description</h3>
+            </div>
+            <div>
+              <p className="desc mt-4 lg:mt-0">We are looking for City Coordinator, the ideal candidate is as below:
+
+              </p>
+              <ul className="desc mt-4">
+                <li className="ml-4">1. Is an Infinite Learning student or alumni</li>
+                <li className="ml-4">2. Have high enthusiasm and a willingness to expand relationships</li>
+                <li className="ml-4">3. Commit to carrying out the program for 6 months</li>
+                <li className="ml-4">4. Social media enthusiast</li>
+                <li className="ml-4">5. Attach CV</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row mt-12">
+            <div className="lg:mr-16">
+              <h3 className='tmodal'>Responsibility</h3>
+            </div>
+            <div>
+              <p className="desc mt-4 lg:mt-0">The benefits you will get are incentives, E-Certificates, Merchandise, career opportunities in Infinite Learning, Networking, and many more
+
+              </p>
+            </div>
+          </div>
+          <div className="modal-action">
+            <form method="dialog">
+              {/* if there is a button, it will close the modal */}
+              <button className="btn">Close</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+      {/* Ini untuk detail Job Description */}
     </>
   );
 }
