@@ -30,10 +30,10 @@ line-height: 36px; /* 112.5% */
 .tmodal{
 color: #FFF;
 font-family: Poppins;
-font-size: 24px;
+font-size: 20px;
 font-style: normal;
-font-weight: 500;
-line-height: 28px; /* 116.667% */
+font-weight: 600;
+line-height: 30px; /* 116.667% */
 }
 
 .desc{

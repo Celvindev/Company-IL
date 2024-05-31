@@ -65,7 +65,7 @@ const Contxt2 = () => {
             </li>
           </ul>
           <div className="flex flex-col lg:flex-row mt-10">
-            <div className="lg:mr-16">
+            <div className="sm:mr-16">
               <h3 className="tmodal">Job Description</h3>
             </div>
             <div>
@@ -84,7 +84,7 @@ const Contxt2 = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row mt-12">
-            <div className="lg:mr-14">
+            <div className="lg:mr-20">
               <h3 className="tmodal">Responsibility</h3>
             </div>
             <div>
@@ -132,7 +132,7 @@ const Contxt2 = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row mt-12">
-            <div className="lg:mr-16">
+            <div className="lg:mr-20">
               <h3 className='tmodal'>Responsibility</h3>
             </div>
             <div>
@@ -183,7 +183,7 @@ const Contxt2 = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row mt-12">
-            <div className="lg:mr-16">
+            <div className="lg:mr-20">
               <h3 className='tmodal'>Responsibility</h3>
             </div>
             <div>
@@ -228,7 +228,7 @@ const Contxt2 = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row mt-12">
-            <div className="lg:mr-16">
+            <div className="lg:mr-20">
               <h3 className='tmodal'>Responsibility</h3>
             </div>
             <div>
@@ -279,7 +279,7 @@ const Contxt2 = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row mt-12">
-            <div className="lg:mr-16">
+            <div className="lg:mr-20">
               <h3 className='tmodal'>Responsibility</h3>
             </div>
             <div>
