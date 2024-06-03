@@ -20,7 +20,7 @@ const Footer = () => {
                             <a href='https://www.tiktok.com/@infinitelearning_id?_t=8mO282LZXy4&_r=1'><FaTiktok className='tt text-2xl' /></a>
                         </div>
                     </nav>
-                    <p className="mt-5 sm:mt-20 text-NeonWhite invisible lg:visible  text-center text-lg sm:text-sm sm:text-left">Nongsa Digital Park, Sambau, Kecamatan<br />Nongsa, Kota Batam, Kepulauan Riau<br />29466</p>
+                    <p className="mt-5 sm:mt-20 text-NeonWhite invisible lg:visible  text-center text-lg sm:text-sm sm:text-left">Nongsa Digital Park, Jl. Hang Lekiu KM 2 <br /> Sambau, Kecamatan Nongsa, Kota Batam <br />Kepulauan Riau<br />29466</p>
 
                 </aside>
                 <div className="grid grid-cols-2 gap-8 -mt-32 sm:mt-8 sm:grid-cols-2 sm:grid-flow-row sm:grid-rows-2 sm:gap-4">
