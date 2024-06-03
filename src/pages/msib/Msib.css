@@ -47,6 +47,14 @@
   line-height: normal;
 }
 
+.cardtitlehm {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  line-height: normal;
+}
+
 .artboard {
   overflow-y: auto;
   scroll-behavior: smooth;

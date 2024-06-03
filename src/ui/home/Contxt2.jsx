@@ -18,189 +18,77 @@ const Contxt2 = () => {
                                 <ul>
                                     <li>
                                         <button className="w-[140px] h-[20px] rounded-[44px] items-center ml-5 mt-5 btn btcat btn-outline">
-                                            <p className="msibtxtcont">They Say</p>
+                                            <p className="msibtxtcont">Newsroom<i className="fa-solid fa-arrow-right ml-2"></i></p>
                                         </button>
                                     </li>
 
                                     <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-10 btn btn-outline ">
+                                        <button className="w-[326px] h-[100%] rounded-[20px] border-white items-center ml-5 py-5 mt-5 btn btn-outline ">
                                             <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">M. Rofli Harahap
+                                                <b className="cardtitlehm mr-30">Infinite Learning Begins Roadshow at Politeknik Negeri Batam
                                                 </b>
-                                                <div className="rating rating-xs ml-5">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Berkat Infinite Learning saya tau apa itu bahasa pemrograman, cara ngoding,
-                                                    bagaimana cara mendesain UI/UX dan membuat tampilan aplikasi sesuai dengan kerentuan yang keren</span>
+                                                <br />
+                                                <span className='leading-6'>On April 9, 2024, Infinite Learning hosted a delegation from RMIT University at our office in Batam.</span>
                                             </div>
                                         </button>
                                     </li>
 
                                     <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
+                                        <button className="w-[326px] h-[100%] rounded-[20px] border-white items-center ml-5 py-5 mt-5 btn btn-outline ">
                                             <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">Adi Prasetyo
+                                                <b className="cardtitlehm mr-30">Inspiring! Infinite Learning Earns a Chance to Participate in the Pervasive AI Developer Contest
                                                 </b>
-                                                <div className="rating rating-xs ml-12">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Infinite Learning menyediakan kursus yang luar biasa! Materi pelajarannya sangat
-                                                    terstruktur dengan baik dan disampaikan dengan jelas. Saya sangat terkesan dengan kualitas pembelajaran yang ditawarkan</span>
+                                                <br />
+                                                <span className='leading-6'>In an era of ever-evolving technology, competition is the cornerstone for innovators to bring their bright ideas to the forefront.</span>
                                             </div>
                                         </button>
                                     </li>
 
                                     <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
+                                        <button className="w-[326px] h-[100%] rounded-[20px] border-white items-center ml-5 py-5 mt-5 btn btn-outline ">
                                             <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">Ahmad Fauzi
+                                                <b className="cardtitlehm mr-30">Infinite Learning Meraih Prestasi sebagai Unreal Engine Authorized Training Centre
                                                 </b>
-                                                <div className="rating rating-xs ml-12">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki
-                                                    beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span>
+                                                <br />
+                                                <span className='leading-6'>Infinite Learning, sebuah lembaga berbasis teknologi, riset dan development, serta inovasi yang berkomitmen untuk memajukan talenta Indonesia.</span>
                                             </div>
                                         </button>
                                     </li>
 
                                     <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
+                                        <button className="w-[326px] h-[100%] rounded-[20px] border-white items-center ml-5 py-5 mt-5 btn btn-outline ">
                                             <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">Ahmad Fauzi
+                                                <b className="cardtitlehm mr-30">Perkaya Pengalaman Belajar: Infinite Learning dan Program MSIB batch 6
                                                 </b>
-                                                <div className="rating rating-xs ml-12">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki
-                                                    beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span>
+                                                <br />
+                                                <span className='leading-6'>Program magang dan studi independen bersertifikat Kampus Merdeka Batch 6 di Infinite Learning akan segera dimulai..</span>
                                             </div>
                                         </button>
                                     </li>
 
                                     <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
+                                        <button className="w-[326px] h-[100%] rounded-[20px] border-white items-center ml-5 py-5 mt-5 btn btn-outline ">
                                             <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">Ahmad Fauzi
+                                                <b className="cardtitlehm mr-30">Global Game Jam Batam: Membangun Kreativitas dan Mengembangkan Talenta Indonesia di Bidang Game Development
                                                 </b>
-                                                <div className="rating rating-xs ml-12">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki
-                                                    beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span>
+                                                <br />
+                                                <span className='leading-6'>Indonesia bersiap menyambut kegiatan Global Game Jam...</span>
                                             </div>
                                         </button>
                                     </li>
 
                                     <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
+                                        <button className="w-[326px] h-[100%] rounded-[20px] border-white items-center ml-5 py-5 mt-5 btn btn-outline ">
                                             <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">Ahmad Fauzi
+                                                <b className="cardtitlehm mr-30">Mengulas Kemeriahan di Balik Layar: Cerita Developer Festival 5.0 di Infinite Learning
                                                 </b>
-                                                <div className="rating rating-xs ml-12">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki
-                                                    beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span>
+                                                <br />
+                                                <span className='leading-6'>Selama tiga hari yang penuh semangat, Developer Festival 5.0 berhasil diselenggarakan oleh Infinite Learning pada 27-29 November 2023.</span>
                                             </div>
                                         </button>
                                     </li>
 
-                                    <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                            <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">Ahmad Fauzi
-                                                </b>
-                                                <div className="rating rating-xs ml-12">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki
-                                                    beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span>
-                                            </div>
-                                        </button>
-                                    </li>
-
-                                    <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                            <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">Ahmad Fauzi
-                                                </b>
-                                                <div className="rating rating-xs ml-12">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki
-                                                    beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span>
-                                            </div>
-                                        </button>
-                                    </li>
-
-                                    <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                            <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">Ahmad Fauzi
-                                                </b>
-                                                <div className="rating rating-xs ml-12">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki
-                                                    beragam kursus yang relevan dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span>
-                                            </div>
-                                        </button>
-                                    </li>
-
-                                    <li>
-                                        <button className="w-[326px] h-[180px] rounded-[20px] border-white items-center ml-5 mt-2 btn btn-outline ">
-                                            <div className="msibcrdtxt text-left ">
-                                                <b className="cardtitlems mr-30">Ahmad Fauzi
-                                                </b>
-                                                <div className="rating rating-xs ml-12">
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-white" />
-                                                </div> <br /> <br />
-                                                <span className='leading-6'>Pengalaman saya dengan Infinite Learning sungguh fantastis! Mereka memiliki beragam kursus yang relevan
-                                                    dengan kebutuhan pasar saat ini. Instruktur nya sangat berpengetahuan dan responsif.</span>
-                                            </div>
-                                        </button>
-                                    </li>
+                                   
                                 </ul>
                                 <button className="w-[140px] h-[20px] rounded-[44px] items-right ml-52 mt-5 btn btcat btn-outline">
                                     <p className="msibtxtcont">See More <i className="fa-solid fa-arrow-right ml-2"></i></p>
