@@ -9,7 +9,7 @@ const Contxt2 = () => {
           <hr />
           <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={() => document.getElementById('my_modal_4').showModal()} />
           <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Bussiness Development
-            <a href="https://s.id/ILHiring_May24">
+            <a href="https://s.id/ILHiring_May24" target="_blank">
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
@@ -25,7 +25,7 @@ const Contxt2 = () => {
           <hr />
           <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={() => document.getElementById('my_modal_5').showModal()} />
           <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Public Relation
-            <a href="https://s.id/ILHiring_May24">
+            <a href="https://s.id/ILHiring_May24" target="_blank">
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
@@ -41,7 +41,7 @@ const Contxt2 = () => {
           <hr />
           <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={() => document.getElementById('my_modal_6').showModal()} />
           <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">City Coordinator
-            <a href="https://s.id/citycoord">
+            <a href="https://s.id/citycoord" target="_blank">
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
