@@ -1,8 +1,7 @@
-// dbConfig.js
-import mysql from 'mysql2/promise'; // Using mysql2 with promise support
+import mysql from 'mysql2/promise'; 
 import { config } from 'dotenv';
 
-config(); // Load environment variables from .env file
+config(); 
 
 const db = await mysql.createConnection({
     host: process.env.DB_HOST,
