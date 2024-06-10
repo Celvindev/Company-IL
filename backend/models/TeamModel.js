@@ -1,10 +1,10 @@
 import { Sequelize } from "sequelize";
-import db from '../config/Database';
+import db from '../config/Database.js';
 
-const {DataTypes} = Sequelize;
+const { DataTypes } = Sequelize;
 
 const Team = db.define('team', {
-    uuid:{
+    uuid: {
         type: DataTypes.STRING,
         defaultValue: DataTypes.UUIDV4,
         allowNull: false,
@@ -12,7 +12,7 @@ const Team = db.define('team', {
             notEmpty: true
         }
     },
-    name:{
+    nama: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
@@ -20,30 +20,30 @@ const Team = db.define('team', {
             len: [3, 100]
         }
     },
-    email:{
+    jabatan: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true,
-            isEmail: strue
+            len: [3, 100]
         }
     },
-    password:{
+    deskripsi: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true,
         }
     },
-    role:{
-        type: DataTypes.STRING,
-        allowNull: false,
-        validate: {
-            notEmpty: true,
-        }
-    }
-},{
+    // foto: {
+    //     type: DataTypes.STRING,
+    //     allowNull: false,
+    //     validate: {
+    //         notEmpty: true,
+    //     }
+    // }
+}, {
     freezeTableName: true
 });
 
-export default Users;
+export default Team;
