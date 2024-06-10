@@ -1,10 +1,10 @@
 import { Sequelize } from "sequelize";
-import db from '../config/Database';
+import db from '../config/Database.js';
 
-const {DataTypes} = Sequelize;
+const { DataTypes } = Sequelize;
 
 const Users = db.define('users', {
-    uuid:{
+    uuid: {
         type: DataTypes.STRING,
         defaultValue: DataTypes.UUIDV4,
         allowNull: false,
@@ -12,7 +12,7 @@ const Users = db.define('users', {
             notEmpty: true
         }
     },
-    name:{
+    name: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
@@ -20,29 +20,29 @@ const Users = db.define('users', {
             len: [3, 100]
         }
     },
-    email:{
+    email: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true,
-            isEmail: strue
+            isEmail: true
         }
     },
-    password:{
+    password: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true,
         }
     },
-    role:{
+    role: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true,
         }
     }
-},{
+}, {
     freezeTableName: true
 });
 

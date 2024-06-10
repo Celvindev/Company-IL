@@ -13,6 +13,7 @@ import Regular from './pages/regular/Regular.jsx';
 import "./App.css";
 import Msib from './pages/msib/Msib.jsx';
 import Learningdet from './pages/learningdet/Learningdet.jsx';
+import AdTeam from './AdminPage/AdminTeam/AdTeam.jsx';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/regular" element={<Regular />} />
           <Route path="/msib" element={<Msib />} />
           <Route path="/learningdet" element={<Learningdet />} />
+          <Route path="/AdminTeam" element={<AdTeam />} />
         </Routes>
         <Footer />
       </div>

@@ -12,7 +12,7 @@ const Team = db.define('team', {
             notEmpty: true
         }
     },
-    nama: {
+    name: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
@@ -20,7 +20,7 @@ const Team = db.define('team', {
             len: [3, 100]
         }
     },
-    jabatan: {
+    position: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
@@ -28,22 +28,20 @@ const Team = db.define('team', {
             len: [3, 100]
         }
     },
-    deskripsi: {
+    description: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
             notEmpty: true,
         }
     },
-    // foto: {
-    //     type: DataTypes.STRING,
-    //     allowNull: false,
-    //     validate: {
-    //         notEmpty: true,
-    //     }
-    // }
+    photoURL: {
+        type: DataTypes.STRING, 
+        allowNull: true, 
+    }
 }, {
     freezeTableName: true
 });
 
 export default Team;
+
