@@ -74,7 +74,7 @@ POST  http://localhost:3000/team
 Content-Type: application/json
 
 {
-    "name": "Ari Nugrahanto",
-    "position": "Program Director",
-    "description": "The Captain of the team, an expert in sharing his knowledge with the public, and a seasoned mentor specializing in business education. With years of experience under his belt, he's the driving force behind Infinite Learning's success, inspiring others to learn and grow."
+    "name": "Celvin",
+    "position": "safas",
+    "description": "asdasfasf."
 }

@@ -74,7 +74,6 @@ export const updateTeam = async (req, res) => {
                 return res.status(400).json({ message: 'Invalid file type. Only JPEG, PNG, and GIF files are allowed.' });
             }
 
-            // Hapus file gambar lama jika ada
             if (photoURL) {
                 const oldFilePath = path.join(__dirname, '..', photoURL);
                 fs.unlink(oldFilePath, (err) => {
