@@ -12,7 +12,7 @@ const router = express.Router();
 router.get('/team', getTeam);
 router.get('/team/:id', getTeamById);
 router.post('/team', createTeam);
-router.patch('/team', updateTeam);
-router.delete('/team', deleteTeam);
+router.patch('/team/:id', updateTeam);  
+router.delete('/team/:id', deleteTeam); 
 
 export default router;

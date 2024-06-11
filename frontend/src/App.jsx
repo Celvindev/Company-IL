@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import About from './pages/about/About.jsx';
 import Alumni from './pages/alumni/Alumni.jsx';
 import Home from './pages/home/Home.jsx';
@@ -13,30 +13,43 @@ import Regular from './pages/regular/Regular.jsx';
 import "./App.css";
 import Msib from './pages/msib/Msib.jsx';
 import Learningdet from './pages/learningdet/Learningdet.jsx';
-import AdTeam from './AdminPage/AdminTeam/AdTeam.jsx';
+import AdminRoutes from './Admin.jsx';
 
-function App() {
+
+function PublicRoutes() {
   return (
-    <Router>
-      <div className="min-h-screen">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/learning" element={<Learning />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/newsafter" element={<NewsAfter />} />
-          <Route path="/alumni" element={<Alumni />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/career" element={<Career />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/regular" element={<Regular />} />
-          <Route path="/msib" element={<Msib />} />
-          <Route path="/learningdet" element={<Learningdet />} />
-          <Route path="/AdminTeam" element={<AdTeam />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/learning" element={<Learning />} />
+      <Route path="/news" element={<News />} />
+      <Route path="/newsafter" element={<NewsAfter />} />
+      <Route path="/alumni" element={<Alumni />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/career" element={<Career />} />
+      <Route path="/team" element={<Team />} />
+      <Route path="/regular" element={<Regular />} />
+      <Route path="/msib" element={<Msib />} />
+      <Route path="/learningdet" element={<Learningdet />} />
+    </Routes>
   );
 }
 
-export default App;
+function App() {
+  const location = useLocation();
+  const isAdminRoute = location.pathname.startsWith('/admin');
+
+  return (
+    <div className="min-h-screen">
+      {isAdminRoute ? <AdminRoutes /> : <PublicRoutes />}
+      {!isAdminRoute && <Footer />}
+    </div>
+  );
+}
+
+export default function RootApp() {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+}
