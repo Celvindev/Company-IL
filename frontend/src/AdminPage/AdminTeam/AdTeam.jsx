@@ -8,7 +8,7 @@ const AdTeam = () => {
         name: '',
         position: '',
         description: '',
-        photoURL: null // Change to null initially
+        photoURL: ''
     });
     const [selectedTeamMember, setSelectedTeamMember] = useState(null);
     const modalRef = useRef(null);
@@ -49,24 +49,10 @@ const AdTeam = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const formDataToSend = new FormData();
-            formDataToSend.append('name', formData.name);
-            formDataToSend.append('position', formData.position);
-            formDataToSend.append('description', formData.description);
-            formDataToSend.append('photo', formData.photoURL); // Change here to append file
-
             if (selectedTeamMember) {
-                await axios.patch(`http://localhost:3000/team/${selectedTeamMember.id}`, formDataToSend, {
-                    headers: {
-                        'Content-Type': 'multipart/form-data' // Set headers for multipart/form-data
-                    }
-                });
+                await axios.patch(`http://localhost:3000/team/${selectedTeamMember.id}`, formData);
             } else {
-                await axios.post('http://localhost:3000/team', formDataToSend, {
-                    headers: {
-                        'Content-Type': 'multipart/form-data' // Set headers for multipart/form-data
-                    }
-                });
+                await axios.post('http://localhost:3000/team', formData);
             }
             console.log('Data submitted successfully');
             getTeam(); // Reload the team data after adding or editing member
@@ -75,7 +61,7 @@ const AdTeam = () => {
                 name: '',
                 position: '',
                 description: '',
-                photoURL: null // Reset photoURL to null
+                photoURL: ''
             });
             setSelectedTeamMember(null);
             modalRef.current.close();
@@ -85,17 +71,10 @@ const AdTeam = () => {
     };
 
     const handleChange = (e) => {
-        if (e.target.name === 'photoURL') {
-            setFormData({
-                ...formData,
-                [e.target.name]: e.target.files[0] // Set the file object
-            });
-        } else {
-            setFormData({
-                ...formData,
-                [e.target.name]: e.target.value
-            });
-        }
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        });
     };
 
     return (
@@ -139,7 +118,7 @@ const AdTeam = () => {
                             <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" className="input mb-5 input-bordered w-full" />
                             <input type="text" name="position" value={formData.position} onChange={handleChange} placeholder="Position" className="input mb-5 input-bordered w-full" />
                             <textarea name="description" value={formData.description} onChange={handleChange} className="textarea textarea-bordered w-full mb-5" placeholder="Description"></textarea>
-                            <input type="file" name="photoURL" onChange={handleChange} placeholder="Photo URL" className="file-input file-input-bordered w-full" />
+                            <input type="file" name="photoURL" value={formData.photoURL} onChange={handleChange} placeholder="Photo URL" className="file-input file-input-bordered w-full" />
                             <div className="modal-action">
                                 <input type="submit" value={selectedTeamMember ? 'Update' : 'Submit'} className="btn" />
                             </div>
