@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
-import AdTeam from './AdminPage/AdminTeam/AdTeam.jsx';
+import ProductList from './AdminPage/AdminProduct/ProductList';
+
 
 function AdminRoutes() {
     return (
         <Routes>
-            <Route path="/admin/team" element={<AdTeam />} />
+            <Route path="/admin/product" element={<ProductList />} />
         </Routes>
     );
 }
