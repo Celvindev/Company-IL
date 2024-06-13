@@ -1,12 +1,24 @@
-import React, { useState } from 'react';
-import ari from '../../assets/Team/ari.png';
-import mery from '../../assets/Team/mery.png';
-import indra from '../../assets/Team/indra.png';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import "../../pages/team/Team.css";
 
 const Contxt2 = () => {
+    const [teams, setTeams] = useState([]);
     const [expandedIndex, setExpandedIndex] = useState(-1);
     const [rotatedIndexes, setRotatedIndexes] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get("http://localhost:5000/teams");
+                setTeams(response.data);
+            } catch (error) {
+                console.error("Error fetching team data:", error);
+            }
+        };
+
+        fetchData();
+    }, []);
 
     const toggleExpand = (index) => {
         if (expandedIndex === index) {
@@ -19,41 +31,20 @@ const Contxt2 = () => {
     };
 
     const getMarginBottom = (index) => {
-        return expandedIndex === index ? '200px' : '0';
+        return expandedIndex === index ? '200px' : '50px';
     };
 
     const isRotated = (index) => {
         return rotatedIndexes.includes(index);
     };
 
-    const cards = [
-        {
-            img: mery,
-            name: "Mery Simanjutak",
-            role: "Lead Operational",
-            description: "Infinite Learning's Operational Manager who is responsible for student relations, acquisition, and business development. With a cheerful personality, she loves to sing in her free time."
-        },
-        {
-            img: ari,
-            name: "Ari Nugrahanto",
-            role: "Program Director",
-            description: "The Captain of the team, an expert in sharing his knowledge with the public, and a seasoned mentor specializing in business education. With years of experience under his belt, he's the driving force behind Infinite Learning's success, inspiring others to learn and grow."
-        },
-        {
-            img: indra,
-            name: "Indra Rukmana",
-            role: "The Head of Digital Technology",
-            description: "He has years of experience in the industry and is focused on cybersecurity division strategist, system administration, network and infrastucture. He is also hea of IBM academy for Hybrid Colud & AI. He is a Technophile."
-        }
-    ];
-
     return (
         <>
             <div className='flex-none sm:flex justify-center px-5 -mt-10 sm:mt-0'>
                 <div className="sm:grid grid-cols-3 gap-10">
-                    {cards.map((card, index) => (
-                        <div key={index} className={`w-full sm:w-[385px] crdart shadow-xl mt-${index === 1 ? '20' : '20'} mt-${index === 2 ? '40' : '40'}  sm:mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '40'} 
-                        transition-all ease-in-out duration-300 ${expandedIndex === index ? 'h-[516px]' : 'h-[336px]'}`} style={{ marginBottom: getMarginBottom(index), transition: 'margin-bottom 0.3s ease-in-out' }}>
+                    {teams.map((card, index) => (
+                        <div key={index} className={`w-full sm:w-[385px] crdart shadow-xl mt-${index === 1 ? '20' : '20'} mt-${index === 2 ? '40' : '30'}  sm:mt-${index === 1 ? '0' : '20'} mt-${index === 2 ? '40' : '40'} 
+                        transition-all ease-in-out duration-300 ${expandedIndex === index ? 'h-[516px]' : 'h-[336px]'} ${index >= 3 && index <= 5 ? 'mt-0' : ''}`} style={{ marginBottom: getMarginBottom(index), transition: 'margin-bottom 0.3s ease-in-out' }}>
                             <div className="card border-0">
                                 <div className="card-body text-left">
                                     <div className="card-actions flex justify-end" onClick={() => toggleExpand(index)}>
@@ -70,13 +61,13 @@ const Contxt2 = () => {
                                         </svg>
                                     </div>
                                     <h2 className="crdttl">{card.name}</h2>
-                                    <p className='txtp'>{card.role}</p>
+                                    <p className='txtp'>{card.position}</p>
                                     {expandedIndex === index && (
-                                        <p className='txtp'>{card.description}</p>
+                                        <p className='txtp'>{card.desription}</p>
                                     )}
                                 </div>
                                 <figure className="px-10 pb-20 -mt-3">
-                                    <img src={card.img} alt="Shoes" className=" w-[294.18px]" />
+                                    <img src={card.url} alt="Shoes" className=" w-[294.18px]" />
                                 </figure>
                             </div>
                         </div>

@@ -3,15 +3,17 @@ import db from "../config/Database.js";
  
 const {DataTypes} = Sequelize;
  
-const Product = db.define('product',{
+const Team = db.define('team',{
     name: DataTypes.STRING,
+    position: DataTypes.STRING,
+    desription: DataTypes.TEXT,
     image: DataTypes.STRING,
     url: DataTypes.STRING
 },{
     freezeTableName: true
 });
  
-export default Product;
+export default Team;
  
 // (async()=>{
 //     await db.sync();
