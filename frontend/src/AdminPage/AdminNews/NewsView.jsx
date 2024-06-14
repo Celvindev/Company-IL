@@ -3,29 +3,30 @@ import axios from "axios";
 import Sidebar from "../../components/header/Sidebar";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faPenToSquare, faTrashCan } from '@fortawesome/free-solid-svg-icons';
-import './TeamView.css';
+import './NewsView.css';
 
-const TeamView = () => {
-    const [Teams, setTeams] = useState([]);
+const NewsView = () => {
+    const [News, setNews] = useState([]);
     const modalRef = useRef(null);
-    const [name, setName] = useState("");
-    const [position, setPosition] = useState("");
+    const [title, setTitle] = useState("");
+    const [date, setDate] = useState("");
+    const [time, setTime] = useState("");
     const [desription, setDesription] = useState("");
     const [file, setFile] = useState("");
     const [preview, setPreview] = useState("");
     const [isEdit, setIsEdit] = useState(false);
-    const [teamId, setEditId] = useState(null);
+    const [newsId, setEditId] = useState(null);
 
     const [currentPage, setCurrentPage] = useState(1);
-    const teamsPerPage = 4;
+    const newsPerPage = 4;
 
     useEffect(() => {
-        getTeams();
+        getNews();
     }, []);
 
-    const getTeams = async () => {
-        const response = await axios.get("http://localhost:5000/teams");
-        setTeams(response.data);
+    const getNews = async () => {
+        const response = await axios.get("http://localhost:5000/newss");
+        setNews(response.data);
     };
 
     const loadImage = (e) => {
@@ -34,29 +35,30 @@ const TeamView = () => {
         setPreview(URL.createObjectURL(image));
     };
 
-    const saveTeam = async (e) => {
+    const saveNews = async (e) => {
         e.preventDefault();
         const formData = new FormData();
         formData.append("file", file);
-        formData.append("name", name);
-        formData.append("position", position);
+        formData.append("title", title);
+        formData.append("date", date);
+        formData.append("time", time);
         formData.append("desription", desription);
         try {
             if (isEdit) {
-                await axios.patch(`http://localhost:5000/teams/${teamId}`, formData, {
+                await axios.patch(`http://localhost:5000/newss/${newsId}`, formData, {
                     headers: {
                         "Content-type": "multipart/form-data",
                     },
                 });
             } else {
-                await axios.post("http://localhost:5000/teams", formData, {
+                await axios.post("http://localhost:5000/newss", formData, {
                     headers: {
                         "Content-type": "multipart/form-data",
                     },
                 });
             }
             modalRef.current.close();
-            getTeams();
+            getNews();
             resetForm();
         } catch (error) {
             console.log(error);
@@ -64,8 +66,9 @@ const TeamView = () => {
     };
 
     const resetForm = () => {
-        setName("");
-        setPosition("");
+        setTitle("");
+        setDate("");
+        setTime("");
         setDesription("");
         setFile("");
         setPreview("");
@@ -73,30 +76,33 @@ const TeamView = () => {
         setEditId(null);
     };
 
-    const deleteTeam = async (teamId) => {
+    const deleteNews = async (newsId) => {
         try {
-            await axios.delete(`http://localhost:5000/teams/${teamId}`);
-            getTeams();
+            await axios.delete(`http://localhost:5000/news/${newsId}`);
+            getNews();
         } catch (error) {
             console.log(error);
         }
     };
+    
 
-    const editTeam = (team) => {
-        setName(team.name);
-        setPosition(team.position);
-        setDesription(team.desription);
-        setPreview(team.url);
+    const editNews = (news) => {
+        setTitle(news.title);
+        setDate(news.date);
+        setTime(news.time);
+        setDesription(news.desription);
+        setPreview(news.url);
         setIsEdit(true);
-        setEditId(team.id);
+        setEditId(news.id);
         modalRef.current.showModal();
     };
 
-    const indexOfLastTeam = currentPage * teamsPerPage;
-    const indexOfFirstTeam = indexOfLastTeam - teamsPerPage;
-    const currentTeams = Teams.slice(indexOfFirstTeam, indexOfLastTeam);
 
-    const totalPages = Math.ceil(Teams.length / teamsPerPage);
+    const indexOfLastNews = currentPage * newsPerPage;
+    const indexOfFirstNews = indexOfLastNews - newsPerPage;
+    const currentNews = News.slice(indexOfFirstNews, indexOfLastNews);
+
+    const totalPages = Math.ceil(News.length / newsPerPage);
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
@@ -114,29 +120,31 @@ const TeamView = () => {
                         <table className="min-w-full">
                             <thead className="bg-gray-50 border border-gray-200">
                                 <tr>
-                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">name</th>
-                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">position</th>
-                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">desription</th>
-                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">photo</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Title</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Date</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Time</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Description</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Image</th>
                                     <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Actions</th>
                                 </tr>
                             </thead>
                             <tbody className="bg-white divide-y divide-gray-200 text-xs border border-gray-200">
-                                {currentTeams.map((team) => (
-                                    <tr key={team.id}>
-                                        <td className="p-2 border border-gray-200 text-center">{team.name}</td>
-                                        <td className="p-2 border border-gray-200 text-center">{team.position}</td>
-                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{team.desription}</td>
+                                {currentNews.map((News) => (
+                                    <tr key={News.id}>
+                                        <td className="p-2 border border-gray-200 text-center">{News.title}</td>
+                                        <td className="p-2 border border-gray-200 text-center">{News.date}</td>
+                                        <td className="p-2 border border-gray-200 text-center">{News.time}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{News.desription}</td>
                                         <td className="p-2 border border-gray-200 text-center">
                                             <div className="flex justify-center items-center">
-                                                <img src={team.url} alt="team" className="h-10 object-cover" />
+                                                <img src={News.url} alt="news" className="h-10 object-cover" />
                                             </div>
                                         </td>
                                         <td className="p-2 border border-gray-200 text-center text-sm">
-                                            <button onClick={() => editTeam(team)} className="text-green-500 hover:text-green-700 text-lg">
+                                            <button onClick={() => editNews(News)} className="text-green-500 hover:text-green-700 text-lg">
                                                 <FontAwesomeIcon icon={faPenToSquare} />
                                             </button>
-                                            <button onClick={() => deleteTeam(team.id)} className="text-red-500 hover:text-red-700 text-lg ml-2">
+                                            <button onClick={() => deleteNews(News.id)} className="text-red-500 hover:text-red-700 text-lg ml-2">
                                                 <FontAwesomeIcon icon={faTrashCan} />
                                             </button>
                                         </td>
@@ -157,11 +165,13 @@ const TeamView = () => {
                     <dialog ref={modalRef} className="modal">
                         <div className="modal-box ">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={() => { modalRef.current.close(); resetForm(); }}>✕</button>
-                            <form className='mt-5' onSubmit={saveTeam}>
-                                <input type="text" name="name" placeholder="Name" className="input input-md mb-3 input-bordered w-full"
-                                    value={name} onChange={(e) => setName(e.target.value)} />
-                                <input type="text" name="position" placeholder="Position" className="input input-md mb-3 input-bordered w-full"
-                                    value={position} onChange={(e) => setPosition(e.target.value)} />
+                            <form className='mt-5' onSubmit={saveNews}>
+                                <input type="text" name="title" placeholder="Title" className="input input-md mb-3 input-bordered w-full"
+                                    value={title} onChange={(e) => setTitle(e.target.value)} />
+                                <input type="date" name="date" placeholder="Date" className="input input-md mb-3 input-bordered w-full"
+                                    value={date} onChange={(e) => setDate(e.target.value)} />
+                                <input type="time" name="time" placeholder="Time" className="input input-md mb-3 input-bordered w-full"
+                                    value={time} onChange={(e) => setTime(e.target.value)} />
                                 <textarea name="desription" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="Description"
                                     value={desription} onChange={(e) => setDesription(e.target.value)}></textarea>
                                 <input type="file" name="photoURL" placeholder="Photo URL" className="file-input file-input-md file-input-bordered w-full"
@@ -187,4 +197,5 @@ const TeamView = () => {
     );
 };
 
-export default TeamView;
+export default NewsView;
+
