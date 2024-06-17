@@ -187,12 +187,24 @@ const MagangView = () => {
                         <div className="modal-box ">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={() => { modalRef.current.close(); resetForm(); }}>✕</button>
                             <form className='mt-5' onSubmit={saveMagang}>
-                                <input type="text" name="name" placeholder="Name" className="input input-md mb-3 input-bordered w-full"
-                                    value={name} onChange={(e) => setName(e.target.value)} />
-                                <input type="text" name="position" placeholder="Position" className="input input-md mb-3 input-bordered w-full"
-                                    value={position} onChange={(e) => setPosition(e.target.value)} />
-                                <textarea name="desription" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="Description"
-                                    value={desription} onChange={(e) => setDesription(e.target.value)}></textarea>
+                                <input type="text" name="program" placeholder="Program" className="input input-md mb-3 input-bordered w-full"
+                                    value={program} onChange={(e) => setProgram(e.target.value)} />
+                                <input type="text" name="title" placeholder="Title" className="input input-md mb-3 input-bordered w-full"
+                                    value={title} onChange={(e) => setTitle(e.target.value)} />
+                                <input type="text" name="urlProgram" placeholder="UrlProgram" className="input input-md mb-3 input-bordered w-full"
+                                    value={urlProgram} onChange={(e) => setUrlProgram(e.target.value)} />
+                                <input type="text" name="urlSyllabus" placeholder="UrlSyllabus" className="input input-md mb-3 input-bordered w-full"
+                                    value={urlSyllabus} onChange={(e) => setUrlSyllabus(e.target.value)} />
+                                <input type="date" name="starDate" placeholder="StarDate" className="input input-md mb-3 input-bordered w-full"
+                                    value={starDate} onChange={(e) => setStarDate(e.target.value)} />
+                                <input type="date" name="endDate" placeholder="EndDate" className="input input-md mb-3 input-bordered w-full"
+                                    value={endDate} onChange={(e) => setEndDate(e.target.value)} />  
+                                <textarea name="descRegis" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="DescRegis"
+                                    value={descRegis} onChange={(e) => setDescRegis(e.target.value)}></textarea>
+                                <textarea name="descBenefit" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="DescBenefit"
+                                    value={descBenefit} onChange={(e) => setDescBenefit(e.target.value)}></textarea>
+                                <textarea name="descRec" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="DescRec"
+                                    value={descRec} onChange={(e) => setDescRec(e.target.value)}></textarea>                                
                                 <input type="file" name="photoURL" placeholder="Photo URL" className="file-input file-input-md file-input-bordered w-full"
                                     onChange={loadImage} />
                                 {preview ? (

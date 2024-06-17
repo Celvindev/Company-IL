@@ -6,7 +6,6 @@ const {DataTypes} = Sequelize;
 const Magang = db.define('magang',{
     program: DataTypes.STRING,
     title: DataTypes.STRING,
-    image: DataTypes.STRING,
     urlProgram: DataTypes.STRING,
     urlSyllabus: DataTypes.STRING,
     starDate: DataTypes.DATE,

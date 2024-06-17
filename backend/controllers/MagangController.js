@@ -1,8 +1,6 @@
-import Team from "../models/MagangModels.js";
+import Magang from "../models/MagangModels.js";
 import path from "path";
 import fs from "fs";
-import Magang from "../models/MagangModels.js";
-import { title } from "process";
 
 export const getMagangs = async(req, res)=>{
     try {
@@ -28,7 +26,7 @@ export const getMagangById = async(req, res)=>{
 
 export const saveMagang = (req, res) => {
     if (req.files === null) return res.status(400).json({ msg: "No File Uploaded" });
-    const { name, position, desription } = req.body;
+    const { program, title, urlProgram, urlSyllabus, starDate, endDate, descRegis, descBenefit, descRec } = req.body;
     const file = req.files.file;
     const fileSize = file.data.length;
     const ext = path.extname(file.name);
