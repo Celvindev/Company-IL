@@ -20,7 +20,7 @@ const MagangView = () => {
     const [file, setFile] = useState("");
     const [preview, setPreview] = useState("");
     const [isEdit, setIsEdit] = useState(false);
-    const [teamId, setEditId] = useState(null);
+    const [magangId, setEditId] = useState(null);
 
     const [currentPage, setCurrentPage] = useState(1);
     const magangsPerPage = 4;
@@ -76,39 +76,51 @@ const MagangView = () => {
     };
 
     const resetForm = () => {
-        setName("");
-        setPosition("");
-        setDesription("");
+        setProgram("");
+        setTitle("");
+        setUrlProgram("");
+        setUrlSyllabus("");
+        setStarDate("");
+        setEndDate("");
+        setDescRegis("");
+        setDescBenefit("");
+        setDescRec("");
         setFile("");
         setPreview("");
         setIsEdit(false);
         setEditId(null);
     };
 
-    const deleteTeam = async (teamId) => {
+    const deleteMagang = async (magangId) => {
         try {
-            await axios.delete(`http://localhost:5000/teams/${teamId}`);
-            getTeams();
+            await axios.delete(`http://localhost:5000/magangs/${magangId}`);
+            getMagangs();
         } catch (error) {
             console.log(error);
         }
     };
 
-    const editTeam = (team) => {
-        setName(team.name);
-        setPosition(team.position);
-        setDesription(team.desription);
+    const editMagang = (magang) => {
+        setProgram(team.program);
+        setTitle(team.title);
+        setUrlProgram(team.url_program);
+        setUrlSyllabus(team.url_syllabus);
+        setStarDate(team.star_date);
+        setEndDate(team.end_date);
+        setDescRegis(team.desc_regis);
+        setDescBenefit(team.desc_benefit);
+        setDescRec(team.desc_rec);
         setPreview(team.url);
         setIsEdit(true);
         setEditId(team.id);
         modalRef.current.showModal();
     };
 
-    const indexOfLastTeam = currentPage * teamsPerPage;
-    const indexOfFirstTeam = indexOfLastTeam - teamsPerPage;
-    const currentTeams = Teams.slice(indexOfFirstTeam, indexOfLastTeam);
+    const indexOfLastMagang = currentPage * magangsPerPage;
+    const indexOfFirstMagang = indexOfLastMagang - magangsPerPage;
+    const currentMagangs = Magangs.slice(indexOfFirstMagang, indexOfLastMagang);
 
-    const totalPages = Math.ceil(Teams.length / teamsPerPage);
+    const totalPages = Math.ceil(Magangs.length / magangsPerPage);
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
@@ -126,29 +138,34 @@ const MagangView = () => {
                         <table className="min-w-full">
                             <thead className="bg-gray-50 border border-gray-200">
                                 <tr>
-                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">name</th>
-                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">position</th>
-                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">desription</th>
-                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">photo</th>
-                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Actions</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Program</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Title</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Url Program</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Url Syllabus</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Star Date</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">End Date</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Desc Regis</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Desc Benefit</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Desc Rec</th>
                                 </tr>
                             </thead>
                             <tbody className="bg-white divide-y divide-gray-200 text-xs border border-gray-200">
-                                {currentTeams.map((team) => (
-                                    <tr key={team.id}>
-                                        <td className="p-2 border border-gray-200 text-center">{team.name}</td>
-                                        <td className="p-2 border border-gray-200 text-center">{team.position}</td>
-                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{team.desription}</td>
-                                        <td className="p-2 border border-gray-200 text-center">
-                                            <div className="flex justify-center items-center">
-                                                <img src={team.url} alt="team" className="h-10 object-cover" />
-                                            </div>
-                                        </td>
+                                {currentMagangs.map((magang) => (
+                                    <tr key={magang.id}>
+                                        <td className="p-2 border border-gray-200 text-center">{magang.program}</td>
+                                        <td className="p-2 border border-gray-200 text-center">{magang.title}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.urlProgram}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.urlSyllabus}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.starDate}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.endDate}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.descRegis}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.descBenefit}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{team.descRecs}</td>
                                         <td className="p-2 border border-gray-200 text-center text-sm">
-                                            <button onClick={() => editTeam(team)} className="text-green-500 hover:text-green-700 text-lg">
+                                            <button onClick={() => editMagang(magang)} className="text-green-500 hover:text-green-700 text-lg">
                                                 <FontAwesomeIcon icon={faPenToSquare} />
                                             </button>
-                                            <button onClick={() => deleteTeam(team.id)} className="text-red-500 hover:text-red-700 text-lg ml-2">
+                                            <button onClick={() => deleteMagang(magang.id)} className="text-red-500 hover:text-red-700 text-lg ml-2">
                                                 <FontAwesomeIcon icon={faTrashCan} />
                                             </button>
                                         </td>
@@ -169,7 +186,7 @@ const MagangView = () => {
                     <dialog ref={modalRef} className="modal">
                         <div className="modal-box ">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={() => { modalRef.current.close(); resetForm(); }}>✕</button>
-                            <form className='mt-5' onSubmit={saveTeam}>
+                            <form className='mt-5' onSubmit={saveMagang}>
                                 <input type="text" name="name" placeholder="Name" className="input input-md mb-3 input-bordered w-full"
                                     value={name} onChange={(e) => setName(e.target.value)} />
                                 <input type="text" name="position" placeholder="Position" className="input input-md mb-3 input-bordered w-full"
