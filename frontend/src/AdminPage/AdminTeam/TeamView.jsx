@@ -17,7 +17,7 @@ const TeamView = () => {
     const [teamId, setEditId] = useState(null);
 
     const [currentPage, setCurrentPage] = useState(1);
-    const teamsPerPage = 4;
+    const teamsPerPage = 6;
 
     useEffect(() => {
         getTeams();
