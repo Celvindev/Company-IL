@@ -162,7 +162,7 @@ const MagangView = () => {
                                         <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.endDate}</td>
                                         <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.descRegis}</td>
                                         <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.descBenefit}</td>
-                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.descRecs}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.descRec}</td>
                                         <td className="p-2 border border-gray-200 text-center">
                                             <div className="flex justify-center items-center">
                                                 <img src={magang.url} alt="MSIB" className="h-10 object-cover" />
@@ -206,12 +206,12 @@ const MagangView = () => {
                                     value={starDate} onChange={(e) => setStarDate(e.target.value)} />
                                 <input type="date" name="endDate" placeholder="EndDate" className="input input-md mb-3 input-bordered w-full"
                                     value={endDate} onChange={(e) => setEndDate(e.target.value)} />
-                                <textarea name="descRegis" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="DescRegis"
-                                    value={descRegis} onChange={(e) => setDescRegis(e.target.value)}></textarea>
-                                <textarea name="descBenefit" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="DescBenefit"
-                                    value={descBenefit} onChange={(e) => setDescBenefit(e.target.value)}></textarea>
-                                <textarea name="descRec" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="DescRec"
-                                    value={descRec} onChange={(e) => setDescRec(e.target.value)}></textarea>
+                                <textarea name="descRegis" className="textarea textarea-sm textarea-bordered w-full mb-3"
+                                    placeholder="DescRegis" value={descRegis || ''} onChange={(e) => setDescRegis(e.target.value)}></textarea>
+                                <textarea name="descBenefit" className="textarea textarea-sm textarea-bordered w-full mb-3"
+                                    placeholder="DescBenefit" value={descBenefit || ''} onChange={(e) => setDescBenefit(e.target.value)}></textarea>
+                                <textarea name="descRec" className="textarea textarea-sm textarea-bordered w-full mb-3"
+                                    placeholder="DescRec" value={descRec || ''} onChange={(e) => setDescRec(e.target.value)}></textarea>
                                 <input type="file" name="photoURL" placeholder="Photo URL" className="file-input file-input-md file-input-bordered w-full"
                                     onChange={loadImage} />
                                 {preview ? (

@@ -40,7 +40,7 @@ export const saveMagang = (req, res) => {
     file.mv(`./public/images/${fileName}`, async (err) => {
         if (err) return res.status(500).json({ msg: err.message });
         try {
-            await Magang.create({ program, title, image: fileName, urlProgram, urlSyllabus, starDate, endDate, descRegis, descBenefit, descRec });
+            await Magang.create({ program, title, image: fileName, urlProgram, urlSyllabus, starDate, endDate, descRegis, descBenefit, descRec, image: fileName, url });
             res.status(201).json({ msg: "Magang Created Successfully" });
         } catch (error) {
             console.log(error.message);
@@ -79,7 +79,7 @@ export const updateMagang = async (req, res) => {
     const url = `${req.protocol}://${req.get("host")}/images/${fileName}`;
 
     try {
-        await Magang.update({ program, title, image: fileName, urlProgram, urlSyllabus, starDate, endDate, descRegis, descBenefit, descRec}, {
+        await Magang.update({ program, title, image: fileName, url, urlProgram, urlSyllabus, starDate, endDate, descRegis, descBenefit, descRec}, {
             where: { id: id }
         });
         res.status(200).json({ msg: "Magang Updated Successfully" });

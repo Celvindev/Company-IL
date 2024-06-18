@@ -21,6 +21,6 @@ const Magang = db.define('magang',{
  
 export default Magang;
  
-(async()=>{
-    await db.sync();
-})();
+// (async()=>{
+//     await db.sync();
+// })();
