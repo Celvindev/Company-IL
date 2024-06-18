@@ -15,21 +15,11 @@ const Contxt1 = () => {
       </div> <br></br>
       <ul className="hidden lg:flex mt-8 gap-2">
         <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">View all</summary></li>
-        <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Development</summary></li>
-        <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Design</summary></li>
-        <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Marketing</summary></li>
-        <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Finance</summary></li>
-        <li ><summary className="m-1 btn btcat btn-outline w-[180px] rounded-full ">Management</summary></li>
       </ul>
       <div className="lg:hidden dropdown dropdown-hover dropdown-left left-[19pc]">
         <div tabIndex={0} role="button" className="btn bg-transparent border-none text-2xl text-NeonWhite "> <FontAwesomeIcon icon={faFilter} /></div>
         <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
           <li ><a className="m-1">View all</a></li>
-          <li ><a className="m-1">Development</a></li>
-          <li ><a className="m-1">Design</a></li>
-          <li ><a className="m-1">Marketing</a></li>
-          <li ><a className="m-1">Finance</a></li>
-          <li ><a className="m-1">Management</a></li>
         </ul>
       </div>
     </div>
