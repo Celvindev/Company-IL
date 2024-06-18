@@ -68,7 +68,7 @@ const MagangView = () => {
                 });
             }
             modalRef.current.close();
-            getmagangs();
+            getMagangs();
             resetForm();
         } catch (error) {
             console.log(error);
@@ -101,18 +101,18 @@ const MagangView = () => {
     };
 
     const editMagang = (magang) => {
-        setProgram(team.program);
-        setTitle(team.title);
-        setUrlProgram(team.url_program);
-        setUrlSyllabus(team.url_syllabus);
-        setStarDate(team.star_date);
-        setEndDate(team.end_date);
-        setDescRegis(team.desc_regis);
-        setDescBenefit(team.desc_benefit);
-        setDescRec(team.desc_rec);
-        setPreview(team.url);
+        setProgram(magang.program);
+        setTitle(magang.title);
+        setUrlProgram(magang.url_program);
+        setUrlSyllabus(magang.url_syllabus);
+        setStarDate(magang.star_date);
+        setEndDate(magang.end_date);
+        setDescRegis(magang.desc_regis);
+        setDescBenefit(magang.desc_benefit);
+        setDescRec(magang.desc_rec);
+        setPreview(magang.url);
         setIsEdit(true);
-        setEditId(team.id);
+        setEditId(magang.id);
         modalRef.current.showModal();
     };
 
@@ -147,6 +147,8 @@ const MagangView = () => {
                                     <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Desc Regis</th>
                                     <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Desc Benefit</th>
                                     <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Desc Rec</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">photo</th>
+                                    <th className="p-2 text-center text-xs border border-gray-200 font-medium bg-gray-200 uppercase">Actions</th>
                                 </tr>
                             </thead>
                             <tbody className="bg-white divide-y divide-gray-200 text-xs border border-gray-200">
@@ -160,7 +162,12 @@ const MagangView = () => {
                                         <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.endDate}</td>
                                         <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.descRegis}</td>
                                         <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.descBenefit}</td>
-                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{team.descRecs}</td>
+                                        <td className="p-2 border border-gray-200 w-[40%] text-justify truncat">{magang.descRecs}</td>
+                                        <td className="p-2 border border-gray-200 text-center">
+                                            <div className="flex justify-center items-center">
+                                                <img src={magang.url} alt="MSIB" className="h-10 object-cover" />
+                                            </div>
+                                        </td>
                                         <td className="p-2 border border-gray-200 text-center text-sm">
                                             <button onClick={() => editMagang(magang)} className="text-green-500 hover:text-green-700 text-lg">
                                                 <FontAwesomeIcon icon={faPenToSquare} />
@@ -198,13 +205,13 @@ const MagangView = () => {
                                 <input type="date" name="starDate" placeholder="StarDate" className="input input-md mb-3 input-bordered w-full"
                                     value={starDate} onChange={(e) => setStarDate(e.target.value)} />
                                 <input type="date" name="endDate" placeholder="EndDate" className="input input-md mb-3 input-bordered w-full"
-                                    value={endDate} onChange={(e) => setEndDate(e.target.value)} />  
+                                    value={endDate} onChange={(e) => setEndDate(e.target.value)} />
                                 <textarea name="descRegis" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="DescRegis"
                                     value={descRegis} onChange={(e) => setDescRegis(e.target.value)}></textarea>
                                 <textarea name="descBenefit" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="DescBenefit"
                                     value={descBenefit} onChange={(e) => setDescBenefit(e.target.value)}></textarea>
                                 <textarea name="descRec" className="textarea textarea-sm textarea-bordered w-full mb-3" placeholder="DescRec"
-                                    value={descRec} onChange={(e) => setDescRec(e.target.value)}></textarea>                                
+                                    value={descRec} onChange={(e) => setDescRec(e.target.value)}></textarea>
                                 <input type="file" name="photoURL" placeholder="Photo URL" className="file-input file-input-md file-input-bordered w-full"
                                     onChange={loadImage} />
                                 {preview ? (

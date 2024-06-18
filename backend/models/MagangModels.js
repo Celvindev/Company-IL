@@ -12,7 +12,9 @@ const Magang = db.define('magang',{
     endDate: DataTypes.DATE,
     descRegis: DataTypes.TEXT,
     descBenefit: DataTypes.TEXT,
-    descRec: DataTypes.TEXT
+    descRec: DataTypes.TEXT,
+    image: DataTypes.STRING,
+    url: DataTypes.STRING
 },{
     freezeTableName: true
 });

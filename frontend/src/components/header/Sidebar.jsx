@@ -34,8 +34,8 @@ const Sidebar = () => {
                             <li><Link to="/" className="font-['Montserrat'] text-[15px] font-light leading-8">
                                 <FontAwesomeIcon icon={faHome} className='pr-2' /> Dashboard</Link>
                             </li>
-                            <li><Link to="/admin/product" className="font-['Montserrat'] text-[15px] font-light leading-8">
-                                <FontAwesomeIcon icon={faBox} className='pr-2' /> Product</Link>
+                            <li><Link to="/admin/magang" className="font-['Montserrat'] text-[15px] font-light leading-8">
+                                <FontAwesomeIcon icon={faBox} className='pr-2' /> MSIB</Link>
                             </li>
                             <li><Link to="/admin/team" className="font-['Montserrat'] text-[15px] font-light leading-8">
                                 <FontAwesomeIcon icon={faUsers} className='pr-1' /> Team</Link>
