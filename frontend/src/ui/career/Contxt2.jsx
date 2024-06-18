@@ -8,14 +8,14 @@ const Contxt2 = () => {
         <div> <br /><br /><br /><br /><br />
           <hr />
           <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={() => document.getElementById('my_modal_4').showModal()} />
-          <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Bussiness Development
+          <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">City Coordinator
             <a href="https://s.id/ILHiring_May24" target="_blank">
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
-          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We are looking for a Bussiness Development to join our team.</p>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We are looking for a City Coordinator to join our team.</p>
           <ul className="flex mt-5 lg:mt-8 lg:gap-2">
-            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Remote</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">On-Site</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
         </div>
@@ -29,9 +29,9 @@ const Contxt2 = () => {
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
-          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We are looking for a Public Relation to join our team.</p>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We're looking for a mid-level public relation to join our team.</p>
           <ul className="flex mt-5 lg:mt-8 lg:gap-2">
-            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Remote</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">On-Site</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
         </div>
@@ -40,22 +40,55 @@ const Contxt2 = () => {
         <div> <br />
           <hr />
           <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={() => document.getElementById('my_modal_6').showModal()} />
-          <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">City Coordinator
+          <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Senior Data Analyst
             <a href="https://s.id/citycoord" target="_blank">
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
-          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We are looking for a City Coordinator to join our team.</p>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We're looking for a senior-level data analyst to join our team.</p>
           <ul className="flex mt-5 lg:mt-8 lg:gap-2">
-            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Remote</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">On-Site</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
         </div>
       </div>
 
+
+      <div> <br />
+          <hr />
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={() => document.getElementById('my_modal_5').showModal()} />
+          <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Junior Data Analyst
+            <a href="https://s.id/ILHiring_May24" target="_blank">
+              <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
+            </a>
+          </h2>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We're looking for a mid-level data analyst to join our team.</p>
+          <ul className="flex mt-5 lg:mt-8 lg:gap-2">
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">On-Site</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
+          </ul>
+        </div>
+      
+
+        <div> <br />
+          <hr />
+          <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={() => document.getElementById('my_modal_5').showModal()} />
+          <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Business Development
+            <a href="https://s.id/ILHiring_May24" target="_blank">
+              <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
+            </a>
+          </h2>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We're looking for a mid-level business development to join our team.</p>
+          <ul className="flex mt-5 lg:mt-8 lg:gap-2">
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">On-Site</summary></li>
+            <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
+          </ul>
+        </div>
+
+
       <dialog id="my_modal_4" className="modal">
         <div className="modal-box w-11/12 sm:max-w-7xl xl:w-2/3">
-          <h3 className="hmodal ml-2">Business Development</h3>
+          <h3 className="hmodal ml-2">City Coordinator</h3>
           <ul className="flex flex-wrap mt-5 lg:mt-8 lg:gap-2">
             <li>
               <summary className="m-1 btn btcat btn-outline sm:w-[165px] lg:w-[180px] rounded-full">Remote</summary>
