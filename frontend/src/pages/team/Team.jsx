@@ -28,11 +28,11 @@ const Team = () => {
                 <div className="hidden sm:block">
                     <Contxt2 />
                 </div>
-                <Contxt3 />
+                {/* <Contxt3 />
                 <Contxt4 />
                 <Contxt5 />
                 <Contxt6 />
-                <Contxt7 />
+                <Contxt7 /> */}
                 <div className="w-full h-[100px] sm:h-[300px]" />
             </div>
         </>

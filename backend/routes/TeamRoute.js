@@ -1,18 +1,18 @@
-import express from 'express';
+import express from "express";
 import {
-    getTeam,
+    getTeams,
     getTeamById,
-    createTeam,
+    saveTeam,
     updateTeam,
     deleteTeam
-} from '../controllers/Team.js';
-// import { verifyUser } from '../middleware/AuthUser.js';
+} from "../controllers/TeamController.js";
+ 
 const router = express.Router();
-
-router.get('/team', getTeam);
-router.get('/team/:id', getTeamById);
-router.post('/team', createTeam);
-router.patch('/team/:id', updateTeam);  
-router.delete('/team/:id', deleteTeam); 
-
+ 
+router.get('/teams', getTeams);
+router.get('/teams/:id', getTeamById);
+router.post('/teams', saveTeam);
+router.patch('/teams/:id', updateTeam);
+router.delete('/teams/:id', deleteTeam);
+ 
 export default router;
