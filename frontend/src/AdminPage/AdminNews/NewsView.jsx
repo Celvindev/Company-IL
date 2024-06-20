@@ -18,7 +18,7 @@ const NewsView = () => {
     const [newsId, setEditId] = useState(null);
 
     const [currentPage, setCurrentPage] = useState(1);
-    const newsPerPage = 4;
+    const newsPerPage = 1;
 
     useEffect(() => {
         getNews();
@@ -84,7 +84,7 @@ const NewsView = () => {
             console.log(error);
         }
     };
-    
+
 
     const editNews = (news) => {
         setTitle(news.title);

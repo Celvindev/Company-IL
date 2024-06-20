@@ -22,7 +22,7 @@ function PublicRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/learning" element={<Learning />} />
       <Route path="/news" element={<News />} />
-      <Route path="/newsafter" element={<NewsAfter />} />
+      <Route path="/newsafter/:newsId" element={<NewsAfter />} />
       <Route path="/alumni" element={<Alumni />} />
       <Route path="/about" element={<About />} />
       <Route path="/career" element={<Career />} />
