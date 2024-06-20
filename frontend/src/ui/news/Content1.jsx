@@ -20,7 +20,7 @@ function Content1() {
                     </h4>
                     <h1 className='title-card text-base sm:text-5xl'>RMIT University Visit to Infinite Learning</h1>
                     <div className="relative lg:mt-20 w-full sm:w-[80%] lg:w-[100%] h-[auto] mt-6">
-                        <div className="absolute inset-0 rounded-[20px] bg-gradient-to-b from-opacity-0 via-opacity-100 to-opacity-100"
+                        <div className=" inset-0 rounded-[20px] bg-gradient-to-b from-opacity-0 via-opacity-100 to-opacity-100"
                             style={{ background: 'linear-gradient(119deg, rgba(24, 24, 35, 0.88) 11.46%, rgba(47, 31, 79, 0.76) 39.08%, rgba(138, 61, 255, 0.26) 92.98%)' }}></div>
                             <img className="w-full h-full object-cover rounded-[20px] " src={Pertama} alt="Pertama" />
                         </div>
