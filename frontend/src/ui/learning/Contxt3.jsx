@@ -46,7 +46,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/home/sosial_media.png" alt="Shoes" /></figure>
@@ -89,7 +89,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/Game Dev with Unreal Engine.JPG" alt="Shoes" /></figure>
@@ -132,7 +132,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr7.png" alt="Shoes" /></figure>
@@ -175,7 +175,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr9.png" alt="Shoes" /></figure>
@@ -213,7 +213,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr11.png" alt="Shoes" /></figure>
@@ -245,7 +245,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-20 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/regular/gbr13.png" alt="Shoes" /></figure>
@@ -276,7 +276,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/Game Dev Stupen.JPG" alt="Shoes" /></figure>
@@ -307,7 +307,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/UI UX Designer Magang.JPG" alt="Shoes" /></figure>
@@ -338,7 +338,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/Hybrid Cloud & Red Hat.JPG" alt="Shoes" /></figure>
@@ -369,7 +369,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/Game Dev Magang.JPG" alt="Shoes" /></figure>
@@ -400,7 +400,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/Event & Community.JPG" alt="Shoes" /></figure>
@@ -431,7 +431,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/Marcom.JPG" alt="Shoes" /></figure>
@@ -462,7 +462,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/Sosmed.JPG" alt="Shoes" /></figure>
@@ -493,7 +493,7 @@ const Contxt3 = () => {
                 </div>
             </div>
 
-            <div className="sm:flex w-full justify-center mt-10">
+            <div className="sm:flex w-full justify-center -mt-2">
                 <div className="sm:ml-0 ml-8 sm:mr-5 mb-10 w-[100%]">
                     <div className="card cardhome w-[100%] h-[357px]  rounded-[44px] image-full">
                         <figure><img src="/assets/msib/DSC03023 1.png" alt="Shoes" /></figure>
