@@ -29,7 +29,7 @@ const Contxt2 = () => {
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
-          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We're looking for a mid-level public relation to join our team.</p>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We re looking for a mid-level public relation to join our team.</p>
           <ul className="flex mt-5 lg:mt-8 lg:gap-2">
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">On-Site</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
@@ -45,16 +45,13 @@ const Contxt2 = () => {
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
-          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We're looking for a senior-level data analyst to join our team.</p>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We re looking for a senior-level data analyst to join our team.</p>
           <ul className="flex mt-5 lg:mt-8 lg:gap-2">
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">On-Site</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
         </div>
-      </div>
-
-
-      <div> <br />
+        <div> <br />
           <hr />
           <img src='/assets/home/iconarrowup.svg' alt="" className="absolute right-0 mt-5 mr-2" onClick={() => document.getElementById('my_modal_5').showModal()} />
           <h2 className="text-NeonWhite text-2xl lg:text-[28px] font-['Montserrat'] mt-7 relative">Junior Data Analyst
@@ -62,13 +59,13 @@ const Contxt2 = () => {
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
-          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We're looking for a mid-level data analyst to join our team.</p>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We re looking for a mid-level data analyst to join our team.</p>
           <ul className="flex mt-5 lg:mt-8 lg:gap-2">
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">On-Site</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
         </div>
-      
+
 
         <div> <br />
           <hr />
@@ -78,12 +75,13 @@ const Contxt2 = () => {
               <span className='absolute opacity-0 lg:opacity-100 right-20'>Apply</span>
             </a>
           </h2>
-          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We're looking for a mid-level business development to join our team.</p>
+          <p className='text-NeonWhite text-base w-[280px] sm:w-full lg:text-[20px]'>We re looking for a mid-level business development to join our team.</p>
           <ul className="flex mt-5 lg:mt-8 lg:gap-2">
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">On-Site</summary></li>
             <li ><summary className="m-1 btn btcat btn-outline w-[165px] lg:w-[180px] rounded-full ">Full-time</summary></li>
           </ul>
         </div>
+      </div>
 
 
       <dialog id="my_modal_4" className="modal">
